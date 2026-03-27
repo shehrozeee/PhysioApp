@@ -1,0 +1,84 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "In which specific anatomical location is the cerebellum situated within the skull?",
+      "options": ["Hypophyseal fossa", "Middle cranial fossa", "Anterior cranial fossa", "Posterior cranial fossa"],
+      "correct": 3,
+      "hint": "Think about which part of the skull houses structures of the hindbrain."
+    },
+    {
+      "id": 2,
+      "question": "Which structure connects the two cerebellar hemispheres along the midline?",
+      "options": ["Vermis", "Flocculus", "Nodulus", "Corpus callosum"],
+      "correct": 0,
+      "hint": "Its name is derived from the Latin word for 'worm'."
+    },
+    {
+      "id": 3,
+      "question": "Which cell type's axons form the only efferent output from the cerebellar cortex?",
+      "options": ["Granule cells", "Stellate cells", "Purkinje cells", "Basket cells"],
+      "correct": 2,
+      "hint": "These are among the largest neurons in the brain, named after a Czech anatomist."
+    },
+    {
+      "id": 4,
+      "question": "What is the physiological effect of Purkinje cell synapses on the deep cerebellar nuclei?",
+      "options": ["Excitation", "Inhibition", "Modulation", "No effect"],
+      "correct": 1,
+      "hint": "Purkinje cells are GABAergic neurons."
+    },
+    {
+      "id": 5,
+      "question": "Which evolutionary zone of the cerebellum is responsible for maintaining body equilibrium and posture?",
+      "options": ["Neocerebellum", "Paleocerebellum", "Archicerebellum", "Cerebrocerebellum"],
+      "correct": 2,
+      "hint": "This is the oldest part of the cerebellum phylogenetically, also known as the flocculonodular lobe."
+    },
+    {
+      "id": 6,
+      "question": "Which cerebellar division acts as a 'Comparator' to correct discrepancies between intended and actual movement?",
+      "options": ["Archicerebellum", "Neocerebellum", "Spinocerebellum", "Vestibulocerebellum"],
+      "correct": 2,
+      "hint": "This division receives proprioceptive input via spinocerebellar tracts."
+    },
+    {
+      "id": 7,
+      "question": "What is the term for the inability to perform rapid, alternating movements?",
+      "options": ["Dysmetria", "Dysdiadochokinesia", "Asynergia", "Ataxia"],
+      "correct": 1,
+      "hint": "This clinical sign is tested by asking the patient to rapidly pronate and supinate their hand."
+    },
+    {
+      "id": 8,
+      "question": "How do intention tremors differ from resting tremors?",
+      "options": [
+        "They occur at rest and disappear during movement",
+        "They are absent at rest and appear during voluntary activity",
+        "They are constant regardless of activity",
+        "They only occur during sleep"
+      ],
+      "correct": 1,
+      "hint": "Think about when cerebellar symptoms typically manifest — at rest or during action?"
+    },
+    {
+      "id": 9,
+      "question": "Which deep cerebellar nucleus is the largest and most lateral?",
+      "options": ["Nucleus fastigius", "Globose nucleus", "Emboliform nucleus", "Dentate nucleus"],
+      "correct": 3,
+      "hint": "This nucleus is the main output pathway of the neocerebellum."
+    },
+    {
+      "id": 10,
+      "question": "What is the core functional takeaway regarding the cerebellum's role in movement?",
+      "options": [
+        "It initiates all voluntary movements",
+        "It does not initiate movement; it perfects it",
+        "It is responsible for sensory processing only",
+        "It controls autonomic functions exclusively"
+      ],
+      "correct": 1,
+      "hint": "The cerebellum is often described as a 'fine-tuner' of motor activity."
+    }
+  ]
+}

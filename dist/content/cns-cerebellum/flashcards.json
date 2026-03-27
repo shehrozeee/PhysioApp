@@ -1,0 +1,329 @@
+{
+  "cards": [
+    {
+      "id": 1,
+      "question": "In which cranial fossa is the cerebellum located?",
+      "answer": "Posterior cranial fossa."
+    },
+    {
+      "id": 2,
+      "question": "The cerebellum is the largest part of which division of the brain?",
+      "answer": "Hindbrain."
+    },
+    {
+      "id": 3,
+      "question": "By what structures is the cerebellum attached to the brain stem?",
+      "answer": "Three peduncles."
+    },
+    {
+      "id": 4,
+      "question": "Which midline structure joins the two cerebellar hemispheres?",
+      "answer": "Vermis."
+    },
+    {
+      "id": 5,
+      "question": "Name the three anatomical lobes of the cerebellum.",
+      "answer": "Anterior, Posterior, and Flocculonodular lobes."
+    },
+    {
+      "id": 6,
+      "question": "How many physiological zones is the cerebellum divided into?",
+      "answer": "3 zones."
+    },
+    {
+      "id": 7,
+      "question": "What term describes the thin layer of gray matter covering the white matter of the cerebellum?",
+      "answer": "Cerebellar cortex."
+    },
+    {
+      "id": 8,
+      "question": "Which cell type's axons form the only efferent output from the cerebellar cortex?",
+      "answer": "Purkinje cells."
+    },
+    {
+      "id": 9,
+      "question": "What is the primary excitatory cell type found within the cerebellar cortex?",
+      "answer": "Granule cells."
+    },
+    {
+      "id": 10,
+      "question": "Name the four intracerebellar (deep) nuclei.",
+      "answer": "Nucleus fastigius, Globose, Emboliform, and Dentate nucleus."
+    },
+    {
+      "id": 11,
+      "question": "From which structure are climbing fibers in the cerebellum derived?",
+      "answer": "Inferior olivary nuclei."
+    },
+    {
+      "id": 12,
+      "question": "Climbing fibers provide what type of input to the Purkinje cells?",
+      "answer": "Excitatory input."
+    },
+    {
+      "id": 13,
+      "question": "Which fibers represent the majority of input to the cerebellum?",
+      "answer": "Mossy fibers."
+    },
+    {
+      "id": 14,
+      "question": "Mossy fibers primarily synapse with which two structures in the cerebellum?",
+      "answer": "Granule cells and deep cerebellar nuclei."
+    },
+    {
+      "id": 15,
+      "question": "What is the physiological effect of Purkinje cell synapses on the deep cerebellar nuclei?",
+      "answer": "Inhibition."
+    },
+    {
+      "id": 16,
+      "question": "What is the core functional takeaway regarding the cerebellum's role in movement?",
+      "answer": "It does not initiate movement; it perfects it."
+    },
+    {
+      "id": 17,
+      "question": "The cerebellum is the highest center for the automatic regulation of _____ between agonistic and antagonistic muscles.",
+      "answer": "Reciprocal innervation"
+    },
+    {
+      "id": 18,
+      "question": "Which evolutionary zone of the cerebellum is responsible for maintaining body equilibrium and posture?",
+      "answer": "Archicerebellum (Flocculonodular lobe)."
+    },
+    {
+      "id": 19,
+      "question": "What is the specific role of the vestibulocerebellum regarding eye movements?",
+      "answer": "Governing the vestibulo-ocular reflex (VOR) to maintain visual fixation."
+    },
+    {
+      "id": 20,
+      "question": "Lesions of the flocculonodular lobe often result in which type of balance deficit?",
+      "answer": "Trunk ataxia."
+    },
+    {
+      "id": 21,
+      "question": "The Spinocerebellum (Paleocerebellum) regulates muscle tone via which types of motor neurons?",
+      "answer": "$\\alpha$ and $\\gamma$ motor neurons."
+    },
+    {
+      "id": 22,
+      "question": "Which cerebellar division acts as a 'Comparator' to correct discrepancies between intended and actual movement?",
+      "answer": "Spinocerebellum."
+    },
+    {
+      "id": 23,
+      "question": "In the comparator mechanism, the cerebellum receives info about the 'intended plan' from which two structures?",
+      "answer": "Cerebral cortex and red nucleus."
+    },
+    {
+      "id": 24,
+      "question": "Which pathways provide feedback to the cerebellum about actual movement occurring in the periphery?",
+      "answer": "Spinocerebellar tracts."
+    },
+    {
+      "id": 25,
+      "question": "What is the purpose of the 'braking effect' exerted by the Cerebro-cerebellum?",
+      "answer": "To dampen movement and prevent overshooting the intended target."
+    },
+    {
+      "id": 26,
+      "question": "Which cerebellar zone is primarily concerned with the programming and planning of sequential movements?",
+      "answer": "Cerebro-cerebellum (Neocerebellum)."
+    },
+    {
+      "id": 27,
+      "question": "List three examples of ballistic movements controlled by the cerebellum.",
+      "answer": "Typing, playing piano, and saccadic eye movements."
+    },
+    {
+      "id": 28,
+      "question": "The primary input for the Neocerebellum (Cerebrocerebellum) comes from which structure?",
+      "answer": "Cerebral cortex."
+    },
+    {
+      "id": 29,
+      "question": "Cerebellar disease typically causes motor disorders without the presence of _____ or sensory loss.",
+      "answer": "Paralysis"
+    },
+    {
+      "id": 30,
+      "question": "What is the physiological cause of hypotonia in cerebellar lesions?",
+      "answer": "Lack of facilitatory effect on $\\gamma$ efferent discharge."
+    },
+    {
+      "id": 31,
+      "question": "Definition: Dysmetria",
+      "answer": "Inability to predict distance, resulting in undershooting or overshooting a target."
+    },
+    {
+      "id": 32,
+      "question": "Definition: Dysdiadochokinesia",
+      "answer": "The inability to perform rapid, alternating movements."
+    },
+    {
+      "id": 33,
+      "question": "Which clinical sign involves a single smooth movement being broken down into separate components?",
+      "answer": "Decomposition of movement."
+    },
+    {
+      "id": 34,
+      "question": "How do intention tremors differ from resting tremors?",
+      "answer": "They are absent at rest and only appear during voluntary activity."
+    },
+    {
+      "id": 35,
+      "question": "What term describes the inability to stop a movement quickly, often tested with the pendular knee jerk?",
+      "answer": "Rebound phenomenon."
+    },
+    {
+      "id": 36,
+      "question": "Describe the characteristic gait of a patient with cerebellar ataxia.",
+      "answer": "Broad-based, drunken, or staggering gait."
+    },
+    {
+      "id": 37,
+      "question": "What is the term for slurred or broken speech caused by cerebellar muscle incoordination?",
+      "answer": "Scanning speech."
+    },
+    {
+      "id": 38,
+      "question": "In cerebellar nystagmus, toward which side is the 'slow component' directed?",
+      "answer": "The side of the lesion."
+    },
+    {
+      "id": 39,
+      "question": "In cerebellar nystagmus, toward which side is the 'fast component' directed?",
+      "answer": "The side opposite to the lesion."
+    },
+    {
+      "id": 40,
+      "question": "Definition: Asynergia",
+      "answer": "Disorder of movement range, direction, and force due to lack of synergy between muscles."
+    },
+    {
+      "id": 41,
+      "question": "In cerebellar disease, which direction does the face typically rotate relative to the lesion?",
+      "answer": "Opposite to the affected side."
+    },
+    {
+      "id": 42,
+      "question": "Which clinical sign is defined as feebleness or a weak grasp on the affected side?",
+      "answer": "Asthenia."
+    },
+    {
+      "id": 43,
+      "question": "The _____ zone of the cerebellar hemisphere is primarily connected to the corticocerebellar afferent pathway.",
+      "answer": "Lateral"
+    },
+    {
+      "id": 44,
+      "question": "Which deep nucleus is associated with the Archicerebellum (Vestibulocerebellum)?",
+      "answer": "Nucleus fastigius."
+    },
+    {
+      "id": 45,
+      "question": "What classic lesion sign is associated with the Paleocerebellum (Anterior lobe)?",
+      "answer": "Hypotonia."
+    },
+    {
+      "id": 46,
+      "question": "Which cerebellar zone performs 'predictive functions' for visual scenes and auditory phenomena?",
+      "answer": "Cerebro-cerebellum."
+    },
+    {
+      "id": 47,
+      "question": "What is the effect of the deep nuclei's output on the rest of the nervous system?",
+      "answer": "Excitatory."
+    },
+    {
+      "id": 48,
+      "question": "What cerebellar cells provide inhibitory control within the cortex besides Purkinje cells?",
+      "answer": "Stellate cells, basket cells, and Golgi cells."
+    },
+    {
+      "id": 49,
+      "question": "Dysgraphia in cerebellar patients refers to impairment in what activity?",
+      "answer": "Written speech."
+    },
+    {
+      "id": 50,
+      "question": "The 'intermediate zone' of the cerebellum is most closely associated with which anatomical lobe?",
+      "answer": "Anterior lobe."
+    },
+    {
+      "id": 51,
+      "question": "Trunk ataxia results from a failure of which specific cerebellar reflex?",
+      "answer": "Maintenance of spatial horizon and balance."
+    },
+    {
+      "id": 52,
+      "question": "The _____ lobe is primarily involved in motion sickness.",
+      "answer": "Flocculo-nodular"
+    },
+    {
+      "id": 53,
+      "question": "What is the primary function of the cerebellar 'braking effect'?",
+      "answer": "To stop motions precisely at the intended target."
+    },
+    {
+      "id": 54,
+      "question": "In the attitude of cerebellar disease, how is the homologous (ipsilateral) leg positioned?",
+      "answer": "Adducted and externally rotated."
+    },
+    {
+      "id": 55,
+      "question": "Where do mossy fibers receive their proprioceptive inputs from?",
+      "answer": "All parts of the body."
+    },
+    {
+      "id": 56,
+      "question": "The cerebellum's highly folded white matter is often compared to what tree-like structure?",
+      "answer": "Arbor vitae (implied by 'Highly folded and fissured white matter')."
+    },
+    {
+      "id": 57,
+      "question": "Which part of the cerebellum is primarily linked to the vestibular system?",
+      "answer": "Archicerebellum (Flocculonodular lobe)."
+    },
+    {
+      "id": 58,
+      "question": "Which deep nucleus is the largest and most lateral?",
+      "answer": "Dentate nucleus."
+    },
+    {
+      "id": 59,
+      "question": "What does the term 'Pendular Knee jerk' indicate in a neurological exam?",
+      "answer": "Cerebellar hypotonia or inability to dampen muscle oscillations."
+    },
+    {
+      "id": 60,
+      "question": "How many layers comprise the cerebellar cortex?",
+      "answer": "Three (Molecular, Purkinje, and Granule cell layers)."
+    },
+    {
+      "id": 61,
+      "question": "Climbing fibers form synapses specifically on the _____ of Purkinje cells.",
+      "answer": "Dendrites"
+    },
+    {
+      "id": 62,
+      "question": "Which structure connects the cerebellum to the medulla oblongata?",
+      "answer": "Inferior cerebellar peduncle (implied by 'attached to brain stem by three peduncles')."
+    },
+    {
+      "id": 63,
+      "question": "The primary role of the Neocerebellum is to plan and execute rapid, _____ voluntary movements.",
+      "answer": "Complex"
+    },
+    {
+      "id": 64,
+      "question": "What phenomenon occurs when the cerebellum fails to predict how far a movement will go?",
+      "answer": "Dysmetria."
+    },
+    {
+      "id": 65,
+      "question": "Which cerebellar dysfunction is characterized by a tendency to fall to the affected side?",
+      "answer": "Asthenia or feebleness."
+    }
+  ]
+}

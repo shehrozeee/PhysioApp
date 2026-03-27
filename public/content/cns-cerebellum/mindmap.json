@@ -1,0 +1,109 @@
+{
+  "title": "Cerebellum",
+  "children": [
+    {
+      "title": "Anatomy",
+      "children": [
+        {
+          "title": "Location",
+          "children": [
+            { "title": "Posterior cranial fossa" },
+            { "title": "Largest part of hindbrain" },
+            { "title": "Attached by 3 peduncles" }
+          ]
+        },
+        {
+          "title": "Lobes",
+          "children": [
+            { "title": "Anterior lobe" },
+            { "title": "Posterior lobe" },
+            { "title": "Flocculonodular lobe" }
+          ]
+        },
+        {
+          "title": "Cortex (3 layers)",
+          "children": [
+            { "title": "Molecular layer" },
+            { "title": "Purkinje cell layer" },
+            { "title": "Granule cell layer" }
+          ]
+        },
+        {
+          "title": "Deep Nuclei",
+          "children": [
+            { "title": "Fastigius" },
+            { "title": "Globose" },
+            { "title": "Emboliform" },
+            { "title": "Dentate (largest)" }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Inputs",
+      "children": [
+        {
+          "title": "Climbing fibers",
+          "children": [
+            { "title": "From inferior olivary nuclei" },
+            { "title": "Excitatory to Purkinje cells" }
+          ]
+        },
+        {
+          "title": "Mossy fibers",
+          "children": [
+            { "title": "Majority of cerebellar input" },
+            { "title": "Synapse on granule cells & deep nuclei" }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Functional Zones",
+      "children": [
+        {
+          "title": "Archicerebellum (Vestibulocerebellum)",
+          "children": [
+            { "title": "Flocculonodular lobe" },
+            { "title": "Equilibrium & posture" },
+            { "title": "Vestibulo-ocular reflex" },
+            { "title": "Lesion → trunk ataxia" }
+          ]
+        },
+        {
+          "title": "Paleocerebellum (Spinocerebellum)",
+          "children": [
+            { "title": "Anterior lobe" },
+            { "title": "Muscle tone regulation" },
+            { "title": "Comparator function" },
+            { "title": "Via α and γ motor neurons" }
+          ]
+        },
+        {
+          "title": "Neocerebellum (Cerebrocerebellum)",
+          "children": [
+            { "title": "Posterior lobe (lateral)" },
+            { "title": "Planning & programming movements" },
+            { "title": "Ballistic movements" },
+            { "title": "Braking effect" }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Clinical Signs (Lesions)",
+      "children": [
+        { "title": "Hypotonia" },
+        { "title": "Ataxia (broad-based gait)" },
+        { "title": "Dysmetria (over/undershoot)" },
+        { "title": "Dysdiadochokinesia" },
+        { "title": "Intention tremor" },
+        { "title": "Scanning speech" },
+        { "title": "Nystagmus" },
+        { "title": "Rebound phenomenon" },
+        { "title": "Asynergia" },
+        { "title": "NO paralysis or sensory loss" }
+      ]
+    }
+  ]
+}

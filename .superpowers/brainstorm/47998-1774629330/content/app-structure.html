@@ -1,0 +1,58 @@
+<h2>App Structure & Navigation</h2>
+<p class="subtitle">How students navigate PhysioApp</p>
+
+<div class="section">
+  <h3>Information Architecture</h3>
+  <div class="mockup">
+    <div class="mockup-header">Navigation Flow</div>
+    <div class="mockup-body" style="font-family: monospace; font-size: 13px; line-height: 1.8; padding: 20px;">
+      <div style="color: #6366f1; font-weight: bold;">PhysioApp Home</div>
+      <div style="padding-left: 20px;">
+        <div>Search bar (Cmd+K / Ctrl+K)</div>
+        <div>Dark mode toggle</div>
+        <div style="margin-top: 8px; color: #6366f1; font-weight: bold;">Topic Grid (cards)</div>
+        <div style="padding-left: 20px;">
+          <div>CNS - Cerebellum</div>
+          <div>CNS - Spinal Cord</div>
+          <div>Cardiovascular System</div>
+          <div>Respiratory System</div>
+          <div style="color: #9ca3af;">... 30+ topics</div>
+        </div>
+      </div>
+      <div style="margin-top: 16px; padding-left: 20px;">
+        <div style="color: #6366f1; font-weight: bold;">Topic Page (e.g., Cerebellum)</div>
+        <div style="padding-left: 20px;">
+          <div>Topic title + description</div>
+          <div style="margin-top: 8px;">
+            <span style="background: #eef2ff; padding: 4px 12px; border-radius: 8px; margin-right: 8px;">Flashcards (65)</span>
+            <span style="background: #eef2ff; padding: 4px 12px; border-radius: 8px; margin-right: 8px;">Quiz (10 Qs)</span>
+            <span style="background: #eef2ff; padding: 4px 12px; border-radius: 8px;">Mind Map</span>
+          </div>
+        </div>
+      </div>
+      <div style="margin-top: 16px; padding-left: 40px;">
+        <div style="color: #6366f1; font-weight: bold;">Flashcard Mode</div>
+        <div style="padding-left: 20px; color: #6b7280;">Flip cards, score tracking, keyboard nav</div>
+      </div>
+      <div style="padding-left: 40px;">
+        <div style="color: #6366f1; font-weight: bold;">Quiz Mode</div>
+        <div style="padding-left: 20px; color: #6b7280;">Practice (instant feedback) or Test (score at end)</div>
+      </div>
+      <div style="padding-left: 40px;">
+        <div style="color: #6366f1; font-weight: bold;">Mind Map Mode</div>
+        <div style="padding-left: 20px; color: #6b7280;">Pan, zoom, expand/collapse nodes</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="section" style="margin-top: 24px;">
+  <h3>URL Structure</h3>
+  <div style="font-family: monospace; font-size: 13px; background: #f8fafc; padding: 16px; border-radius: 12px; line-height: 2;">
+    <div><span style="color: #6366f1;">/</span> &rarr; Home (topic grid)</div>
+    <div><span style="color: #6366f1;">/topic/cns-cerebellum</span> &rarr; Topic landing</div>
+    <div><span style="color: #6366f1;">/topic/cns-cerebellum/flashcards</span> &rarr; Flashcard deck</div>
+    <div><span style="color: #6366f1;">/topic/cns-cerebellum/quiz</span> &rarr; Quiz (mode select first)</div>
+    <div><span style="color: #6366f1;">/topic/cns-cerebellum/mindmap</span> &rarr; Mind map viewer</div>
+  </div>
+</div>

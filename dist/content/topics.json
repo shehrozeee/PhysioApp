@@ -1,0 +1,15 @@
+{
+  "topics": [
+    {
+      "slug": "cns-cerebellum",
+      "title": "Cerebellum",
+      "chapter": "CNS",
+      "description": "Structure, function, and clinical signs of cerebellar lesions",
+      "content": {
+        "flashcards": { "count": 65 },
+        "quiz": { "count": 10 },
+        "mindmap": true
+      }
+    }
+  ]
+}

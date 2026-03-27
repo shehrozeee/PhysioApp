@@ -1,0 +1,26 @@
+<h2>PhysioApp Architecture</h2>
+<p class="subtitle">Which approach should we go with?</p>
+
+<div class="options">
+  <div class="option" data-choice="c" onclick="toggleSelect(this)">
+    <div class="letter">C</div>
+    <div class="content">
+      <h3>React + Vite + Markmap (Recommended)</h3>
+      <p>Best balance of speed-to-ship, Claude Code compatibility, and bundle size. React ecosystem + Markmap for mind maps + vite-plugin-pwa for offline. ~110KB gzipped.</p>
+    </div>
+  </div>
+  <div class="option" data-choice="a" onclick="toggleSelect(this)">
+    <div class="letter">A</div>
+    <div class="content">
+      <h3>React + React Flow (Heavier)</h3>
+      <p>Same React stack but uses React Flow for mind maps. More powerful node editor, but overkill for read-only mind maps. ~150KB gzipped.</p>
+    </div>
+  </div>
+  <div class="option" data-choice="b" onclick="toggleSelect(this)">
+    <div class="letter">B</div>
+    <div class="content">
+      <h3>SvelteKit Static (Lightest)</h3>
+      <p>Smallest bundle (~20KB), pre-rendered HTML. But requires custom D3 mind maps, less Claude Code familiarity, more implementation time.</p>
+    </div>
+  </div>
+</div>
