@@ -16,28 +16,21 @@ export default function ScoreBar({
   hasNext,
 }: ScoreBarProps) {
   return (
-    <div className="flex flex-col items-center gap-4 w-full max-w-lg mx-auto">
+    <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '16px', width: '100%', maxWidth: '480px', margin: '0 auto' }}>
       {/* Main controls row */}
-      <div className="flex items-center justify-center gap-8 w-full">
+      <div className="score-bar">
         {/* Previous button */}
         <button
           onClick={onPrev}
           disabled={!hasPrev}
           aria-label="Previous card"
-          className="flex items-center justify-center w-12 h-12 rounded-full
-            border border-gray-200 text-gray-500 bg-white
-            transition-all duration-200
-            hover:border-gray-300 hover:text-gray-700 hover:shadow-sm hover:-translate-y-0.5
-            disabled:opacity-25 disabled:cursor-not-allowed disabled:hover:border-gray-200 disabled:hover:shadow-none disabled:hover:translate-y-0
-            dark:bg-slate-800 dark:border-slate-600 dark:text-slate-400
-            dark:hover:border-slate-500 dark:hover:text-slate-200
-            dark:disabled:hover:border-slate-600"
+          className="score-nav-btn"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 20 20"
             fill="currentColor"
-            className="w-5 h-5"
+            style={{ width: '20px', height: '20px' }}
           >
             <path
               fillRule="evenodd"
@@ -48,35 +41,32 @@ export default function ScoreBar({
         </button>
 
         {/* Score display */}
-        <div className="flex items-center gap-8">
+        <div style={{ display: 'flex', alignItems: 'center', gap: '32px' }}>
           {/* Wrong count */}
-          <div className="flex items-center gap-2">
-            <span className="flex items-center justify-center w-7 h-7 rounded-full bg-red-50 dark:bg-red-950/30">
+          <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
+            <span className="score-icon-wrong">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 20 20"
                 fill="currentColor"
-                className="w-4 h-4 text-red-500"
+                style={{ width: '16px', height: '16px', color: '#ef4444' }}
               >
                 <path d="M6.28 5.22a.75.75 0 0 0-1.06 1.06L8.94 10l-3.72 3.72a.75.75 0 1 0 1.06 1.06L10 11.06l3.72 3.72a.75.75 0 1 0 1.06-1.06L11.06 10l3.72-3.72a.75.75 0 0 0-1.06-1.06L10 8.94 6.28 5.22Z" />
               </svg>
             </span>
-            <span
-              className="text-lg font-semibold text-red-500 tabular-nums"
-              style={{ fontFamily: 'var(--font-display)', minWidth: '1.25rem' }}
-            >
+            <span className="score-count-wrong">
               {wrongCount}
             </span>
           </div>
 
           {/* Correct count */}
-          <div className="flex items-center gap-2">
-            <span className="flex items-center justify-center w-7 h-7 rounded-full bg-green-50 dark:bg-green-950/30">
+          <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
+            <span className="score-icon-correct">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 20 20"
                 fill="currentColor"
-                className="w-4 h-4 text-green-600"
+                style={{ width: '16px', height: '16px', color: '#22c55e' }}
               >
                 <path
                   fillRule="evenodd"
@@ -85,10 +75,7 @@ export default function ScoreBar({
                 />
               </svg>
             </span>
-            <span
-              className="text-lg font-semibold text-green-600 tabular-nums"
-              style={{ fontFamily: 'var(--font-display)', minWidth: '1.25rem' }}
-            >
+            <span className="score-count-correct">
               {correctCount}
             </span>
           </div>
@@ -99,20 +86,13 @@ export default function ScoreBar({
           onClick={onNext}
           disabled={!hasNext}
           aria-label="Next card"
-          className="flex items-center justify-center w-12 h-12 rounded-full
-            border border-gray-200 text-gray-500 bg-white
-            transition-all duration-200
-            hover:border-gray-300 hover:text-gray-700 hover:shadow-sm hover:-translate-y-0.5
-            disabled:opacity-25 disabled:cursor-not-allowed disabled:hover:border-gray-200 disabled:hover:shadow-none disabled:hover:translate-y-0
-            dark:bg-slate-800 dark:border-slate-600 dark:text-slate-400
-            dark:hover:border-slate-500 dark:hover:text-slate-200
-            dark:disabled:hover:border-slate-600"
+          className="score-nav-btn"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 20 20"
             fill="currentColor"
-            className="w-5 h-5"
+            style={{ width: '20px', height: '20px' }}
           >
             <path
               fillRule="evenodd"
@@ -122,7 +102,6 @@ export default function ScoreBar({
           </svg>
         </button>
       </div>
-
     </div>
   )
 }

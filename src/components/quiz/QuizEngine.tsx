@@ -1,7 +1,7 @@
-import { useState, useEffect, useCallback } from 'react'
+import { useState, useEffect, useCallback, useMemo } from 'react'
 import type { QuizQuestion } from '@/lib/types'
 import { useQuizProgress } from '@/hooks/useProgress'
-import { useDarkMode } from '@/hooks/useDarkMode'
+import { shuffle } from '@/lib/utils'
 import ModeSelect from '@/components/quiz/ModeSelect'
 import QuestionCard from '@/components/quiz/QuestionCard'
 import OptionButton from '@/components/quiz/OptionButton'
@@ -21,7 +21,6 @@ interface QuizEngineProps {
 
 export default function QuizEngine({ questions, slug }: QuizEngineProps) {
   const { recordAttempt } = useQuizProgress(slug)
-  const { isDark } = useDarkMode()
 
   const [phase, setPhase] = useState<Phase>('modeSelect')
   const [mode, setMode] = useState<Mode>('practice')
@@ -29,9 +28,15 @@ export default function QuizEngine({ questions, slug }: QuizEngineProps) {
   const [selectedOption, setSelectedOption] = useState<number | null>(null)
   const [answers, setAnswers] = useState<(number | null)[]>(() => questions.map(() => null))
   const [revealed, setRevealed] = useState(false)
+  const [isShuffled, setIsShuffled] = useState(false)
+  const [shuffledQuestions, setShuffledQuestions] = useState<QuizQuestion[]>([])
 
-  const question = questions[currentIndex]
-  const isLast = currentIndex === questions.length - 1
+  const displayQuestions = useMemo(() => {
+    return isShuffled ? shuffledQuestions : questions
+  }, [isShuffled, shuffledQuestions, questions])
+
+  const question = displayQuestions[currentIndex]
+  const isLast = currentIndex === displayQuestions.length - 1
 
   // Reset state when restarting
   const resetQuiz = useCallback(() => {
@@ -39,17 +44,22 @@ export default function QuizEngine({ questions, slug }: QuizEngineProps) {
     setSelectedOption(null)
     setAnswers(questions.map(() => null))
     setRevealed(false)
+    setIsShuffled(false)
+    setShuffledQuestions([])
     setPhase('modeSelect')
   }, [questions])
 
   const handleModeSelect = useCallback((m: Mode) => {
+    if (isShuffled) {
+      setShuffledQuestions(shuffle(questions))
+    }
     setMode(m)
     setCurrentIndex(0)
     setSelectedOption(null)
     setAnswers(questions.map(() => null))
     setRevealed(false)
     setPhase('inProgress')
-  }, [questions])
+  }, [questions, isShuffled])
 
   // Select an option
   const handleSelect = useCallback((optionIndex: number) => {
@@ -75,10 +85,10 @@ export default function QuizEngine({ questions, slug }: QuizEngineProps) {
       // Finish quiz
       const finalAnswers = [...answers]
       finalAnswers[currentIndex] = selectedOption
-      const wrongIds = questions
+      const wrongIds = displayQuestions
         .filter((q, i) => finalAnswers[i] !== q.correct)
         .map(q => q.id)
-      const score = questions.length - wrongIds.length
+      const score = displayQuestions.length - wrongIds.length
       recordAttempt(score, wrongIds)
       setAnswers(finalAnswers)
       setPhase('results')
@@ -87,7 +97,7 @@ export default function QuizEngine({ questions, slug }: QuizEngineProps) {
       setSelectedOption(null)
       setRevealed(false)
     }
-  }, [mode, selectedOption, isLast, answers, currentIndex, questions, recordAttempt])
+  }, [mode, selectedOption, isLast, answers, currentIndex, displayQuestions, recordAttempt])
 
   // Go to previous question
   const handlePrev = useCallback(() => {
@@ -146,7 +156,7 @@ export default function QuizEngine({ questions, slug }: QuizEngineProps) {
 
   // Build wrong-answers data for results
   function buildWrongQuestions() {
-    return questions
+    return displayQuestions
       .map((q, i) => ({ q, answer: answers[i] }))
       .filter(({ q, answer }) => answer !== q.correct)
       .map(({ q, answer }) => ({
@@ -159,19 +169,25 @@ export default function QuizEngine({ questions, slug }: QuizEngineProps) {
   // --- RENDER ---
 
   if (phase === 'modeSelect') {
-    return <ModeSelect onSelect={handleModeSelect} />
+    return (
+      <ModeSelect
+        onSelect={handleModeSelect}
+        isShuffled={isShuffled}
+        onToggleShuffle={() => setIsShuffled((prev) => !prev)}
+      />
+    )
   }
 
   if (phase === 'results') {
-    const wrongIds = questions
+    const wrongIds = displayQuestions
       .filter((q, i) => answers[i] !== q.correct)
       .map(q => q.id)
-    const score = questions.length - wrongIds.length
+    const score = displayQuestions.length - wrongIds.length
 
     return (
       <ResultsSummary
         score={score}
-        total={questions.length}
+        total={displayQuestions.length}
         wrongQuestions={buildWrongQuestions()}
         onRetry={resetQuiz}
         onBack={() => window.history.back()}
@@ -186,24 +202,16 @@ export default function QuizEngine({ questions, slug }: QuizEngineProps) {
 
   return (
     <div className="mx-auto w-full card-enter">
-      <div
-        className="rounded-3xl"
-        style={{
-          padding: 'clamp(28px, 5vw, 48px)',
-          boxShadow: '0 2px 12px rgba(0,0,0,0.06), 0 0 0 1px rgba(0,0,0,0.03)',
-          background: isDark ? '#1f2937' : 'white',
-          border: isDark ? '1px solid #374151' : '1px solid #e5e7eb',
-        }}
-      >
+      <div className="card-container">
         {/* Question */}
         <QuestionCard
           question={question.question}
           current={currentIndex + 1}
-          total={questions.length}
+          total={displayQuestions.length}
         />
 
         {/* Options */}
-        <div className="flex flex-col mt-10" style={{ gap: '14px' }}>
+        <div className="quiz-options">
           {question.options.map((opt, i) => (
             <OptionButton
               key={i}
@@ -218,20 +226,18 @@ export default function QuizEngine({ questions, slug }: QuizEngineProps) {
 
         {/* Hint accordion (practice mode only, when hint exists) */}
         {mode === 'practice' && question.hint && (
-          <div style={{ marginTop: '24px' }}>
-            <HintAccordion hint={question.hint} />
-          </div>
+          <HintAccordion hint={question.hint} />
         )}
 
         {/* Feedback message (practice mode, after reveal) */}
         {mode === 'practice' && revealed && (
-          <div className="text-center" style={{ marginTop: '24px' }}>
+          <div style={{ textAlign: 'center', marginTop: '24px' }}>
             {selectedOption === question.correct ? (
-              <p className="font-[family-name:var(--font-display)] text-sm font-semibold text-green-600 dark:text-green-400">
+              <p className="quiz-feedback-correct">
                 Correct!
               </p>
             ) : (
-              <p className="font-[family-name:var(--font-display)] text-sm font-semibold text-red-600 dark:text-red-400">
+              <p className="quiz-feedback-wrong">
                 Incorrect. The correct answer is {LETTERS[question.correct]}.
               </p>
             )}
@@ -239,26 +245,11 @@ export default function QuizEngine({ questions, slug }: QuizEngineProps) {
         )}
 
         {/* Navigation */}
-        <div style={{
-          display: 'flex', alignItems: 'center', justifyContent: 'space-between',
-          marginTop: '28px', paddingTop: '24px',
-          borderTop: isDark ? '1px solid rgba(55,65,81,0.5)' : '1px solid #e5e7eb',
-        }}>
+        <div className="quiz-nav">
           <button
             onClick={handlePrev}
             disabled={currentIndex === 0}
-            style={{
-              display: currentIndex === 0 ? 'none' : 'flex',
-              alignItems: 'center', gap: '8px',
-              padding: '14px 24px', borderRadius: '14px',
-              minHeight: '52px',
-              fontSize: '15px', fontWeight: 600,
-              fontFamily: 'var(--font-display)',
-              color: isDark ? '#d1d5db' : '#6b7280',
-              background: isDark ? 'rgba(55,65,81,0.4)' : '#f9fafb',
-              border: isDark ? '1px solid #4b5563' : '1px solid #e5e7eb',
-              cursor: 'pointer',
-            }}
+            className="btn-secondary"
           >
             <svg width="16" height="16" viewBox="0 0 20 20" fill="currentColor">
               <path fillRule="evenodd" d="M12.79 5.23a.75.75 0 0 1-.02 1.06L8.832 10l3.938 3.71a.75.75 0 1 1-1.04 1.08l-4.5-4.25a.75.75 0 0 1 0-1.08l4.5-4.25a.75.75 0 0 1 1.06.02Z" clipRule="evenodd" />
@@ -266,24 +257,10 @@ export default function QuizEngine({ questions, slug }: QuizEngineProps) {
             Previous
           </button>
 
-          {/* Spacer when Previous is hidden */}
-          {currentIndex === 0 && <div />}
-
           <button
             onClick={handleNext}
             disabled={!canGoNext}
-            style={{
-              display: 'flex', alignItems: 'center', gap: '8px',
-              padding: '14px 28px', borderRadius: '14px',
-              minHeight: '52px',
-              fontSize: '15px', fontWeight: 700,
-              fontFamily: 'var(--font-display)',
-              color: 'white',
-              background: canGoNext ? '#4f46e5' : (isDark ? '#374151' : '#d1d5db'),
-              border: 'none',
-              cursor: canGoNext ? 'pointer' : 'not-allowed',
-              opacity: canGoNext ? 1 : 0.5,
-            }}
+            className="btn-primary"
           >
             {nextLabel}
             <svg width="16" height="16" viewBox="0 0 20 20" fill="currentColor">

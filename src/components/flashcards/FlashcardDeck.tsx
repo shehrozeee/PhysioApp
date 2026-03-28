@@ -1,7 +1,7 @@
-import { useState, useEffect, useCallback } from 'react'
+import { useState, useEffect, useCallback, useMemo } from 'react'
 import type { Flashcard } from '@/lib/types'
 import { useFlashcardProgress } from '@/hooks/useProgress'
-import { useDarkMode } from '@/hooks/useDarkMode'
+import { shuffle } from '@/lib/utils'
 import FlashcardCard from '@/components/flashcards/FlashcardCard'
 import ScoreBar from '@/components/flashcards/ScoreBar'
 
@@ -15,15 +15,20 @@ type Feedback = 'correct' | 'wrong' | null
 export default function FlashcardDeck({ cards, slug }: FlashcardDeckProps) {
   const { progress, markCorrect, markWrong, setLastCard, reset } =
     useFlashcardProgress(slug)
-  const { isDark } = useDarkMode()
 
   const [currentIndex, setCurrentIndex] = useState(progress.lastCard)
   const [isFlipped, setIsFlipped] = useState(false)
   const [feedback, setFeedback] = useState<Feedback>(null)
   const [isAdvancing, setIsAdvancing] = useState(false)
+  const [isShuffled, setIsShuffled] = useState(false)
+  const [shuffledCards, setShuffledCards] = useState<Flashcard[]>([])
 
-  const card = cards[currentIndex]
-  const total = cards.length
+  const displayCards = useMemo(() => {
+    return isShuffled ? shuffledCards : cards
+  }, [isShuffled, shuffledCards, cards])
+
+  const card = displayCards[currentIndex]
+  const total = displayCards.length
   const hasPrev = currentIndex > 0
   const hasNext = currentIndex < total - 1
 
@@ -79,6 +84,19 @@ export default function FlashcardDeck({ cards, slug }: FlashcardDeckProps) {
     [card, hasNext, isAdvancing, markCorrect, markWrong]
   )
 
+  const handleToggleShuffle = useCallback(() => {
+    setIsShuffled((prev) => {
+      if (!prev) {
+        setShuffledCards(shuffle(cards))
+      }
+      return !prev
+    })
+    setCurrentIndex(0)
+    setIsFlipped(false)
+    setFeedback(null)
+    setIsAdvancing(false)
+  }, [cards])
+
   const handleReset = useCallback(() => {
     reset()
     setCurrentIndex(0)
@@ -128,11 +146,8 @@ export default function FlashcardDeck({ cards, slug }: FlashcardDeckProps) {
 
   if (!card) {
     return (
-      <div className="flex items-center justify-center h-64">
-        <p
-          className="text-gray-500 dark:text-slate-400"
-          style={{ fontFamily: 'var(--font-body)' }}
-        >
+      <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', height: '256px' }}>
+        <p className="flashcard-empty-msg">
           No cards available.
         </p>
       </div>
@@ -140,20 +155,36 @@ export default function FlashcardDeck({ cards, slug }: FlashcardDeckProps) {
   }
 
   return (
-    <div className="flex flex-col items-center gap-5 w-full max-w-xl mx-auto px-4 py-2">
+    <div style={{
+      display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '20px',
+      width: '100%', maxWidth: '576px', margin: '0 auto', padding: '0 16px 8px',
+    }}>
+      {/* Shuffle toggle */}
+      <div style={{ width: '100%', display: 'flex', justifyContent: 'flex-end' }}>
+        <button
+          className={`shuffle-btn${isShuffled ? ' active' : ''}`}
+          onClick={handleToggleShuffle}
+          aria-label="Toggle shuffle"
+        >
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+            <path d="M16 3h5v5M4 20L21 3M21 16v5h-5M15 15l6 6M4 4l5 5" />
+          </svg>
+          Shuffle
+        </button>
+      </div>
+
       {/* Thin progress bar spanning full width */}
-      <div className="w-full h-[2px] bg-gray-100 dark:bg-slate-800 rounded-full overflow-hidden">
+      <div className="flashcard-progress-track">
         <div
-          className="h-full rounded-full transition-all duration-500 ease-out"
+          className="flashcard-progress-fill"
           style={{
             width: `${((currentIndex + 1) / total) * 100}%`,
-            background: 'linear-gradient(90deg, #6366f1, #818cf8)',
           }}
         />
       </div>
 
       {/* Card wrapper */}
-      <div className="relative w-full card-enter">
+      <div style={{ position: 'relative', width: '100%' }} className="card-enter">
         <FlashcardCard
           key={card.id}
           question={card.question}
@@ -167,25 +198,12 @@ export default function FlashcardDeck({ cards, slug }: FlashcardDeckProps) {
       </div>
 
       {/* Mark correct/wrong buttons */}
-      <div style={{
-        display: 'flex', alignItems: 'center', gap: '12px',
-        justifyContent: 'center', width: '100%', marginTop: '8px',
-      }}>
+      <div className="mark-buttons">
         <button
           onClick={() => handleMark('wrong')}
           disabled={isAdvancing}
           aria-label="Mark as wrong"
-          style={{
-            display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '10px',
-            padding: '14px 28px', borderRadius: '50px',
-            minHeight: '52px', flex: 1, maxWidth: '180px',
-            fontSize: '15px', fontWeight: 600, fontFamily: 'var(--font-display)',
-            color: isDark ? '#f87171' : '#ef4444',
-            background: isDark ? 'rgba(127,29,29,0.15)' : '#fef2f2',
-            border: isDark ? '1px solid rgba(239,68,68,0.25)' : '1px solid #fecaca',
-            cursor: isAdvancing ? 'not-allowed' : 'pointer',
-            opacity: isAdvancing ? 0.3 : 1,
-          }}
+          className="btn-wrong"
         >
           <svg width="18" height="18" viewBox="0 0 20 20" fill="currentColor">
             <path d="M6.28 5.22a.75.75 0 0 0-1.06 1.06L8.94 10l-3.72 3.72a.75.75 0 1 0 1.06 1.06L10 11.06l3.72 3.72a.75.75 0 1 0 1.06-1.06L11.06 10l3.72-3.72a.75.75 0 0 0-1.06-1.06L10 8.94 6.28 5.22Z" />
@@ -197,17 +215,7 @@ export default function FlashcardDeck({ cards, slug }: FlashcardDeckProps) {
           onClick={() => handleMark('correct')}
           disabled={isAdvancing}
           aria-label="Mark as correct"
-          style={{
-            display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '10px',
-            padding: '14px 28px', borderRadius: '50px',
-            minHeight: '52px', flex: 1, maxWidth: '180px',
-            fontSize: '15px', fontWeight: 600, fontFamily: 'var(--font-display)',
-            color: isDark ? '#4ade80' : '#16a34a',
-            background: isDark ? 'rgba(5,46,22,0.25)' : '#f0fdf4',
-            border: isDark ? '1px solid rgba(34,197,94,0.25)' : '1px solid #bbf7d0',
-            cursor: isAdvancing ? 'not-allowed' : 'pointer',
-            opacity: isAdvancing ? 0.3 : 1,
-          }}
+          className="btn-correct"
         >
           <svg width="18" height="18" viewBox="0 0 20 20" fill="currentColor">
             <path fillRule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clipRule="evenodd" />
@@ -230,9 +238,7 @@ export default function FlashcardDeck({ cards, slug }: FlashcardDeckProps) {
       {(progress.correct.length > 0 || progress.wrong.length > 0) && (
         <button
           onClick={handleReset}
-          className="text-xs text-gray-400 dark:text-slate-500 hover:text-gray-600 dark:hover:text-slate-300
-            transition-colors duration-200 mt-2 mb-4"
-          style={{ fontFamily: 'var(--font-body)' }}
+          className="flashcard-reset-btn"
         >
           Reset progress
         </button>

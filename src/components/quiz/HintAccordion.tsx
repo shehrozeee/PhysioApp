@@ -1,12 +1,10 @@
 import { useState, useRef, useEffect } from 'react'
-import { useDarkMode } from '@/hooks/useDarkMode'
 
 interface HintAccordionProps {
   hint: string
 }
 
 export default function HintAccordion({ hint }: HintAccordionProps) {
-  const { isDark } = useDarkMode()
   const [open, setOpen] = useState(false)
   const contentRef = useRef<HTMLDivElement>(null)
   const [height, setHeight] = useState(0)
@@ -18,24 +16,14 @@ export default function HintAccordion({ hint }: HintAccordionProps) {
   }, [hint, open])
 
   return (
-    <div
-      className="w-full rounded-xl overflow-hidden transition-all duration-300"
-      style={{
-        background: open
-          ? (isDark ? 'rgba(49, 46, 129, 0.2)' : 'rgba(238, 242, 255, 0.8)')
-          : (isDark ? 'rgba(55, 65, 81, 0.4)' : '#f9fafb'),
-        boxShadow: open
-          ? (isDark ? 'inset 0 0 0 1px rgba(99, 102, 241, 0.3)' : 'inset 0 0 0 1px #c7d2fe')
-          : 'none',
-      }}
-    >
+    <div className={`hint-container ${open ? 'open' : ''}`}>
       <button
         type="button"
         onClick={() => setOpen(prev => !prev)}
-        className="flex w-full items-center justify-between px-5 py-3.5 text-left transition-colors rounded-xl"
+        className="hint-toggle"
         aria-expanded={open}
       >
-        <span className="flex items-center gap-2.5 text-sm font-medium">
+        <span style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
           {/* Lightbulb icon */}
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -45,27 +33,13 @@ export default function HintAccordion({ hint }: HintAccordionProps) {
             strokeWidth={2}
             strokeLinecap="round"
             strokeLinejoin="round"
-            className="h-4 w-4 transition-colors duration-200"
-            style={{
-              color: open
-                ? (isDark ? '#818cf8' : '#4f46e5')
-                : (isDark ? '#6b7280' : '#9ca3af'),
-            }}
+            style={{ width: '16px', height: '16px' }}
           >
             <path d="M9 18h6" />
             <path d="M10 22h4" />
             <path d="M12 2a7 7 0 0 0-4 12.7V17h8v-2.3A7 7 0 0 0 12 2Z" />
           </svg>
-          <span
-            className="font-[family-name:var(--font-display)] transition-colors duration-200"
-            style={{
-              color: open
-                ? (isDark ? '#a5b4fc' : '#4338ca')
-                : (isDark ? '#9ca3af' : '#4b5563'),
-            }}
-          >
-            Hint
-          </span>
+          Hint
         </span>
 
         {/* Chevron that rotates */}
@@ -77,12 +51,11 @@ export default function HintAccordion({ hint }: HintAccordionProps) {
           strokeWidth={2}
           strokeLinecap="round"
           strokeLinejoin="round"
-          className="h-4 w-4 transition-all duration-300 ease-out"
           style={{
+            width: '16px',
+            height: '16px',
+            transition: 'transform 0.3s ease-out',
             transform: open ? 'rotate(180deg)' : 'rotate(0deg)',
-            color: open
-              ? '#6366f1'
-              : (isDark ? '#6b7280' : '#9ca3af'),
           }}
         >
           <polyline points="6 9 12 15 18 9" />
@@ -90,19 +63,17 @@ export default function HintAccordion({ hint }: HintAccordionProps) {
       </button>
 
       <div
-        className="overflow-hidden transition-[max-height] duration-300 ease-in-out"
-        style={{ maxHeight: open ? `${height}px` : '0px' }}
+        style={{
+          overflow: 'hidden',
+          transition: 'max-height 0.3s ease-in-out',
+          maxHeight: open ? `${height}px` : '0px',
+        }}
       >
         <div
           ref={contentRef}
-          className="px-5 pb-4 pt-0"
+          className="hint-content"
         >
-          <p
-            className="font-[family-name:var(--font-body)] text-sm leading-relaxed"
-            style={{ color: isDark ? '#d1d5db' : '#374151' }}
-          >
-            {hint}
-          </p>
+          {hint}
         </div>
       </div>
     </div>
