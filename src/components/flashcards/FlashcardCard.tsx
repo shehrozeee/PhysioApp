@@ -24,16 +24,16 @@ export default function FlashcardCard({
   // Determine the card background based on feedback state
   const feedbackBgStyle =
     feedbackState === 'correct'
-      ? { background: isDark ? 'rgba(22, 101, 52, 0.3)' : '#e8f5e9' }
+      ? { background: isDark ? 'rgba(34, 197, 94, 0.3)' : '#f0fdf4' }
       : feedbackState === 'wrong'
-        ? { background: isDark ? 'rgba(127, 29, 29, 0.3)' : '#fce4ec' }
+        ? { background: isDark ? 'rgba(239, 68, 68, 0.3)' : '#fef2f2' }
         : {}
 
   const feedbackTextColor =
     feedbackState === 'correct'
-      ? (isDark ? '#4ade80' : '#15803d')
+      ? (isDark ? '#4ade80' : '#22c55e')
       : feedbackState === 'wrong'
-        ? (isDark ? '#f87171' : '#dc2626')
+        ? (isDark ? '#f87171' : '#ef4444')
         : undefined
 
   return (
@@ -87,7 +87,7 @@ export default function FlashcardCard({
                   viewBox="0 0 24 24"
                   fill="currentColor"
                   className="w-12 h-12"
-                  style={{ color: '#16a34a' }}
+                  style={{ color: '#22c55e' }}
                 >
                   <path
                     fillRule="evenodd"
@@ -161,9 +161,9 @@ export default function FlashcardCard({
             feedbackState
               ? feedbackBgStyle
               : {
-                  background: isDark ? '#1f2937' : 'white',
+                  background: isDark ? '#1f2937' : '#ffffff',
                   border: isDark ? '1px solid #374151' : '1px solid rgba(229, 231, 235, 0.6)',
-                  boxShadow: '0 1px 3px rgba(0,0,0,0.04), 0 4px 12px rgba(0,0,0,0.03)',
+                  boxShadow: '0 1px 3px rgba(26,26,26,0.04), 0 4px 12px rgba(26,26,26,0.03)',
                 }
           }
         >
@@ -184,7 +184,7 @@ export default function FlashcardCard({
                   viewBox="0 0 24 24"
                   fill="currentColor"
                   className="w-12 h-12"
-                  style={{ color: '#16a34a' }}
+                  style={{ color: '#22c55e' }}
                 >
                   <path
                     fillRule="evenodd"
@@ -223,7 +223,7 @@ export default function FlashcardCard({
                   fontFamily: 'var(--font-body)',
                   fontWeight: 400,
                   letterSpacing: '-0.005em',
-                  color: isDark ? '#f3f4f6' : '#1f2937',
+                  color: isDark ? '#f9fafb' : '#111827',
                 }}
               >
                 {answer}

@@ -19,11 +19,11 @@ export function TopicCard({ topic, index }: TopicCardProps) {
       style={{
         borderRadius: '20px',
         overflow: 'hidden',
-        background: isDark ? '#1f2937' : 'white',
+        background: isDark ? '#1f2937' : '#ffffff',
         border: isDark ? '1px solid #374151' : '1px solid #e5e7eb',
         boxShadow: isDark
           ? '0 4px 16px rgba(0,0,0,0.3)'
-          : '0 2px 12px rgba(0,0,0,0.06)',
+          : '0 2px 8px rgba(26,26,26,0.06), 0 0 0 1px rgba(26,26,26,0.04)',
         transition: 'transform 0.3s cubic-bezier(0.23,1,0.32,1), box-shadow 0.3s ease',
         animationDelay: `${index * 100}ms`,
         textDecoration: 'none',
@@ -32,18 +32,18 @@ export function TopicCard({ topic, index }: TopicCardProps) {
         e.currentTarget.style.transform = 'translateY(-4px)'
         e.currentTarget.style.boxShadow = isDark
           ? '0 12px 32px rgba(0,0,0,0.5)'
-          : '0 12px 32px rgba(79,70,229,0.15)'
+          : '0 8px 24px rgba(0,0,0,0.1), 0 0 0 1px rgba(0,0,0,0.06)'
       }}
       onMouseLeave={(e) => {
         e.currentTarget.style.transform = 'translateY(0)'
         e.currentTarget.style.boxShadow = isDark
           ? '0 4px 16px rgba(0,0,0,0.3)'
-          : '0 2px 12px rgba(0,0,0,0.06)'
+          : '0 2px 8px rgba(0,0,0,0.06), 0 0 0 1px rgba(0,0,0,0.04)'
       }}
     >
       {/* Gradient header */}
       <div style={{
-        background: 'linear-gradient(135deg, #4f46e5 0%, #7c3aed 100%)',
+        background: 'linear-gradient(135deg, #4f46e5 0%, #6366f1 100%)',
         padding: '24px 20px 20px',
         position: 'relative',
         overflow: 'hidden',
@@ -92,9 +92,9 @@ export function TopicCard({ topic, index }: TopicCardProps) {
           <div style={{
             display: 'flex', alignItems: 'center', gap: '6px',
             padding: '6px 12px', borderRadius: '10px',
-            background: isDark ? 'rgba(251,191,36,0.15)' : '#fef3c7',
+            background: isDark ? 'rgba(245,158,11,0.15)' : '#fffbeb',
             fontSize: '13px', fontWeight: 600,
-            color: isDark ? '#fbbf24' : '#92400e',
+            color: isDark ? '#fbbf24' : '#b45309',
             fontFamily: 'var(--font-display)',
           }}>
             <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5"><rect x="2" y="4" width="20" height="16" rx="2" /><path d="M12 4v16" /></svg>
@@ -105,9 +105,9 @@ export function TopicCard({ topic, index }: TopicCardProps) {
           <div style={{
             display: 'flex', alignItems: 'center', gap: '6px',
             padding: '6px 12px', borderRadius: '10px',
-            background: isDark ? 'rgba(52,211,153,0.15)' : '#d1fae5',
+            background: isDark ? 'rgba(16,185,129,0.15)' : '#ecfdf5',
             fontSize: '13px', fontWeight: 600,
-            color: isDark ? '#34d399' : '#065f46',
+            color: isDark ? '#34d399' : '#047857',
             fontFamily: 'var(--font-display)',
           }}>
             <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5"><path d="M9 11l3 3L22 4" /><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11" /></svg>
@@ -118,9 +118,9 @@ export function TopicCard({ topic, index }: TopicCardProps) {
           <div style={{
             display: 'flex', alignItems: 'center', gap: '6px',
             padding: '6px 12px', borderRadius: '10px',
-            background: isDark ? 'rgba(139,92,246,0.15)' : '#ede9fe',
+            background: isDark ? 'rgba(139,92,246,0.15)' : '#f5f3ff',
             fontSize: '13px', fontWeight: 600,
-            color: isDark ? '#a78bfa' : '#5b21b6',
+            color: isDark ? '#a78bfa' : '#6d28d9',
             fontFamily: 'var(--font-display)',
           }}>
             <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5"><circle cx="12" cy="12" r="3" /><path d="M12 3v6M12 15v6M3 12h6M15 12h6" /></svg>

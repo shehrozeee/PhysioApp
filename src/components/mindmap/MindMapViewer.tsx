@@ -80,10 +80,16 @@ export function MindMapViewer({ data, className = '' }: MindMapViewerProps) {
       />
 
       {/* Floating zoom toolbar */}
-      <div className="absolute right-4 bottom-4 flex flex-col gap-1 rounded-xl bg-white/90 p-1 shadow-lg ring-1 ring-gray-200 backdrop-blur dark:bg-gray-800/90 dark:ring-gray-700">
+      <div style={{
+        position: 'absolute', right: '16px', bottom: '16px',
+        display: 'flex', flexDirection: 'column', gap: '4px',
+        borderRadius: '12px', padding: '4px',
+        backdropFilter: 'blur(8px)',
+      }} className="bg-white/90 shadow-lg ring-1 ring-[#e5e7eb] dark:bg-[#1f2937]/90 dark:ring-[#374151]">
         <button
           onClick={handleZoomIn}
-          className="flex h-9 w-9 items-center justify-center rounded-lg text-gray-600 transition-colors hover:bg-gray-100 dark:text-gray-300 dark:hover:bg-gray-700"
+          style={{ width: '36px', height: '36px', display: 'flex', alignItems: 'center', justifyContent: 'center', borderRadius: '10px', border: 'none', cursor: 'pointer', background: 'transparent', color: '#6b7280', transition: 'background 0.15s' }}
+          className="hover:bg-[#f3f4f6] dark:text-[#9ca3af] dark:hover:bg-[#374151]"
           aria-label="Zoom in"
         >
           <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
@@ -93,17 +99,19 @@ export function MindMapViewer({ data, className = '' }: MindMapViewerProps) {
         </button>
         <button
           onClick={handleZoomOut}
-          className="flex h-9 w-9 items-center justify-center rounded-lg text-gray-600 transition-colors hover:bg-gray-100 dark:text-gray-300 dark:hover:bg-gray-700"
+          style={{ width: '36px', height: '36px', display: 'flex', alignItems: 'center', justifyContent: 'center', borderRadius: '10px', border: 'none', cursor: 'pointer', background: 'transparent', color: '#6b7280', transition: 'background 0.15s' }}
+          className="hover:bg-[#f3f4f6] dark:text-[#9ca3af] dark:hover:bg-[#374151]"
           aria-label="Zoom out"
         >
           <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
             <line x1="5" y1="12" x2="19" y2="12" />
           </svg>
         </button>
-        <div className="mx-1 border-t border-gray-200 dark:border-gray-700" />
+        <div style={{ margin: '0 4px', borderTop: '1px solid #e5e7eb' }} className="dark:border-[#374151]" />
         <button
           onClick={handleFit}
-          className="flex h-9 w-9 items-center justify-center rounded-lg text-xs font-semibold text-gray-600 transition-colors hover:bg-gray-100 dark:text-gray-300 dark:hover:bg-gray-700"
+          style={{ width: '36px', height: '36px', display: 'flex', alignItems: 'center', justifyContent: 'center', borderRadius: '10px', border: 'none', cursor: 'pointer', background: 'transparent', color: '#6b7280', fontSize: '12px', fontWeight: 600, transition: 'background 0.15s' }}
+          className="hover:bg-[#f3f4f6] dark:text-[#9ca3af] dark:hover:bg-[#374151]"
           aria-label="Fit to view"
         >
           <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
@@ -118,10 +126,10 @@ export function MindMapViewer({ data, className = '' }: MindMapViewerProps) {
       {/* Dark mode style overrides for markmap */}
       <style>{`
         .dark .mindmap-svg {
-          --markmap-text-color: #f3f4f6;
+          --markmap-text-color: #f9fafb;
         }
         .dark .mindmap-svg text {
-          fill: #f3f4f6;
+          fill: #f9fafb;
         }
         .dark .mindmap-svg path {
           stroke: #6b7280;
@@ -131,7 +139,7 @@ export function MindMapViewer({ data, className = '' }: MindMapViewerProps) {
           stroke: #6b7280;
         }
         .mindmap-svg foreignObject div {
-          font-family: 'Source Sans 3', sans-serif;
+          font-family: 'Outfit', sans-serif;
         }
       `}</style>
     </div>

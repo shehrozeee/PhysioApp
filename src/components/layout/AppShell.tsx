@@ -36,7 +36,7 @@ export function AppShell() {
         backdropFilter: 'blur(16px)',
         WebkitBackdropFilter: 'blur(16px)',
         background: isDark ? 'rgba(17,24,39,0.85)' : 'rgba(255,255,255,0.85)',
-        borderBottom: `1px solid ${isDark ? '#1f2937' : '#f3f4f6'}`,
+        borderBottom: `1px solid ${isDark ? '#374151' : '#e5e7eb'}`,
         // Safe area for notch phones
         paddingTop: 'env(safe-area-inset-top, 0px)',
       }}>
@@ -60,7 +60,7 @@ export function AppShell() {
                   borderRadius: '12px',
                   display: 'flex', alignItems: 'center', justifyContent: 'center',
                   background: 'transparent',
-                  color: isDark ? '#d1d5db' : '#6b7280',
+                  color: isDark ? '#9ca3af' : '#6b7280',
                   textDecoration: 'none',
                   marginRight: '4px',
                   minHeight: '48px', minWidth: '48px',

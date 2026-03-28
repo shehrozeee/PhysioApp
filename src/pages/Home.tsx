@@ -3,12 +3,12 @@ import { Link } from 'react-router-dom'
 import type { Topic } from '@/lib/types'
 
 const gradients = [
+  'linear-gradient(135deg, #4f46e5 0%, #6366f1 100%)',
+  'linear-gradient(135deg, #6366f1 0%, #818cf8 100%)',
   'linear-gradient(135deg, #4f46e5 0%, #7c3aed 100%)',
-  'linear-gradient(135deg, #0891b2 0%, #2563eb 100%)',
-  'linear-gradient(135deg, #059669 0%, #0d9488 100%)',
-  'linear-gradient(135deg, #d946ef 0%, #8b5cf6 100%)',
-  'linear-gradient(135deg, #e11d48 0%, #f97316 100%)',
-  'linear-gradient(135deg, #0ea5e9 0%, #6366f1 100%)',
+  'linear-gradient(135deg, #7c3aed 0%, #6366f1 100%)',
+  'linear-gradient(135deg, #4338ca 0%, #6366f1 100%)',
+  'linear-gradient(135deg, #4f46e5 0%, #8b5cf6 100%)',
 ]
 
 function TopicCard({ topic, index }: { topic: Topic; index: number }) {

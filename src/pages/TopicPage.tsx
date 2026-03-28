@@ -52,7 +52,7 @@ export function TopicPage() {
           <path d="M12 4v16" />
         </svg>
       ),
-      gradientBg: 'linear-gradient(135deg, #f59e0b 0%, #f97316 100%)',
+      gradientBg: 'linear-gradient(135deg, #d97706 0%, #f59e0b 100%)',
       className: 'topic-content-link-flashcards',
     },
     {
@@ -67,7 +67,7 @@ export function TopicPage() {
           <path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11" />
         </svg>
       ),
-      gradientBg: 'linear-gradient(135deg, #10b981 0%, #14b8a6 100%)',
+      gradientBg: 'linear-gradient(135deg, #059669 0%, #10b981 100%)',
       className: 'topic-content-link-quiz',
     },
     {
@@ -82,7 +82,7 @@ export function TopicPage() {
           <path d="M12 3v6M12 15v6M3 12h6M15 12h6" />
         </svg>
       ),
-      gradientBg: 'linear-gradient(135deg, #8b5cf6 0%, #a855f7 100%)',
+      gradientBg: 'linear-gradient(135deg, #7c3aed 0%, #8b5cf6 100%)',
       className: 'topic-content-link-mindmap',
     },
   ]

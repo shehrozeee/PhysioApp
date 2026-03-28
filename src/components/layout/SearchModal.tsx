@@ -10,9 +10,9 @@ interface SearchModalProps {
 }
 
 const typeBadge: Record<SearchResult['type'], { label: string; bg: string; darkBg: string; text: string; darkText: string }> = {
-  flashcard: { label: 'Flashcard', bg: '#dbeafe', darkBg: 'rgba(59,130,246,0.2)', text: '#1d4ed8', darkText: '#60a5fa' },
-  quiz: { label: 'Quiz', bg: '#d1fae5', darkBg: 'rgba(16,185,129,0.2)', text: '#047857', darkText: '#34d399' },
-  mindmap: { label: 'Mind Map', bg: '#ede9fe', darkBg: 'rgba(139,92,246,0.2)', text: '#6d28d9', darkText: '#a78bfa' },
+  flashcard: { label: 'Flashcard', bg: '#fffbeb', darkBg: 'rgba(245,158,11,0.2)', text: '#b45309', darkText: '#fbbf24' },
+  quiz: { label: 'Quiz', bg: '#ecfdf5', darkBg: 'rgba(16,185,129,0.2)', text: '#047857', darkText: '#34d399' },
+  mindmap: { label: 'Mind Map', bg: '#f5f3ff', darkBg: 'rgba(139,92,246,0.2)', text: '#6d28d9', darkText: '#a78bfa' },
 }
 
 function groupByTopic(results: SearchResult[]): Map<string, SearchResult[]> {
@@ -86,10 +86,10 @@ export function SearchModal({ isOpen, onClose }: SearchModalProps) {
         style={{
           width: '100%', maxWidth: '560px',
           borderRadius: '20px', overflow: 'hidden',
-          background: isDark ? '#1f2937' : 'white',
+          background: isDark ? '#1f2937' : '#ffffff',
           boxShadow: isDark
             ? '0 24px 60px rgba(0,0,0,0.5), 0 0 0 1px rgba(55,65,81,0.5)'
-            : '0 24px 60px rgba(0,0,0,0.2), 0 0 0 1px rgba(0,0,0,0.05)',
+            : '0 24px 60px rgba(0,0,0,0.15), 0 0 0 1px rgba(0,0,0,0.05)',
         }}
       >
         {/* Search input */}
@@ -145,7 +145,7 @@ export function SearchModal({ isOpen, onClose }: SearchModalProps) {
               <div key={topicSlug}>
                 <div style={{
                   position: 'sticky', top: 0, padding: '10px 24px',
-                  background: isDark ? 'rgba(31,41,55,0.95)' : 'rgba(249,250,251,0.95)', backdropFilter: 'blur(4px)',
+                  background: isDark ? 'rgba(31,41,55,0.95)' : 'rgba(255,255,255,0.95)', backdropFilter: 'blur(4px)',
                   fontSize: '11px', fontWeight: 600, letterSpacing: '0.05em',
                   textTransform: 'uppercase', color: isDark ? '#9ca3af' : '#6b7280',
                   fontFamily: 'var(--font-display)',
@@ -166,7 +166,7 @@ export function SearchModal({ isOpen, onClose }: SearchModalProps) {
                         display: 'flex', alignItems: 'flex-start', gap: '12px',
                         width: '100%', padding: '12px 24px', textAlign: 'left',
                         border: 'none', cursor: 'pointer',
-                        background: isActive ? (isDark ? '#1e3a5f' : '#eef2ff') : 'transparent',
+                        background: isActive ? (isDark ? 'rgba(79,70,229,0.2)' : '#eef2ff') : 'transparent',
                         transition: 'background 0.1s',
                       }}
                       onMouseEnter={() => setActiveIndex(idx)}
