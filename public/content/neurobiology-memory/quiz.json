@@ -1,0 +1,74 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which brain structure is most critical for the formation of new declarative (explicit) memories?",
+      "options": ["Amygdala", "Cerebellum", "Hippocampus", "Basal ganglia"],
+      "correct": 2,
+      "hint": "Think about the famous case of patient H.M., who lost the ability to form new memories after bilateral removal of this structure."
+    },
+    {
+      "id": 2,
+      "question": "What are the two main subtypes of declarative (explicit) memory?",
+      "options": ["Procedural and priming", "Episodic and semantic", "Short-term and long-term", "Classical and operant"],
+      "correct": 1,
+      "hint": "One type involves personal experiences and events, while the other involves general facts and knowledge."
+    },
+    {
+      "id": 3,
+      "question": "Which neurotransmitter receptor is essential for the induction of long-term potentiation (LTP) at most excitatory synapses?",
+      "options": ["GABA-A receptor", "Nicotinic receptor", "NMDA receptor", "Muscarinic receptor"],
+      "correct": 2,
+      "hint": "This receptor acts as a coincidence detector, requiring both glutamate binding and membrane depolarization to open."
+    },
+    {
+      "id": 4,
+      "question": "What type of memory does the amygdala primarily contribute to?",
+      "options": ["Spatial memory", "Emotional memory and fear conditioning", "Procedural motor skills", "Semantic knowledge"],
+      "correct": 1,
+      "hint": "This structure is critical for the emotional significance of memories, especially those involving threat."
+    },
+    {
+      "id": 5,
+      "question": "Which type of amnesia is characterized by the inability to form new memories after a brain injury?",
+      "options": ["Retrograde amnesia", "Anterograde amnesia", "Transient global amnesia", "Dissociative amnesia"],
+      "correct": 1,
+      "hint": "Patient H.M. suffered from this type after his surgery — he could recall old memories but could not create new ones."
+    },
+    {
+      "id": 6,
+      "question": "What is the molecular mechanism that underlies the persistence of long-term memory, as opposed to short-term memory?",
+      "options": ["Increased glucose uptake", "New protein synthesis and gene expression", "Reduced neurotransmitter release", "Myelin sheath thickening"],
+      "correct": 1,
+      "hint": "The transcription factor CREB plays a key role in converting short-term to long-term changes at the synapse."
+    },
+    {
+      "id": 7,
+      "question": "Procedural memory (e.g., riding a bicycle) is classified under which broad category?",
+      "options": ["Declarative (explicit) memory", "Non-declarative (implicit) memory", "Working memory", "Sensory memory"],
+      "correct": 1,
+      "hint": "This type of memory does not require conscious recall and is often preserved even in patients with hippocampal damage."
+    },
+    {
+      "id": 8,
+      "question": "During which phase of sleep is memory consolidation believed to be most active for declarative memories?",
+      "options": ["REM sleep", "Stage 1 NREM", "Slow-wave sleep (Stage 3 NREM)", "Light sleep (Stage 2 NREM)"],
+      "correct": 2,
+      "hint": "This deepest stage of non-REM sleep is associated with hippocampal-neocortical dialogue and replay of memories."
+    },
+    {
+      "id": 9,
+      "question": "Which neurodegenerative disease is most strongly associated with progressive loss of declarative memory due to hippocampal atrophy?",
+      "options": ["Parkinson's disease", "Huntington's disease", "Alzheimer's disease", "Multiple sclerosis"],
+      "correct": 2,
+      "hint": "This disease involves cholinergic deficits and amyloid plaque accumulation, initially targeting the medial temporal lobe."
+    },
+    {
+      "id": 10,
+      "question": "What principle of synaptic plasticity states that neurons that 'fire together, wire together'?",
+      "options": ["Dale's principle", "Hebbian learning rule", "Weber-Fechner law", "Bell-Magendie law"],
+      "correct": 1,
+      "hint": "This concept, proposed by Donald Hebb in 1949, describes how coincident activity strengthens synaptic connections."
+    }
+  ]
+}

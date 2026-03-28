@@ -1,0 +1,159 @@
+{
+  "title": "Learning and Memory",
+  "children": [
+    {
+      "title": "Neuroanatomy",
+      "children": [
+        {
+          "title": "Hippocampus",
+          "children": [
+            { "title": "Located in medial temporal lobe" },
+            { "title": "Critical for declarative memory formation" },
+            { "title": "Place cells for spatial memory" }
+          ]
+        },
+        {
+          "title": "Amygdala",
+          "children": [
+            { "title": "Emotional memory processing" },
+            { "title": "Fear conditioning" },
+            { "title": "Modulates hippocampal consolidation" }
+          ]
+        },
+        {
+          "title": "Prefrontal Cortex",
+          "children": [
+            { "title": "Working memory" },
+            { "title": "Executive control of retrieval" },
+            { "title": "Strategic encoding" }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Classification of Memory",
+      "children": [
+        {
+          "title": "Declarative (Explicit)",
+          "children": [
+            { "title": "Episodic - personal events" },
+            { "title": "Semantic - facts and knowledge" },
+            { "title": "Requires conscious recall" }
+          ]
+        },
+        {
+          "title": "Non-declarative (Implicit)",
+          "children": [
+            { "title": "Procedural - skills and habits" },
+            { "title": "Priming" },
+            { "title": "Classical conditioning" },
+            { "title": "Does not require conscious awareness" }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Memory Processes",
+      "children": [
+        {
+          "title": "Encoding",
+          "children": [
+            { "title": "Transformation of sensory input" },
+            { "title": "Levels of processing theory" },
+            { "title": "Elaborative rehearsal" }
+          ]
+        },
+        {
+          "title": "Consolidation",
+          "children": [
+            { "title": "Synaptic consolidation (minutes-hours)" },
+            { "title": "Systems consolidation (weeks-years)" },
+            { "title": "Sleep-dependent consolidation" }
+          ]
+        },
+        {
+          "title": "Storage",
+          "children": [
+            { "title": "Short-term / Working memory" },
+            { "title": "Long-term memory" },
+            { "title": "Distributed cortical networks" }
+          ]
+        },
+        {
+          "title": "Retrieval",
+          "children": [
+            { "title": "Recall vs recognition" },
+            { "title": "Context-dependent retrieval" },
+            { "title": "Retrieval cues" }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Biochemical Basis",
+      "children": [
+        {
+          "title": "Long-Term Potentiation (LTP)",
+          "children": [
+            { "title": "NMDA receptor activation" },
+            { "title": "Ca2+ influx triggers cascades" },
+            { "title": "Increased synaptic strength" }
+          ]
+        },
+        {
+          "title": "Neurotransmitters",
+          "children": [
+            { "title": "Glutamate - excitatory, key for LTP" },
+            { "title": "Acetylcholine - attention and encoding" },
+            { "title": "Dopamine - reward-related memory" }
+          ]
+        },
+        {
+          "title": "Protein Synthesis",
+          "children": [
+            { "title": "Required for long-term memory" },
+            { "title": "CREB transcription factor" },
+            { "title": "Structural synaptic changes" }
+          ]
+        },
+        {
+          "title": "Synaptic Plasticity",
+          "children": [
+            { "title": "Hebbian learning (fire together, wire together)" },
+            { "title": "Long-term depression (LTD)" },
+            { "title": "Spine morphology changes" }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Clinical Disorders",
+      "children": [
+        {
+          "title": "Amnesia",
+          "children": [
+            { "title": "Anterograde - cannot form new memories" },
+            { "title": "Retrograde - loss of past memories" },
+            { "title": "Case of H.M. - bilateral medial temporal lobectomy" }
+          ]
+        },
+        {
+          "title": "Alzheimer's Disease",
+          "children": [
+            { "title": "Progressive declarative memory loss" },
+            { "title": "Hippocampal atrophy" },
+            { "title": "Cholinergic deficit" }
+          ]
+        },
+        {
+          "title": "Other Disorders",
+          "children": [
+            { "title": "Korsakoff syndrome - thiamine deficiency" },
+            { "title": "PTSD - traumatic memory dysregulation" },
+            { "title": "Transient global amnesia" }
+          ]
+        }
+      ]
+    }
+  ]
+}

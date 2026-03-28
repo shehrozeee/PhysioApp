@@ -10,6 +10,17 @@
         "quiz": { "count": 10 },
         "mindmap": true
       }
+    },
+    {
+      "slug": "neurobiology-memory",
+      "title": "Learning & Memory",
+      "chapter": "CNS",
+      "description": "Neurobiology, classification, and clinical disorders of human memory",
+      "content": {
+        "flashcards": { "count": 50 },
+        "quiz": { "count": 10 },
+        "mindmap": true
+      }
     }
   ]
 }

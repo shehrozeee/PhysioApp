@@ -1022,5 +1022,1053 @@
     "type": "mindmap",
     "title": "NO paralysis or sensory loss",
     "text": "Cerebellum > Clinical Signs (Lesions) > NO paralysis or sensory loss"
+  },
+  {
+    "id": "neurobiology-memory-fc-1",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "flashcard",
+    "title": "What is the primary brain structure responsible for the formation of new declarative memories?",
+    "text": "What is the primary brain structure responsible for the formation of new declarative memories? Hippocampus."
+  },
+  {
+    "id": "neurobiology-memory-fc-2",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "flashcard",
+    "title": "Where is the hippocampus located?",
+    "text": "Where is the hippocampus located? In the medial temporal lobe."
+  },
+  {
+    "id": "neurobiology-memory-fc-3",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "flashcard",
+    "title": "What are the two main categories of long-term memory?",
+    "text": "What are the two main categories of long-term memory? Declarative (explicit) and non-declarative (implicit) memory."
+  },
+  {
+    "id": "neurobiology-memory-fc-4",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "flashcard",
+    "title": "What are the two subtypes of declarative memory?",
+    "text": "What are the two subtypes of declarative memory? Episodic memory (personal events) and semantic memory (facts and knowledge)."
+  },
+  {
+    "id": "neurobiology-memory-fc-5",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "flashcard",
+    "title": "Give an example of episodic memory.",
+    "text": "Give an example of episodic memory. Remembering your first day at university or what you had for breakfast."
+  },
+  {
+    "id": "neurobiology-memory-fc-6",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "flashcard",
+    "title": "Give an example of semantic memory.",
+    "text": "Give an example of semantic memory. Knowing that Islamabad is the capital of Pakistan, or that water boils at 100 degrees Celsius."
+  },
+  {
+    "id": "neurobiology-memory-fc-7",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "flashcard",
+    "title": "What is procedural memory?",
+    "text": "What is procedural memory? A type of non-declarative (implicit) memory for skills and habits, such as riding a bicycle or typing."
+  },
+  {
+    "id": "neurobiology-memory-fc-8",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "flashcard",
+    "title": "What brain structure is most important for procedural memory?",
+    "text": "What brain structure is most important for procedural memory? Basal ganglia (striatum) and cerebellum."
+  },
+  {
+    "id": "neurobiology-memory-fc-9",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "flashcard",
+    "title": "What is priming?",
+    "text": "What is priming? A form of implicit memory where exposure to a stimulus influences the response to a subsequent stimulus, without conscious awareness."
+  },
+  {
+    "id": "neurobiology-memory-fc-10",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "flashcard",
+    "title": "What role does the amygdala play in memory?",
+    "text": "What role does the amygdala play in memory? It processes emotional memories, especially fear conditioning, and modulates hippocampal memory consolidation."
+  },
+  {
+    "id": "neurobiology-memory-fc-11",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "flashcard",
+    "title": "What is the role of the prefrontal cortex in memory?",
+    "text": "What is the role of the prefrontal cortex in memory? Working memory, strategic encoding, and executive control of memory retrieval."
+  },
+  {
+    "id": "neurobiology-memory-fc-12",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "flashcard",
+    "title": "Define encoding in the context of memory.",
+    "text": "Define encoding in the context of memory. The process of transforming sensory information into a form that can be stored in memory."
+  },
+  {
+    "id": "neurobiology-memory-fc-13",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "flashcard",
+    "title": "What is the levels-of-processing theory?",
+    "text": "What is the levels-of-processing theory? The theory that deeper, more meaningful processing of information leads to better memory retention than shallow processing."
+  },
+  {
+    "id": "neurobiology-memory-fc-14",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "flashcard",
+    "title": "What is elaborative rehearsal?",
+    "text": "What is elaborative rehearsal? A memory strategy that involves relating new information to existing knowledge, leading to deeper encoding."
+  },
+  {
+    "id": "neurobiology-memory-fc-15",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "flashcard",
+    "title": "What is memory consolidation?",
+    "text": "What is memory consolidation? The process by which initially labile memories are stabilized and transferred to long-term storage."
+  },
+  {
+    "id": "neurobiology-memory-fc-16",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "flashcard",
+    "title": "What is the difference between synaptic consolidation and systems consolidation?",
+    "text": "What is the difference between synaptic consolidation and systems consolidation? Synaptic consolidation occurs within minutes to hours (molecular changes at synapses), while systems consolidation occurs over weeks to years (transfer from hippocampus to neocortex)."
+  },
+  {
+    "id": "neurobiology-memory-fc-17",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "flashcard",
+    "title": "How does sleep contribute to memory consolidation?",
+    "text": "How does sleep contribute to memory consolidation? Sleep, especially slow-wave sleep, facilitates the replay and transfer of hippocampal memories to the neocortex for long-term storage."
+  },
+  {
+    "id": "neurobiology-memory-fc-18",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "flashcard",
+    "title": "Define retrieval in the context of memory.",
+    "text": "Define retrieval in the context of memory. The process of accessing and bringing stored memories back into conscious awareness."
+  },
+  {
+    "id": "neurobiology-memory-fc-19",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "flashcard",
+    "title": "What is the difference between recall and recognition?",
+    "text": "What is the difference between recall and recognition? Recall requires generating a memory without cues (e.g., essay questions), while recognition involves identifying previously encountered information (e.g., multiple-choice questions)."
+  },
+  {
+    "id": "neurobiology-memory-fc-20",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "flashcard",
+    "title": "What is context-dependent memory?",
+    "text": "What is context-dependent memory? The phenomenon where retrieval is enhanced when the context at retrieval matches the context at encoding."
+  },
+  {
+    "id": "neurobiology-memory-fc-21",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "flashcard",
+    "title": "What is long-term potentiation (LTP)?",
+    "text": "What is long-term potentiation (LTP)? A persistent increase in synaptic strength following high-frequency stimulation, considered a cellular mechanism of learning and memory."
+  },
+  {
+    "id": "neurobiology-memory-fc-22",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "flashcard",
+    "title": "Which receptor is essential for the induction of LTP at most excitatory synapses?",
+    "text": "Which receptor is essential for the induction of LTP at most excitatory synapses? The NMDA (N-methyl-D-aspartate) receptor."
+  },
+  {
+    "id": "neurobiology-memory-fc-23",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "flashcard",
+    "title": "Why is the NMDA receptor called a 'coincidence detector'?",
+    "text": "Why is the NMDA receptor called a 'coincidence detector'? Because it requires both glutamate binding and postsynaptic depolarization (to relieve the Mg2+ block) to allow Ca2+ influx."
+  },
+  {
+    "id": "neurobiology-memory-fc-24",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "flashcard",
+    "title": "What ion is critical for triggering the intracellular cascades that lead to LTP?",
+    "text": "What ion is critical for triggering the intracellular cascades that lead to LTP? Calcium (Ca2+)."
+  },
+  {
+    "id": "neurobiology-memory-fc-25",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "flashcard",
+    "title": "What is long-term depression (LTD)?",
+    "text": "What is long-term depression (LTD)? A persistent decrease in synaptic strength, often induced by low-frequency stimulation, complementing LTP in synaptic plasticity."
+  },
+  {
+    "id": "neurobiology-memory-fc-26",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "flashcard",
+    "title": "What is Hebbian learning?",
+    "text": "What is Hebbian learning? The principle that neurons that fire together wire together — coincident pre- and postsynaptic activity strengthens synaptic connections."
+  },
+  {
+    "id": "neurobiology-memory-fc-27",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "flashcard",
+    "title": "What role does the transcription factor CREB play in memory?",
+    "text": "What role does the transcription factor CREB play in memory? CREB (cAMP response element-binding protein) activates gene expression required for protein synthesis and the conversion of short-term to long-term memory."
+  },
+  {
+    "id": "neurobiology-memory-fc-28",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "flashcard",
+    "title": "Why is protein synthesis required for long-term memory but not short-term memory?",
+    "text": "Why is protein synthesis required for long-term memory but not short-term memory? Long-term memory requires structural changes at synapses (new receptor insertion, spine growth), which depend on new protein synthesis."
+  },
+  {
+    "id": "neurobiology-memory-fc-29",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "flashcard",
+    "title": "What is the role of glutamate in memory?",
+    "text": "What is the role of glutamate in memory? Glutamate is the primary excitatory neurotransmitter and is essential for LTP at NMDA and AMPA receptors."
+  },
+  {
+    "id": "neurobiology-memory-fc-30",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "flashcard",
+    "title": "What is the role of acetylcholine in memory?",
+    "text": "What is the role of acetylcholine in memory? Acetylcholine modulates attention and encoding processes, particularly in the hippocampus and cortex. Its deficit is linked to Alzheimer's disease."
+  },
+  {
+    "id": "neurobiology-memory-fc-31",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "flashcard",
+    "title": "What is the role of dopamine in memory?",
+    "text": "What is the role of dopamine in memory? Dopamine enhances reward-related and motivationally significant memories, acting in the hippocampus and prefrontal cortex."
+  },
+  {
+    "id": "neurobiology-memory-fc-32",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "flashcard",
+    "title": "What is anterograde amnesia?",
+    "text": "What is anterograde amnesia? The inability to form new memories after the onset of brain damage, while older memories may be preserved."
+  },
+  {
+    "id": "neurobiology-memory-fc-33",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "flashcard",
+    "title": "What is retrograde amnesia?",
+    "text": "What is retrograde amnesia? The loss of memories that were formed before the onset of brain damage."
+  },
+  {
+    "id": "neurobiology-memory-fc-34",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "flashcard",
+    "title": "Who was patient H.M. and why is his case significant?",
+    "text": "Who was patient H.M. and why is his case significant? Henry Molaison (H.M.) underwent bilateral medial temporal lobectomy for epilepsy and developed severe anterograde amnesia, demonstrating the hippocampus is essential for new declarative memory formation."
+  },
+  {
+    "id": "neurobiology-memory-fc-35",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "flashcard",
+    "title": "What types of memory were preserved in patient H.M.?",
+    "text": "What types of memory were preserved in patient H.M.? Procedural (implicit) memory was preserved — he could learn new motor skills without remembering the learning sessions."
+  },
+  {
+    "id": "neurobiology-memory-fc-36",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "flashcard",
+    "title": "What characterizes Alzheimer's disease in terms of memory?",
+    "text": "What characterizes Alzheimer's disease in terms of memory? Progressive loss of declarative memory, hippocampal atrophy, cholinergic neuron degeneration, and amyloid plaque accumulation."
+  },
+  {
+    "id": "neurobiology-memory-fc-37",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "flashcard",
+    "title": "What is Korsakoff syndrome and what causes it?",
+    "text": "What is Korsakoff syndrome and what causes it? A memory disorder caused by thiamine (vitamin B1) deficiency, often due to chronic alcoholism, characterized by severe anterograde and retrograde amnesia and confabulation."
+  },
+  {
+    "id": "neurobiology-memory-fc-38",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "flashcard",
+    "title": "Which brain structures are damaged in Korsakoff syndrome?",
+    "text": "Which brain structures are damaged in Korsakoff syndrome? Mammillary bodies and the medial dorsal nucleus of the thalamus."
+  },
+  {
+    "id": "neurobiology-memory-fc-39",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "flashcard",
+    "title": "What is working memory?",
+    "text": "What is working memory? A limited-capacity system for temporarily holding and manipulating information during cognitive tasks, primarily involving the prefrontal cortex."
+  },
+  {
+    "id": "neurobiology-memory-fc-40",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "flashcard",
+    "title": "What is sensory memory?",
+    "text": "What is sensory memory? The brief retention of sensory information (iconic for visual, echoic for auditory), lasting milliseconds to a few seconds."
+  },
+  {
+    "id": "neurobiology-memory-fc-41",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "flashcard",
+    "title": "What structural changes occur at synapses during long-term memory formation?",
+    "text": "What structural changes occur at synapses during long-term memory formation? New dendritic spines grow, existing spines enlarge, more AMPA receptors are inserted into the postsynaptic membrane, and new synaptic connections form."
+  },
+  {
+    "id": "neurobiology-memory-fc-42",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "flashcard",
+    "title": "What is the standard model of systems consolidation?",
+    "text": "What is the standard model of systems consolidation? Memories initially depend on the hippocampus but are gradually transferred to distributed neocortical networks over time, becoming hippocampus-independent."
+  },
+  {
+    "id": "neurobiology-memory-fc-43",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "flashcard",
+    "title": "What is reconsolidation?",
+    "text": "What is reconsolidation? The process by which a retrieved memory becomes temporarily labile and must be re-stabilized, potentially allowing modification of the memory."
+  },
+  {
+    "id": "neurobiology-memory-fc-44",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "flashcard",
+    "title": "What are place cells?",
+    "text": "What are place cells? Hippocampal neurons that fire when an animal is in a specific location, contributing to spatial memory and cognitive mapping."
+  },
+  {
+    "id": "neurobiology-memory-fc-45",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "flashcard",
+    "title": "What is classical conditioning?",
+    "text": "What is classical conditioning? A form of implicit learning where a neutral stimulus (conditioned stimulus) becomes associated with an unconditioned stimulus to produce a conditioned response."
+  },
+  {
+    "id": "neurobiology-memory-fc-46",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "flashcard",
+    "title": "How does PTSD relate to memory dysfunction?",
+    "text": "How does PTSD relate to memory dysfunction? PTSD involves dysregulated emotional memory processing, with hyperactive amygdala responses and impaired prefrontal cortex regulation of traumatic memories."
+  },
+  {
+    "id": "neurobiology-memory-fc-47",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "flashcard",
+    "title": "What is transient global amnesia?",
+    "text": "What is transient global amnesia? A sudden, temporary episode of anterograde amnesia lasting hours, believed to involve transient hippocampal dysfunction, with complete recovery."
+  },
+  {
+    "id": "neurobiology-memory-fc-48",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "flashcard",
+    "title": "What is the AMPA receptor's role in synaptic transmission and memory?",
+    "text": "What is the AMPA receptor's role in synaptic transmission and memory? AMPA receptors mediate fast excitatory synaptic transmission; their insertion into the postsynaptic membrane during LTP strengthens the synapse."
+  },
+  {
+    "id": "neurobiology-memory-fc-49",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "flashcard",
+    "title": "What is the difference between short-term memory and working memory?",
+    "text": "What is the difference between short-term memory and working memory? Short-term memory is passive storage for ~20-30 seconds, while working memory actively manipulates and processes information."
+  },
+  {
+    "id": "neurobiology-memory-fc-50",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "flashcard",
+    "title": "What neurotransmitter system is targeted by current Alzheimer's disease treatments and why?",
+    "text": "What neurotransmitter system is targeted by current Alzheimer's disease treatments and why? The cholinergic system — acetylcholinesterase inhibitors (e.g., donepezil) increase acetylcholine levels to compensate for cholinergic neuron loss."
+  },
+  {
+    "id": "neurobiology-memory-qz-1",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "quiz",
+    "title": "Which brain structure is most critical for the formation of new declarative (explicit) memories?",
+    "text": "Which brain structure is most critical for the formation of new declarative (explicit) memories? Amygdala Cerebellum Hippocampus Basal ganglia Think about the famous case of patient H.M., who lost the ability to form new memories after bilateral removal of this structure."
+  },
+  {
+    "id": "neurobiology-memory-qz-2",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "quiz",
+    "title": "What are the two main subtypes of declarative (explicit) memory?",
+    "text": "What are the two main subtypes of declarative (explicit) memory? Procedural and priming Episodic and semantic Short-term and long-term Classical and operant One type involves personal experiences and events, while the other involves general facts and knowledge."
+  },
+  {
+    "id": "neurobiology-memory-qz-3",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "quiz",
+    "title": "Which neurotransmitter receptor is essential for the induction of long-term potentiation (LTP) at most excitatory synapses?",
+    "text": "Which neurotransmitter receptor is essential for the induction of long-term potentiation (LTP) at most excitatory synapses? GABA-A receptor Nicotinic receptor NMDA receptor Muscarinic receptor This receptor acts as a coincidence detector, requiring both glutamate binding and membrane depolarization to open."
+  },
+  {
+    "id": "neurobiology-memory-qz-4",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "quiz",
+    "title": "What type of memory does the amygdala primarily contribute to?",
+    "text": "What type of memory does the amygdala primarily contribute to? Spatial memory Emotional memory and fear conditioning Procedural motor skills Semantic knowledge This structure is critical for the emotional significance of memories, especially those involving threat."
+  },
+  {
+    "id": "neurobiology-memory-qz-5",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "quiz",
+    "title": "Which type of amnesia is characterized by the inability to form new memories after a brain injury?",
+    "text": "Which type of amnesia is characterized by the inability to form new memories after a brain injury? Retrograde amnesia Anterograde amnesia Transient global amnesia Dissociative amnesia Patient H.M. suffered from this type after his surgery — he could recall old memories but could not create new ones."
+  },
+  {
+    "id": "neurobiology-memory-qz-6",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "quiz",
+    "title": "What is the molecular mechanism that underlies the persistence of long-term memory, as opposed to short-term memory?",
+    "text": "What is the molecular mechanism that underlies the persistence of long-term memory, as opposed to short-term memory? Increased glucose uptake New protein synthesis and gene expression Reduced neurotransmitter release Myelin sheath thickening The transcription factor CREB plays a key role in converting short-term to long-term changes at the synapse."
+  },
+  {
+    "id": "neurobiology-memory-qz-7",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "quiz",
+    "title": "Procedural memory (e.g., riding a bicycle) is classified under which broad category?",
+    "text": "Procedural memory (e.g., riding a bicycle) is classified under which broad category? Declarative (explicit) memory Non-declarative (implicit) memory Working memory Sensory memory This type of memory does not require conscious recall and is often preserved even in patients with hippocampal damage."
+  },
+  {
+    "id": "neurobiology-memory-qz-8",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "quiz",
+    "title": "During which phase of sleep is memory consolidation believed to be most active for declarative memories?",
+    "text": "During which phase of sleep is memory consolidation believed to be most active for declarative memories? REM sleep Stage 1 NREM Slow-wave sleep (Stage 3 NREM) Light sleep (Stage 2 NREM) This deepest stage of non-REM sleep is associated with hippocampal-neocortical dialogue and replay of memories."
+  },
+  {
+    "id": "neurobiology-memory-qz-9",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "quiz",
+    "title": "Which neurodegenerative disease is most strongly associated with progressive loss of declarative memory due to hippocampal atrophy?",
+    "text": "Which neurodegenerative disease is most strongly associated with progressive loss of declarative memory due to hippocampal atrophy? Parkinson's disease Huntington's disease Alzheimer's disease Multiple sclerosis This disease involves cholinergic deficits and amyloid plaque accumulation, initially targeting the medial temporal lobe."
+  },
+  {
+    "id": "neurobiology-memory-qz-10",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "quiz",
+    "title": "What principle of synaptic plasticity states that neurons that 'fire together, wire together'?",
+    "text": "What principle of synaptic plasticity states that neurons that 'fire together, wire together'? Dale's principle Hebbian learning rule Weber-Fechner law Bell-Magendie law This concept, proposed by Donald Hebb in 1949, describes how coincident activity strengthens synaptic connections."
+  },
+  {
+    "id": "neurobiology-memory-mm-53",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "mindmap",
+    "title": "Learning and Memory",
+    "text": "Learning and Memory"
+  },
+  {
+    "id": "neurobiology-memory-mm-54",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "mindmap",
+    "title": "Neuroanatomy",
+    "text": "Learning and Memory > Neuroanatomy"
+  },
+  {
+    "id": "neurobiology-memory-mm-55",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "mindmap",
+    "title": "Hippocampus",
+    "text": "Learning and Memory > Neuroanatomy > Hippocampus"
+  },
+  {
+    "id": "neurobiology-memory-mm-56",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "mindmap",
+    "title": "Located in medial temporal lobe",
+    "text": "Learning and Memory > Neuroanatomy > Hippocampus > Located in medial temporal lobe"
+  },
+  {
+    "id": "neurobiology-memory-mm-57",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "mindmap",
+    "title": "Critical for declarative memory formation",
+    "text": "Learning and Memory > Neuroanatomy > Hippocampus > Critical for declarative memory formation"
+  },
+  {
+    "id": "neurobiology-memory-mm-58",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "mindmap",
+    "title": "Place cells for spatial memory",
+    "text": "Learning and Memory > Neuroanatomy > Hippocampus > Place cells for spatial memory"
+  },
+  {
+    "id": "neurobiology-memory-mm-59",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "mindmap",
+    "title": "Amygdala",
+    "text": "Learning and Memory > Neuroanatomy > Amygdala"
+  },
+  {
+    "id": "neurobiology-memory-mm-60",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "mindmap",
+    "title": "Emotional memory processing",
+    "text": "Learning and Memory > Neuroanatomy > Amygdala > Emotional memory processing"
+  },
+  {
+    "id": "neurobiology-memory-mm-61",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "mindmap",
+    "title": "Fear conditioning",
+    "text": "Learning and Memory > Neuroanatomy > Amygdala > Fear conditioning"
+  },
+  {
+    "id": "neurobiology-memory-mm-62",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "mindmap",
+    "title": "Modulates hippocampal consolidation",
+    "text": "Learning and Memory > Neuroanatomy > Amygdala > Modulates hippocampal consolidation"
+  },
+  {
+    "id": "neurobiology-memory-mm-63",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "mindmap",
+    "title": "Prefrontal Cortex",
+    "text": "Learning and Memory > Neuroanatomy > Prefrontal Cortex"
+  },
+  {
+    "id": "neurobiology-memory-mm-64",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "mindmap",
+    "title": "Working memory",
+    "text": "Learning and Memory > Neuroanatomy > Prefrontal Cortex > Working memory"
+  },
+  {
+    "id": "neurobiology-memory-mm-65",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "mindmap",
+    "title": "Executive control of retrieval",
+    "text": "Learning and Memory > Neuroanatomy > Prefrontal Cortex > Executive control of retrieval"
+  },
+  {
+    "id": "neurobiology-memory-mm-66",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "mindmap",
+    "title": "Strategic encoding",
+    "text": "Learning and Memory > Neuroanatomy > Prefrontal Cortex > Strategic encoding"
+  },
+  {
+    "id": "neurobiology-memory-mm-67",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "mindmap",
+    "title": "Classification of Memory",
+    "text": "Learning and Memory > Classification of Memory"
+  },
+  {
+    "id": "neurobiology-memory-mm-68",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "mindmap",
+    "title": "Declarative (Explicit)",
+    "text": "Learning and Memory > Classification of Memory > Declarative (Explicit)"
+  },
+  {
+    "id": "neurobiology-memory-mm-69",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "mindmap",
+    "title": "Episodic - personal events",
+    "text": "Learning and Memory > Classification of Memory > Declarative (Explicit) > Episodic - personal events"
+  },
+  {
+    "id": "neurobiology-memory-mm-70",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "mindmap",
+    "title": "Semantic - facts and knowledge",
+    "text": "Learning and Memory > Classification of Memory > Declarative (Explicit) > Semantic - facts and knowledge"
+  },
+  {
+    "id": "neurobiology-memory-mm-71",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "mindmap",
+    "title": "Requires conscious recall",
+    "text": "Learning and Memory > Classification of Memory > Declarative (Explicit) > Requires conscious recall"
+  },
+  {
+    "id": "neurobiology-memory-mm-72",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "mindmap",
+    "title": "Non-declarative (Implicit)",
+    "text": "Learning and Memory > Classification of Memory > Non-declarative (Implicit)"
+  },
+  {
+    "id": "neurobiology-memory-mm-73",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "mindmap",
+    "title": "Procedural - skills and habits",
+    "text": "Learning and Memory > Classification of Memory > Non-declarative (Implicit) > Procedural - skills and habits"
+  },
+  {
+    "id": "neurobiology-memory-mm-74",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "mindmap",
+    "title": "Priming",
+    "text": "Learning and Memory > Classification of Memory > Non-declarative (Implicit) > Priming"
+  },
+  {
+    "id": "neurobiology-memory-mm-75",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "mindmap",
+    "title": "Classical conditioning",
+    "text": "Learning and Memory > Classification of Memory > Non-declarative (Implicit) > Classical conditioning"
+  },
+  {
+    "id": "neurobiology-memory-mm-76",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "mindmap",
+    "title": "Does not require conscious awareness",
+    "text": "Learning and Memory > Classification of Memory > Non-declarative (Implicit) > Does not require conscious awareness"
+  },
+  {
+    "id": "neurobiology-memory-mm-77",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "mindmap",
+    "title": "Memory Processes",
+    "text": "Learning and Memory > Memory Processes"
+  },
+  {
+    "id": "neurobiology-memory-mm-78",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "mindmap",
+    "title": "Encoding",
+    "text": "Learning and Memory > Memory Processes > Encoding"
+  },
+  {
+    "id": "neurobiology-memory-mm-79",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "mindmap",
+    "title": "Transformation of sensory input",
+    "text": "Learning and Memory > Memory Processes > Encoding > Transformation of sensory input"
+  },
+  {
+    "id": "neurobiology-memory-mm-80",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "mindmap",
+    "title": "Levels of processing theory",
+    "text": "Learning and Memory > Memory Processes > Encoding > Levels of processing theory"
+  },
+  {
+    "id": "neurobiology-memory-mm-81",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "mindmap",
+    "title": "Elaborative rehearsal",
+    "text": "Learning and Memory > Memory Processes > Encoding > Elaborative rehearsal"
+  },
+  {
+    "id": "neurobiology-memory-mm-82",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "mindmap",
+    "title": "Consolidation",
+    "text": "Learning and Memory > Memory Processes > Consolidation"
+  },
+  {
+    "id": "neurobiology-memory-mm-83",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "mindmap",
+    "title": "Synaptic consolidation (minutes-hours)",
+    "text": "Learning and Memory > Memory Processes > Consolidation > Synaptic consolidation (minutes-hours)"
+  },
+  {
+    "id": "neurobiology-memory-mm-84",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "mindmap",
+    "title": "Systems consolidation (weeks-years)",
+    "text": "Learning and Memory > Memory Processes > Consolidation > Systems consolidation (weeks-years)"
+  },
+  {
+    "id": "neurobiology-memory-mm-85",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "mindmap",
+    "title": "Sleep-dependent consolidation",
+    "text": "Learning and Memory > Memory Processes > Consolidation > Sleep-dependent consolidation"
+  },
+  {
+    "id": "neurobiology-memory-mm-86",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "mindmap",
+    "title": "Storage",
+    "text": "Learning and Memory > Memory Processes > Storage"
+  },
+  {
+    "id": "neurobiology-memory-mm-87",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "mindmap",
+    "title": "Short-term / Working memory",
+    "text": "Learning and Memory > Memory Processes > Storage > Short-term / Working memory"
+  },
+  {
+    "id": "neurobiology-memory-mm-88",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "mindmap",
+    "title": "Long-term memory",
+    "text": "Learning and Memory > Memory Processes > Storage > Long-term memory"
+  },
+  {
+    "id": "neurobiology-memory-mm-89",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "mindmap",
+    "title": "Distributed cortical networks",
+    "text": "Learning and Memory > Memory Processes > Storage > Distributed cortical networks"
+  },
+  {
+    "id": "neurobiology-memory-mm-90",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "mindmap",
+    "title": "Retrieval",
+    "text": "Learning and Memory > Memory Processes > Retrieval"
+  },
+  {
+    "id": "neurobiology-memory-mm-91",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "mindmap",
+    "title": "Recall vs recognition",
+    "text": "Learning and Memory > Memory Processes > Retrieval > Recall vs recognition"
+  },
+  {
+    "id": "neurobiology-memory-mm-92",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "mindmap",
+    "title": "Context-dependent retrieval",
+    "text": "Learning and Memory > Memory Processes > Retrieval > Context-dependent retrieval"
+  },
+  {
+    "id": "neurobiology-memory-mm-93",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "mindmap",
+    "title": "Retrieval cues",
+    "text": "Learning and Memory > Memory Processes > Retrieval > Retrieval cues"
+  },
+  {
+    "id": "neurobiology-memory-mm-94",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "mindmap",
+    "title": "Biochemical Basis",
+    "text": "Learning and Memory > Biochemical Basis"
+  },
+  {
+    "id": "neurobiology-memory-mm-95",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "mindmap",
+    "title": "Long-Term Potentiation (LTP)",
+    "text": "Learning and Memory > Biochemical Basis > Long-Term Potentiation (LTP)"
+  },
+  {
+    "id": "neurobiology-memory-mm-96",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "mindmap",
+    "title": "NMDA receptor activation",
+    "text": "Learning and Memory > Biochemical Basis > Long-Term Potentiation (LTP) > NMDA receptor activation"
+  },
+  {
+    "id": "neurobiology-memory-mm-97",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "mindmap",
+    "title": "Ca2+ influx triggers cascades",
+    "text": "Learning and Memory > Biochemical Basis > Long-Term Potentiation (LTP) > Ca2+ influx triggers cascades"
+  },
+  {
+    "id": "neurobiology-memory-mm-98",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "mindmap",
+    "title": "Increased synaptic strength",
+    "text": "Learning and Memory > Biochemical Basis > Long-Term Potentiation (LTP) > Increased synaptic strength"
+  },
+  {
+    "id": "neurobiology-memory-mm-99",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "mindmap",
+    "title": "Neurotransmitters",
+    "text": "Learning and Memory > Biochemical Basis > Neurotransmitters"
+  },
+  {
+    "id": "neurobiology-memory-mm-100",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "mindmap",
+    "title": "Glutamate - excitatory, key for LTP",
+    "text": "Learning and Memory > Biochemical Basis > Neurotransmitters > Glutamate - excitatory, key for LTP"
+  },
+  {
+    "id": "neurobiology-memory-mm-101",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "mindmap",
+    "title": "Acetylcholine - attention and encoding",
+    "text": "Learning and Memory > Biochemical Basis > Neurotransmitters > Acetylcholine - attention and encoding"
+  },
+  {
+    "id": "neurobiology-memory-mm-102",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "mindmap",
+    "title": "Dopamine - reward-related memory",
+    "text": "Learning and Memory > Biochemical Basis > Neurotransmitters > Dopamine - reward-related memory"
+  },
+  {
+    "id": "neurobiology-memory-mm-103",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "mindmap",
+    "title": "Protein Synthesis",
+    "text": "Learning and Memory > Biochemical Basis > Protein Synthesis"
+  },
+  {
+    "id": "neurobiology-memory-mm-104",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "mindmap",
+    "title": "Required for long-term memory",
+    "text": "Learning and Memory > Biochemical Basis > Protein Synthesis > Required for long-term memory"
+  },
+  {
+    "id": "neurobiology-memory-mm-105",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "mindmap",
+    "title": "CREB transcription factor",
+    "text": "Learning and Memory > Biochemical Basis > Protein Synthesis > CREB transcription factor"
+  },
+  {
+    "id": "neurobiology-memory-mm-106",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "mindmap",
+    "title": "Structural synaptic changes",
+    "text": "Learning and Memory > Biochemical Basis > Protein Synthesis > Structural synaptic changes"
+  },
+  {
+    "id": "neurobiology-memory-mm-107",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "mindmap",
+    "title": "Synaptic Plasticity",
+    "text": "Learning and Memory > Biochemical Basis > Synaptic Plasticity"
+  },
+  {
+    "id": "neurobiology-memory-mm-108",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "mindmap",
+    "title": "Hebbian learning (fire together, wire together)",
+    "text": "Learning and Memory > Biochemical Basis > Synaptic Plasticity > Hebbian learning (fire together, wire together)"
+  },
+  {
+    "id": "neurobiology-memory-mm-109",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "mindmap",
+    "title": "Long-term depression (LTD)",
+    "text": "Learning and Memory > Biochemical Basis > Synaptic Plasticity > Long-term depression (LTD)"
+  },
+  {
+    "id": "neurobiology-memory-mm-110",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "mindmap",
+    "title": "Spine morphology changes",
+    "text": "Learning and Memory > Biochemical Basis > Synaptic Plasticity > Spine morphology changes"
+  },
+  {
+    "id": "neurobiology-memory-mm-111",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "mindmap",
+    "title": "Clinical Disorders",
+    "text": "Learning and Memory > Clinical Disorders"
+  },
+  {
+    "id": "neurobiology-memory-mm-112",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "mindmap",
+    "title": "Amnesia",
+    "text": "Learning and Memory > Clinical Disorders > Amnesia"
+  },
+  {
+    "id": "neurobiology-memory-mm-113",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "mindmap",
+    "title": "Anterograde - cannot form new memories",
+    "text": "Learning and Memory > Clinical Disorders > Amnesia > Anterograde - cannot form new memories"
+  },
+  {
+    "id": "neurobiology-memory-mm-114",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "mindmap",
+    "title": "Retrograde - loss of past memories",
+    "text": "Learning and Memory > Clinical Disorders > Amnesia > Retrograde - loss of past memories"
+  },
+  {
+    "id": "neurobiology-memory-mm-115",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "mindmap",
+    "title": "Case of H.M. - bilateral medial temporal lobectomy",
+    "text": "Learning and Memory > Clinical Disorders > Amnesia > Case of H.M. - bilateral medial temporal lobectomy"
+  },
+  {
+    "id": "neurobiology-memory-mm-116",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "mindmap",
+    "title": "Alzheimer's Disease",
+    "text": "Learning and Memory > Clinical Disorders > Alzheimer's Disease"
+  },
+  {
+    "id": "neurobiology-memory-mm-117",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "mindmap",
+    "title": "Progressive declarative memory loss",
+    "text": "Learning and Memory > Clinical Disorders > Alzheimer's Disease > Progressive declarative memory loss"
+  },
+  {
+    "id": "neurobiology-memory-mm-118",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "mindmap",
+    "title": "Hippocampal atrophy",
+    "text": "Learning and Memory > Clinical Disorders > Alzheimer's Disease > Hippocampal atrophy"
+  },
+  {
+    "id": "neurobiology-memory-mm-119",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "mindmap",
+    "title": "Cholinergic deficit",
+    "text": "Learning and Memory > Clinical Disorders > Alzheimer's Disease > Cholinergic deficit"
+  },
+  {
+    "id": "neurobiology-memory-mm-120",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "mindmap",
+    "title": "Other Disorders",
+    "text": "Learning and Memory > Clinical Disorders > Other Disorders"
+  },
+  {
+    "id": "neurobiology-memory-mm-121",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "mindmap",
+    "title": "Korsakoff syndrome - thiamine deficiency",
+    "text": "Learning and Memory > Clinical Disorders > Other Disorders > Korsakoff syndrome - thiamine deficiency"
+  },
+  {
+    "id": "neurobiology-memory-mm-122",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "mindmap",
+    "title": "PTSD - traumatic memory dysregulation",
+    "text": "Learning and Memory > Clinical Disorders > Other Disorders > PTSD - traumatic memory dysregulation"
+  },
+  {
+    "id": "neurobiology-memory-mm-123",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "mindmap",
+    "title": "Transient global amnesia",
+    "text": "Learning and Memory > Clinical Disorders > Other Disorders > Transient global amnesia"
   }
 ]
