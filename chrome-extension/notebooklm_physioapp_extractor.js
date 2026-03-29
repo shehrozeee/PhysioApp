@@ -244,19 +244,44 @@ function formatFlashcards(appData, name) {
 }
 
 async function openAndExtractMindMap(mindMapArtifactId) {
+  _extLog.push("MindMap: clicking artifact button " + mindMapArtifactId.substring(0,8));
   const btn = document.querySelector(`button[aria-labelledby="note-labels-${mindMapArtifactId}"]`);
   if (!btn) throw new Error(`Mind map button not found for artifact ${mindMapArtifactId}. Is the Studio panel open?`);
   btn.click();
+
+  // Wait for mindmap-viewer to appear (up to 8 seconds)
+  for (let i = 0; i < 16; i++) {
+    await new Promise(r => setTimeout(r, 500));
+    if (document.querySelector("mindmap-viewer")) break;
+  }
+  _extLog.push("MindMap: viewer " + (document.querySelector("mindmap-viewer") ? "found" : "NOT found"));
+
+  // Wait for tree items to load
   await new Promise(r => setTimeout(r, 2000));
 
-  const expandBtn = Array.from(document.querySelectorAll("button"))
-    .find(b => b.textContent.trim().toLowerCase().includes("expand all"));
-  if (expandBtn) {
-    expandBtn.click();
+  // Try clicking "Expand all" with retries
+  let expanded = false;
+  for (let attempt = 0; attempt < 5; attempt++) {
+    const expandBtn = Array.from(document.querySelectorAll("button"))
+      .find(b => b.textContent.trim().toLowerCase().includes("expand all"));
+    if (expandBtn) {
+      expandBtn.click();
+      _extLog.push("MindMap: clicked 'Expand all' (attempt " + (attempt+1) + ")");
+      expanded = true;
+      // Wait for expansion animation
+      await new Promise(r => setTimeout(r, 3000));
+      break;
+    }
     await new Promise(r => setTimeout(r, 1000));
-  } else {
-    //console.warn("Expand all button not found — tree may be incomplete");
   }
+  if (!expanded) {
+    _extLog.push("MindMap: 'Expand all' button not found after 5 attempts");
+  }
+
+  // Count tree items to verify expansion
+  const viewer = document.querySelector("mindmap-viewer");
+  const itemCount = viewer ? viewer.querySelectorAll("[role='treeitem']").length : 0;
+  _extLog.push("MindMap: " + itemCount + " tree items found");
 
   return extractMindMapFromDom();
 }
@@ -378,26 +403,35 @@ async function runPhysioAppExtraction(options = {}) {
   }
 
   if (!skipMindMap) {
-    let mmId = mindMapArtifactId;
-    if (!mmId) {
-      // Find mind map by trying artifact IDs that did NOT have data-app-data
-      const quizFlashIds = new Set(artifacts.map(a => a.artifactId));
+    // Find ALL mind map candidates (artifact buttons not in quiz/flashcard list)
+    const quizFlashIds = new Set(artifacts.map(a => a.artifactId));
+    const mmIds = mindMapArtifactId ? [mindMapArtifactId] : [];
+    if (!mindMapArtifactId) {
       for (const btn of document.querySelectorAll("button[aria-labelledby^='note-labels-']")) {
         const id = btn.getAttribute("aria-labelledby").replace("note-labels-", "");
-        if (!quizFlashIds.has(id)) {
-          mmId = id;
-          break;
-        }
+        if (!quizFlashIds.has(id)) mmIds.push(id);
       }
     }
-    if (mmId) {
-      //console.log(`\n🗺️  Mind map (${mmId})...`);
+    addLog("Mind map candidates: " + mmIds.length + " IDs: " + mmIds.map(i=>i.substring(0,8)).join(", "));
+
+    let mmIndex = 0;
+    for (const mmId of mmIds) {
+      addLog("Trying mind map: " + mmId.substring(0,8));
       try {
         const mm = await openAndExtractMindMap(mmId);
-        zipFiles.push({ name: "mind_map.json", content: JSON.stringify(mm, null, 2) });
         const count = n => 1 + (n.children||[]).reduce((s,c) => s+count(c), 0);
-        //console.log(`  ✅ Mind map: ${count(mm)} nodes`);
-      } catch (e) { console.error("  ❌ Mind map:", e.message); }
+        const nodeCount = count(mm);
+        addLog("  Mind map OK: " + nodeCount + " nodes, title=" + mm.title);
+        if (nodeCount > 1) {
+          mmIndex++;
+          const fname = mmIndex === 1 ? "mind_map.json" : "mind_map_" + mmIndex + ".json";
+          zipFiles.push({ name: fname, content: JSON.stringify(mm, null, 2) });
+        } else {
+          addLog("  Skipped (only root node)");
+        }
+      } catch (e) {
+        addLog("  Mind map ERROR: " + e.message);
+      }
     }
   }
 
