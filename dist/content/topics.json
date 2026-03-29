@@ -6,7 +6,8 @@
       "chapter": "CNS",
       "description": "Structure, function, and clinical signs of cerebellar lesions",
       "content": {
-        "flashcards": { "count": 65 }
+        "flashcards": { "count": 65 },
+        "mindmap": true
       }
     },
     {

@@ -1,97 +1,40 @@
 {
+  "_meta": {
+    "source": "NotebookLM",
+    "extractedAt": "2026-03-29T10:34:04.134Z"
+  },
   "title": "Learning and Memory",
   "children": [
     {
-      "title": "Neuroanatomy",
-      "children": [
-        {
-          "title": "Temporal Lobes",
-          "children": [
-            {
-              "title": "Hippocampus"
-            },
-            {
-              "title": "Gyrus Dentatus"
-            },
-            {
-              "title": "Parahippocampal Gyrus"
-            }
-          ]
-        },
-        {
-          "title": "Diencephalon",
-          "children": [
-            {
-              "title": "Mammillary Bodies"
-            },
-            {
-              "title": "Medial Dorsal Nuclei of Thalamus"
-            }
-          ]
-        },
-        {
-          "title": "Other Areas",
-          "children": [
-            {
-              "title": "Prefrontal Cortex"
-            },
-            {
-              "title": "Basal Forebrain"
-            },
-            {
-              "title": "Nucleus Basalis of Meynert"
-            },
-            {
-              "title": "Striatum and Cerebellum"
-            }
-          ]
-        }
-      ]
+      "title": "Neuroanatomy"
     },
     {
-      "title": "Classification of Memory",
-      "children": [
-        {
-          "title": "By Duration",
-          "children": [
-            {
-              "title": "Sensory (Visual/Auditory)"
-            },
-            {
-              "title": "Immediate (Short-term)"
-            },
-            {
-              "title": "Recent (Secondary)"
-            },
-            {
-              "title": "Remote (Long-term)"
-            }
-          ]
-        },
-        {
-          "title": "By Type",
-          "children": [
-            {
-              "title": "Explicit (Declarative)",
-              "children": [
-                {
-                  "title": "Episodic (Events)"
-                },
-                {
-                  "title": "Semantic (Facts)"
-                }
-              ]
-            },
-            {
-              "title": "Implicit (Procedural/Skills)"
-            }
-          ]
-        }
-      ]
+      "title": "Classification of Memory"
     },
     {
-      "title": "Memory Processes",
+      "title": "Memory Processes"
+    },
+    {
+      "title": "Biochemical Basis"
+    },
+    {
+      "title": "Clinical Disorders",
       "children": [
+        {
+          "title": "Temporal Lobes"
+        },
+        {
+          "title": "Diencephalon"
+        },
+        {
+          "title": "Other Areas"
+        },
+        {
+          "title": "By Duration"
+        },
+        {
+          "title": "By Type"
+        },
         {
           "title": "Registration (Acquisition)"
         },
@@ -103,12 +46,7 @@
         },
         {
           "title": "Retrieval (Recall)"
-        }
-      ]
-    },
-    {
-      "title": "Biochemical Basis",
-      "children": [
+        },
         {
           "title": "mRNA Formation"
         },
@@ -120,15 +58,61 @@
         },
         {
           "title": "Synaptic Structural Changes"
-        }
-      ]
-    },
-    {
-      "title": "Clinical Disorders",
-      "children": [
+        },
         {
-          "title": "Amnesia",
+          "title": "Amnesia"
+        },
+        {
+          "title": "Alzheimer's Disease"
+        },
+        {
+          "title": "Dementia Causes",
           "children": [
+            {
+              "title": "Hippocampus"
+            },
+            {
+              "title": "Gyrus Dentatus"
+            },
+            {
+              "title": "Parahippocampal Gyrus"
+            },
+            {
+              "title": "Mammillary Bodies"
+            },
+            {
+              "title": "Medial Dorsal Nuclei of Thalamus"
+            },
+            {
+              "title": "Prefrontal Cortex"
+            },
+            {
+              "title": "Basal Forebrain"
+            },
+            {
+              "title": "Nucleus Basalis of Meynert"
+            },
+            {
+              "title": "Striatum and Cerebellum"
+            },
+            {
+              "title": "Sensory (Visual/Auditory)"
+            },
+            {
+              "title": "Immediate (Short-term)"
+            },
+            {
+              "title": "Recent (Secondary)"
+            },
+            {
+              "title": "Remote (Long-term)"
+            },
+            {
+              "title": "Explicit (Declarative)"
+            },
+            {
+              "title": "Implicit (Procedural/Skills)"
+            },
             {
               "title": "Retrograde (Past events)"
             },
@@ -137,12 +121,7 @@
             },
             {
               "title": "Confabulation"
-            }
-          ]
-        },
-        {
-          "title": "Alzheimer's Disease",
-          "children": [
+            },
             {
               "title": "Cholinergic Deficiency"
             },
@@ -151,14 +130,9 @@
             },
             {
               "title": "Hippocampal Degeneration"
-            }
-          ]
-        },
-        {
-          "title": "Dementia Causes",
-          "children": [
+            },
             {
-              "title": "Korsakoff's Syndrome"
+              "title": "Korsakoff’s Syndrome"
             },
             {
               "title": "Vitamin Deficiencies (B1, B12)"
@@ -167,7 +141,15 @@
               "title": "Brain Infarction"
             },
             {
-              "title": "Parkinson's Disease"
+              "title": "Parkinson’s Disease",
+              "children": [
+                {
+                  "title": "Episodic (Events)"
+                },
+                {
+                  "title": "Semantic (Facts)"
+                }
+              ]
             }
           ]
         }

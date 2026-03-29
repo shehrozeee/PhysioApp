@@ -27,7 +27,7 @@
 //   - See manifest_v3_hints.md for extension setup guidance
 // ============================================================
 
-const PHYSIOAPP_EXTRACTOR_VERSION = "1.4.0";
+const PHYSIOAPP_EXTRACTOR_VERSION = "1.7.0";
 
 // ─────────────────────────────────────────────────────────────────
 // VARIABLE STABILITY GUIDE (READ BEFORE BUILDING THE EXTENSION)
@@ -244,8 +244,25 @@ function formatFlashcards(appData, name) {
 }
 
 async function openAndExtractMindMap(mindMapArtifactId) {
+  _extLog.push("MindMap: going back to artifact list...");
+  // Click "Studio" header to go back to artifact list
+  const studioBtn = document.querySelector(".panel-header-clickable") ||
+    document.querySelector("span.panel-header-clickable") ||
+    Array.from(document.querySelectorAll("span")).find(s => s.textContent.trim() === "Studio");
+  if (studioBtn) {
+    studioBtn.click();
+    await new Promise(r => setTimeout(r, 2000));
+    _extLog.push("MindMap: clicked Studio to go back");
+  }
+
   _extLog.push("MindMap: clicking artifact button " + mindMapArtifactId.substring(0,8));
-  const btn = document.querySelector(`button[aria-labelledby="note-labels-${mindMapArtifactId}"]`);
+  // Wait for button to appear after closing
+  let btn = null;
+  for (let i = 0; i < 10; i++) {
+    btn = document.querySelector(`button[aria-labelledby="note-labels-${mindMapArtifactId}"]`);
+    if (btn) break;
+    await new Promise(r => setTimeout(r, 500));
+  }
   if (!btn) throw new Error(`Mind map button not found for artifact ${mindMapArtifactId}. Is the Studio panel open?`);
   btn.click();
 
@@ -260,22 +277,31 @@ async function openAndExtractMindMap(mindMapArtifactId) {
   await new Promise(r => setTimeout(r, 2000));
 
   // Try clicking "Expand all" with retries
+  // The button has: aria-label="Collapse all nodes", mattooltip="Expand all nodes",
+  // inner text is "expand_all" (Material icon name), class includes "expand-collapse-all"
   let expanded = false;
   for (let attempt = 0; attempt < 5; attempt++) {
-    const expandBtn = Array.from(document.querySelectorAll("button"))
-      .find(b => b.textContent.trim().toLowerCase().includes("expand all"));
+    const expandBtn = document.querySelector("mindmap-viewer .mindmap-footer-container .view-actions-bottom button") ||
+      document.querySelector("mindmap-viewer .expand-collapse-all-button-bottom") ||
+      document.querySelector(".expand-collapse-all-button-bottom") ||
+      document.querySelector("button[mattooltip*='Expand all']") ||
+      document.querySelector("button[aria-label*='ollapse all']");
     if (expandBtn) {
+      // Click it multiple times to ensure full expansion
       expandBtn.click();
-      _extLog.push("MindMap: clicked 'Expand all' (attempt " + (attempt+1) + ")");
+      _extLog.push("MindMap: clicked expand/collapse button (attempt " + (attempt+1) + ")");
+      await new Promise(r => setTimeout(r, 2000));
+      // Click again if it toggled to "expand" (might need a second click)
+      expandBtn.click();
+      await new Promise(r => setTimeout(r, 2000));
       expanded = true;
-      // Wait for expansion animation
-      await new Promise(r => setTimeout(r, 3000));
       break;
     }
+    _extLog.push("MindMap: expand button not found, retrying... (attempt " + (attempt+1) + ")");
     await new Promise(r => setTimeout(r, 1000));
   }
   if (!expanded) {
-    _extLog.push("MindMap: 'Expand all' button not found after 5 attempts");
+    _extLog.push("MindMap: expand button not found after 5 attempts");
   }
 
   // Count tree items to verify expansion
@@ -356,7 +382,7 @@ function downloadZip(zipBytes, filename) {
 
 // ── MAIN ORCHESTRATOR ─────────────────────────────────────────────
 async function runPhysioAppExtraction(options = {}) {
-  const { skipMindMap = false, mindMapArtifactId = null, zipFilename = "physioapp_v140.zip" } = options;
+  const { skipMindMap = false, mindMapArtifactId = null, zipFilename = "physioapp_v170.zip" } = options;
 
   const log = [];
   function addLog(msg) { log.push(new Date().toISOString().substring(11,19) + " " + msg); }
