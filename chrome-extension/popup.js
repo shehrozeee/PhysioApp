@@ -1,128 +1,119 @@
 const statusEl = document.getElementById('status');
-const buttonsEl = document.getElementById('buttons');
-const slugSection = document.getElementById('slug-section');
-const slugInput = document.getElementById('slug');
-const detailsEl = document.getElementById('details');
+const extractBtn = document.getElementById('extract-btn');
 
-async function detectContent() {
+extractBtn.addEventListener('click', async () => {
   try {
     const [tab] = await chrome.tabs.query({ active: true, currentWindow: true });
 
-    if (!tab.url?.includes('notebooklm.google.com')) {
-      statusEl.textContent = 'Open NotebookLM first, then click this extension.';
+    if (!tab.url?.includes('notebooklm.google.com/notebook/')) {
+      statusEl.textContent = 'Navigate to a NotebookLM notebook page first.';
       statusEl.className = 'status error';
       return;
     }
 
-    const results = await chrome.tabs.sendMessage(tab.id, { action: 'detect' });
+    statusEl.textContent = 'Step 1: Injecting extractor...';
+    statusEl.className = 'status working';
+    extractBtn.disabled = true;
 
-    if (!results) {
-      statusEl.textContent = 'Could not connect. Try refreshing the NotebookLM page.';
-      statusEl.className = 'status error';
-      return;
-    }
-
-    if (!results.hasData && results.types.length === 0) {
-      statusEl.textContent = 'No data-app-data found. Open a quiz, flashcard, or mind map in NotebookLM first.';
-      statusEl.className = 'status error';
-      return;
-    }
-
-    // Show what we found
-    const found = [];
-    if (results.types.includes('quiz')) found.push(`Quiz (${results.quizCount} questions)`);
-    if (results.types.includes('flashcards')) found.push(`Flashcards (${results.flashcardCount} cards)`);
-    if (results.types.includes('mindmap')) found.push('Mind Map');
-
-    if (found.length > 0) {
-      statusEl.textContent = 'Found: ' + found.join(', ');
-      statusEl.className = 'status success';
-    } else {
-      statusEl.textContent = 'Connected to NotebookLM but no quiz/flashcard/mindmap detected. Open one first.';
-      statusEl.className = 'status';
-    }
-
-    // Auto-slug from title
-    slugSection.style.display = 'block';
-    if (results.title) {
-      slugInput.value = results.title
-        .toLowerCase()
-        .replace(/[^a-z0-9\s-]/g, '')
-        .replace(/\s+/g, '-')
-        .substring(0, 40);
-    }
-
-    // Show export buttons for detected types
-    results.types.forEach(type => {
-      const btn = document.createElement('button');
-      btn.className = 'btn btn-' + type;
-      btn.innerHTML = getButtonLabel(type, results);
-      btn.addEventListener('click', () => exportData(tab.id, type));
-      buttonsEl.appendChild(btn);
-    });
-
-    // Show "try anyway" buttons for types not detected
-    const allTypes = ['quiz', 'flashcards', 'mindmap'];
-    const missing = allTypes.filter(t => !results.types.includes(t));
-    if (missing.length > 0 && results.hasData) {
-      missing.forEach(type => {
-        const btn = document.createElement('button');
-        btn.className = 'btn btn-try';
-        btn.textContent = 'Try: Export ' + type;
-        btn.addEventListener('click', () => exportData(tab.id, type));
-        buttonsEl.appendChild(btn);
+    // Step 1: Inject the extractor script into MAIN world
+    try {
+      await chrome.scripting.executeScript({
+        target: { tabId: tab.id },
+        world: 'MAIN',
+        files: ['notebooklm_physioapp_extractor.js']
       });
-    }
-
-  } catch (err) {
-    statusEl.textContent = 'Error: ' + err.message + '. Try refreshing the page.';
-    statusEl.className = 'status error';
-  }
-}
-
-function getButtonLabel(type, results) {
-  switch(type) {
-    case 'quiz': return `Export Quiz (${results.quizCount || '?'} Qs)`;
-    case 'flashcards': return `Export Flashcards (${results.flashcardCount || '?'})`;
-    case 'mindmap': return 'Export Mind Map';
-    default: return 'Export ' + type;
-  }
-}
-
-async function exportData(tabId, type) {
-  const slug = slugInput.value.trim() || 'untitled';
-
-  statusEl.textContent = `Extracting ${type}...`;
-  statusEl.className = 'status detecting';
-
-  try {
-    const data = await chrome.tabs.sendMessage(tabId, { action: 'extract', type });
-
-    if (data.error) {
-      statusEl.textContent = data.error;
+    } catch (e) {
+      statusEl.textContent = 'Inject failed: ' + e.message;
       statusEl.className = 'status error';
+      extractBtn.disabled = false;
       return;
     }
 
-    // Remove _meta before downloading
-    const count = data._meta?.count || data.cards?.length || data.questions?.length || '?';
-    delete data._meta;
+    // Step 2: Check if physioApp loaded
+    statusEl.textContent = 'Step 2: Checking extractor...';
+    let checkResult;
+    try {
+      checkResult = await chrome.scripting.executeScript({
+        target: { tabId: tab.id },
+        world: 'MAIN',
+        func: () => {
+          return {
+            loaded: typeof physioApp !== 'undefined',
+            hasRun: typeof physioApp !== 'undefined' && typeof physioApp.run === 'function',
+            keys: typeof physioApp !== 'undefined' ? Object.keys(physioApp) : [],
+            error: null
+          };
+        }
+      });
+    } catch (e) {
+      statusEl.textContent = 'Check failed: ' + e.message;
+      statusEl.className = 'status error';
+      extractBtn.disabled = false;
+      return;
+    }
 
-    const filename = `${slug}-${type}.json`;
-    const blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' });
-    const url = URL.createObjectURL(blob);
-    const a = document.createElement('a');
-    a.href = url;
-    a.download = filename;
-    a.click();
-    URL.revokeObjectURL(url);
+    const check = checkResult?.[0]?.result;
+    if (!check?.loaded) {
+      statusEl.textContent = 'Extractor not loaded. The script may have a syntax error. Check F12 console on the NotebookLM page.';
+      statusEl.className = 'status error';
+      extractBtn.disabled = false;
+      return;
+    }
 
-    statusEl.textContent = `Exported ${count} items → ${filename}`;
-    statusEl.className = 'status success';
+    // Step 3: Run extraction
+    statusEl.textContent = 'Step 3: Extracting (may take 30s)...';
+
+    // Use title signaling since async results don't serialize well
+    try {
+      await chrome.scripting.executeScript({
+        target: { tabId: tab.id },
+        world: 'MAIN',
+        func: () => {
+          physioApp.run()
+            .then(r => { document.title = 'PHYSIOAPP_DONE:' + (r.files||[]).join(','); })
+            .catch(e => { document.title = 'PHYSIOAPP_ERR:' + e.message; });
+        }
+      });
+    } catch (e) {
+      statusEl.textContent = 'Run failed: ' + e.message;
+      statusEl.className = 'status error';
+      extractBtn.disabled = false;
+      return;
+    }
+
+    // Poll title for result
+    let attempts = 0;
+    const poll = setInterval(async () => {
+      attempts++;
+      try {
+        const r = await chrome.scripting.executeScript({
+          target: { tabId: tab.id },
+          func: () => document.title
+        });
+        const title = r?.[0]?.result || '';
+        if (title.startsWith('PHYSIOAPP_DONE:')) {
+          clearInterval(poll);
+          const files = title.replace('PHYSIOAPP_DONE:', '');
+          statusEl.textContent = 'Done! Files: ' + (files || 'check downloads');
+          statusEl.className = 'status success';
+          extractBtn.disabled = false;
+        } else if (title.startsWith('PHYSIOAPP_ERR:')) {
+          clearInterval(poll);
+          statusEl.textContent = title.replace('PHYSIOAPP_ERR:', '');
+          statusEl.className = 'status error';
+          extractBtn.disabled = false;
+        } else if (attempts > 90) {
+          clearInterval(poll);
+          statusEl.textContent = 'Timed out after 90s. Check F12 console.';
+          statusEl.className = 'status error';
+          extractBtn.disabled = false;
+        }
+      } catch (e) {}
+    }, 1000);
+
   } catch (err) {
-    statusEl.textContent = `Failed: ${err.message}`;
+    statusEl.textContent = 'Error: ' + err.message;
     statusEl.className = 'status error';
+    extractBtn.disabled = false;
   }
-}
-
-detectContent();
+});
