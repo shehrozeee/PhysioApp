@@ -540,192 +540,192 @@
     "topicSlug": "cns-cerebellum",
     "topicTitle": "Cerebellum",
     "type": "mindmap",
-    "title": "Physiological Divisions",
-    "text": "Cerebellum > Physiological Divisions"
+    "title": "Macro Architecture",
+    "text": "Cerebellum > Architecture > Macro Architecture"
   },
   {
     "id": "cns-cerebellum-mm-3",
     "topicSlug": "cns-cerebellum",
     "topicTitle": "Cerebellum",
     "type": "mindmap",
-    "title": "Neural Circuitry",
-    "text": "Cerebellum > Neural Circuitry"
+    "title": "Hindbrain's largest part",
+    "text": "Cerebellum > Architecture > Macro Architecture > Hindbrain's largest part"
   },
   {
     "id": "cns-cerebellum-mm-4",
     "topicSlug": "cns-cerebellum",
     "topicTitle": "Cerebellum",
     "type": "mindmap",
-    "title": "Dysfunction (Clinical Signs)",
-    "text": "Cerebellum > Dysfunction (Clinical Signs)"
+    "title": "Attached to brainstem via 3 peduncles",
+    "text": "Cerebellum > Architecture > Macro Architecture > Attached to brainstem via 3 peduncles"
   },
   {
     "id": "cns-cerebellum-mm-5",
     "topicSlug": "cns-cerebellum",
     "topicTitle": "Cerebellum",
     "type": "mindmap",
-    "title": "Macro Architecture",
-    "text": "Cerebellum > Dysfunction (Clinical Signs) > Macro Architecture"
+    "title": "Posterior cranial fossa location",
+    "text": "Cerebellum > Architecture > Macro Architecture > Posterior cranial fossa location"
   },
   {
     "id": "cns-cerebellum-mm-6",
     "topicSlug": "cns-cerebellum",
     "topicTitle": "Cerebellum",
     "type": "mindmap",
-    "title": "Anatomical Lobes",
-    "text": "Cerebellum > Dysfunction (Clinical Signs) > Anatomical Lobes"
+    "title": "Two hemispheres joined by vermis",
+    "text": "Cerebellum > Architecture > Macro Architecture > Two hemispheres joined by vermis"
   },
   {
     "id": "cns-cerebellum-mm-7",
     "topicSlug": "cns-cerebellum",
     "topicTitle": "Cerebellum",
     "type": "mindmap",
-    "title": "Micro Composition",
-    "text": "Cerebellum > Dysfunction (Clinical Signs) > Micro Composition"
+    "title": "Anatomical Lobes",
+    "text": "Cerebellum > Architecture > Anatomical Lobes"
   },
   {
     "id": "cns-cerebellum-mm-8",
     "topicSlug": "cns-cerebellum",
     "topicTitle": "Cerebellum",
     "type": "mindmap",
-    "title": "Vestibulocerebellum (Archicerebellum)",
-    "text": "Cerebellum > Dysfunction (Clinical Signs) > Vestibulocerebellum (Archicerebellum)"
+    "title": "Anterior Lobe",
+    "text": "Cerebellum > Architecture > Anatomical Lobes > Anterior Lobe"
   },
   {
     "id": "cns-cerebellum-mm-9",
     "topicSlug": "cns-cerebellum",
     "topicTitle": "Cerebellum",
     "type": "mindmap",
-    "title": "Spinocerebellum (Paleocerebellum)",
-    "text": "Cerebellum > Dysfunction (Clinical Signs) > Spinocerebellum (Paleocerebellum)"
+    "title": "Posterior Lobe",
+    "text": "Cerebellum > Architecture > Anatomical Lobes > Posterior Lobe"
   },
   {
     "id": "cns-cerebellum-mm-10",
     "topicSlug": "cns-cerebellum",
     "topicTitle": "Cerebellum",
     "type": "mindmap",
-    "title": "Cerebrocerebellum (Neocerebellum)",
-    "text": "Cerebellum > Dysfunction (Clinical Signs) > Cerebrocerebellum (Neocerebellum)"
+    "title": "Flocculonodular Lobe",
+    "text": "Cerebellum > Architecture > Anatomical Lobes > Flocculonodular Lobe"
   },
   {
     "id": "cns-cerebellum-mm-11",
     "topicSlug": "cns-cerebellum",
     "topicTitle": "Cerebellum",
     "type": "mindmap",
-    "title": "Afferent (Inputs)",
-    "text": "Cerebellum > Dysfunction (Clinical Signs) > Afferent (Inputs)"
+    "title": "Micro Composition",
+    "text": "Cerebellum > Architecture > Micro Composition"
   },
   {
     "id": "cns-cerebellum-mm-12",
     "topicSlug": "cns-cerebellum",
     "topicTitle": "Cerebellum",
     "type": "mindmap",
-    "title": "Efferent (Outputs)",
-    "text": "Cerebellum > Dysfunction (Clinical Signs) > Efferent (Outputs)"
+    "title": "White matter (arbor vitae)",
+    "text": "Cerebellum > Architecture > Micro Composition > White matter (arbor vitae)"
   },
   {
     "id": "cns-cerebellum-mm-13",
     "topicSlug": "cns-cerebellum",
     "topicTitle": "Cerebellum",
     "type": "mindmap",
-    "title": "Movement Disorders",
-    "text": "Cerebellum > Dysfunction (Clinical Signs) > Movement Disorders"
+    "title": "Gray matter (Cerebellar cortex)",
+    "text": "Cerebellum > Architecture > Micro Composition > Gray matter (Cerebellar cortex)"
   },
   {
     "id": "cns-cerebellum-mm-14",
     "topicSlug": "cns-cerebellum",
     "topicTitle": "Cerebellum",
     "type": "mindmap",
-    "title": "Other Clinical Manifestations",
-    "text": "Cerebellum > Dysfunction (Clinical Signs) > Other Clinical Manifestations"
+    "title": "Cortex Cells",
+    "text": "Cerebellum > Architecture > Micro Composition > Cortex Cells"
   },
   {
     "id": "cns-cerebellum-mm-15",
     "topicSlug": "cns-cerebellum",
     "topicTitle": "Cerebellum",
     "type": "mindmap",
-    "title": "Hindbrain's largest part",
-    "text": "Cerebellum > Dysfunction (Clinical Signs) > Other Clinical Manifestations > Hindbrain's largest part"
+    "title": "Purkinje cells",
+    "text": "Cerebellum > Architecture > Micro Composition > Cortex Cells > Purkinje cells"
   },
   {
     "id": "cns-cerebellum-mm-16",
     "topicSlug": "cns-cerebellum",
     "topicTitle": "Cerebellum",
     "type": "mindmap",
-    "title": "Attached to brainstem via 3 peduncles",
-    "text": "Cerebellum > Dysfunction (Clinical Signs) > Other Clinical Manifestations > Attached to brainstem via 3 peduncles"
+    "title": "Granule cells",
+    "text": "Cerebellum > Architecture > Micro Composition > Cortex Cells > Granule cells"
   },
   {
     "id": "cns-cerebellum-mm-17",
     "topicSlug": "cns-cerebellum",
     "topicTitle": "Cerebellum",
     "type": "mindmap",
-    "title": "Posterior cranial fossa location",
-    "text": "Cerebellum > Dysfunction (Clinical Signs) > Other Clinical Manifestations > Posterior cranial fossa location"
+    "title": "Stellate and Basket cells",
+    "text": "Cerebellum > Architecture > Micro Composition > Cortex Cells > Stellate and Basket cells"
   },
   {
     "id": "cns-cerebellum-mm-18",
     "topicSlug": "cns-cerebellum",
     "topicTitle": "Cerebellum",
     "type": "mindmap",
-    "title": "Two hemispheres joined by vermis",
-    "text": "Cerebellum > Dysfunction (Clinical Signs) > Other Clinical Manifestations > Two hemispheres joined by vermis"
+    "title": "Golgi cells",
+    "text": "Cerebellum > Architecture > Micro Composition > Cortex Cells > Golgi cells"
   },
   {
     "id": "cns-cerebellum-mm-19",
     "topicSlug": "cns-cerebellum",
     "topicTitle": "Cerebellum",
     "type": "mindmap",
-    "title": "Anterior Lobe",
-    "text": "Cerebellum > Dysfunction (Clinical Signs) > Other Clinical Manifestations > Anterior Lobe"
+    "title": "Intracerebellar Nuclei",
+    "text": "Cerebellum > Architecture > Micro Composition > Intracerebellar Nuclei"
   },
   {
     "id": "cns-cerebellum-mm-20",
     "topicSlug": "cns-cerebellum",
     "topicTitle": "Cerebellum",
     "type": "mindmap",
-    "title": "Posterior Lobe",
-    "text": "Cerebellum > Dysfunction (Clinical Signs) > Other Clinical Manifestations > Posterior Lobe"
+    "title": "Dentate",
+    "text": "Cerebellum > Architecture > Micro Composition > Intracerebellar Nuclei > Dentate"
   },
   {
     "id": "cns-cerebellum-mm-21",
     "topicSlug": "cns-cerebellum",
     "topicTitle": "Cerebellum",
     "type": "mindmap",
-    "title": "Flocculonodular Lobe",
-    "text": "Cerebellum > Dysfunction (Clinical Signs) > Other Clinical Manifestations > Flocculonodular Lobe"
+    "title": "Emboliform",
+    "text": "Cerebellum > Architecture > Micro Composition > Intracerebellar Nuclei > Emboliform"
   },
   {
     "id": "cns-cerebellum-mm-22",
     "topicSlug": "cns-cerebellum",
     "topicTitle": "Cerebellum",
     "type": "mindmap",
-    "title": "White matter (arbor vitae)",
-    "text": "Cerebellum > Dysfunction (Clinical Signs) > Other Clinical Manifestations > White matter (arbor vitae)"
+    "title": "Globose",
+    "text": "Cerebellum > Architecture > Micro Composition > Intracerebellar Nuclei > Globose"
   },
   {
     "id": "cns-cerebellum-mm-23",
     "topicSlug": "cns-cerebellum",
     "topicTitle": "Cerebellum",
     "type": "mindmap",
-    "title": "Gray matter (Cerebellar cortex)",
-    "text": "Cerebellum > Dysfunction (Clinical Signs) > Other Clinical Manifestations > Gray matter (Cerebellar cortex)"
+    "title": "Fastigious",
+    "text": "Cerebellum > Architecture > Micro Composition > Intracerebellar Nuclei > Fastigious"
   },
   {
     "id": "cns-cerebellum-mm-24",
     "topicSlug": "cns-cerebellum",
     "topicTitle": "Cerebellum",
     "type": "mindmap",
-    "title": "Cortex Cells",
-    "text": "Cerebellum > Dysfunction (Clinical Signs) > Other Clinical Manifestations > Cortex Cells"
+    "title": "Physiological Divisions",
+    "text": "Cerebellum > Physiological Divisions"
   },
   {
     "id": "cns-cerebellum-mm-25",
     "topicSlug": "cns-cerebellum",
     "topicTitle": "Cerebellum",
     "type": "mindmap",
-    "title": "Intracerebellar Nuclei",
-    "text": "Cerebellum > Dysfunction (Clinical Signs) > Other Clinical Manifestations > Intracerebellar Nuclei"
+    "title": "Vestibulocerebellum (Archicerebellum)",
+    "text": "Cerebellum > Physiological Divisions > Vestibulocerebellum (Archicerebellum)"
   },
   {
     "id": "cns-cerebellum-mm-26",
@@ -733,7 +733,7 @@
     "topicTitle": "Cerebellum",
     "type": "mindmap",
     "title": "Equilibrium & posture",
-    "text": "Cerebellum > Dysfunction (Clinical Signs) > Other Clinical Manifestations > Equilibrium & posture"
+    "text": "Cerebellum > Physiological Divisions > Vestibulocerebellum (Archicerebellum) > Equilibrium & posture"
   },
   {
     "id": "cns-cerebellum-mm-27",
@@ -741,7 +741,7 @@
     "topicTitle": "Cerebellum",
     "type": "mindmap",
     "title": "Vestibulo-ocular reflex (VOR)",
-    "text": "Cerebellum > Dysfunction (Clinical Signs) > Other Clinical Manifestations > Vestibulo-ocular reflex (VOR)"
+    "text": "Cerebellum > Physiological Divisions > Vestibulocerebellum (Archicerebellum) > Vestibulo-ocular reflex (VOR)"
   },
   {
     "id": "cns-cerebellum-mm-28",
@@ -749,162 +749,226 @@
     "topicTitle": "Cerebellum",
     "type": "mindmap",
     "title": "Lesion: Trunk ataxia & Nystagmus",
-    "text": "Cerebellum > Dysfunction (Clinical Signs) > Other Clinical Manifestations > Lesion: Trunk ataxia & Nystagmus"
+    "text": "Cerebellum > Physiological Divisions > Vestibulocerebellum (Archicerebellum) > Lesion: Trunk ataxia & Nystagmus"
   },
   {
     "id": "cns-cerebellum-mm-29",
     "topicSlug": "cns-cerebellum",
     "topicTitle": "Cerebellum",
     "type": "mindmap",
-    "title": "Comparator function",
-    "text": "Cerebellum > Dysfunction (Clinical Signs) > Other Clinical Manifestations > Comparator function"
+    "title": "Spinocerebellum (Paleocerebellum)",
+    "text": "Cerebellum > Physiological Divisions > Spinocerebellum (Paleocerebellum)"
   },
   {
     "id": "cns-cerebellum-mm-30",
     "topicSlug": "cns-cerebellum",
     "topicTitle": "Cerebellum",
     "type": "mindmap",
-    "title": "Muscle tone regulation",
-    "text": "Cerebellum > Dysfunction (Clinical Signs) > Other Clinical Manifestations > Muscle tone regulation"
+    "title": "Comparator function",
+    "text": "Cerebellum > Physiological Divisions > Spinocerebellum (Paleocerebellum) > Comparator function"
   },
   {
     "id": "cns-cerebellum-mm-31",
     "topicSlug": "cns-cerebellum",
     "topicTitle": "Cerebellum",
     "type": "mindmap",
-    "title": "Coordination of agonist/antagonist",
-    "text": "Cerebellum > Dysfunction (Clinical Signs) > Other Clinical Manifestations > Coordination of agonist/antagonist"
+    "title": "Muscle tone regulation",
+    "text": "Cerebellum > Physiological Divisions > Spinocerebellum (Paleocerebellum) > Muscle tone regulation"
   },
   {
     "id": "cns-cerebellum-mm-32",
     "topicSlug": "cns-cerebellum",
     "topicTitle": "Cerebellum",
     "type": "mindmap",
-    "title": "Lesion: Hypotonia",
-    "text": "Cerebellum > Dysfunction (Clinical Signs) > Other Clinical Manifestations > Lesion: Hypotonia"
+    "title": "Coordination of agonist/antagonist",
+    "text": "Cerebellum > Physiological Divisions > Spinocerebellum (Paleocerebellum) > Coordination of agonist/antagonist"
   },
   {
     "id": "cns-cerebellum-mm-33",
     "topicSlug": "cns-cerebellum",
     "topicTitle": "Cerebellum",
     "type": "mindmap",
-    "title": "Planning & programming",
-    "text": "Cerebellum > Dysfunction (Clinical Signs) > Other Clinical Manifestations > Planning & programming"
+    "title": "Lesion: Hypotonia",
+    "text": "Cerebellum > Physiological Divisions > Spinocerebellum (Paleocerebellum) > Lesion: Hypotonia"
   },
   {
     "id": "cns-cerebellum-mm-34",
     "topicSlug": "cns-cerebellum",
     "topicTitle": "Cerebellum",
     "type": "mindmap",
-    "title": "Braking effect",
-    "text": "Cerebellum > Dysfunction (Clinical Signs) > Other Clinical Manifestations > Braking effect"
+    "title": "Cerebrocerebellum (Neocerebellum)",
+    "text": "Cerebellum > Physiological Divisions > Cerebrocerebellum (Neocerebellum)"
   },
   {
     "id": "cns-cerebellum-mm-35",
     "topicSlug": "cns-cerebellum",
     "topicTitle": "Cerebellum",
     "type": "mindmap",
-    "title": "Timing of sequential movements",
-    "text": "Cerebellum > Dysfunction (Clinical Signs) > Other Clinical Manifestations > Timing of sequential movements"
+    "title": "Planning & programming",
+    "text": "Cerebellum > Physiological Divisions > Cerebrocerebellum (Neocerebellum) > Planning & programming"
   },
   {
     "id": "cns-cerebellum-mm-36",
     "topicSlug": "cns-cerebellum",
     "topicTitle": "Cerebellum",
     "type": "mindmap",
-    "title": "Lesion: Dysmetria & Intention tremor",
-    "text": "Cerebellum > Dysfunction (Clinical Signs) > Other Clinical Manifestations > Lesion: Dysmetria & Intention tremor"
+    "title": "Braking effect",
+    "text": "Cerebellum > Physiological Divisions > Cerebrocerebellum (Neocerebellum) > Braking effect"
   },
   {
     "id": "cns-cerebellum-mm-37",
     "topicSlug": "cns-cerebellum",
     "topicTitle": "Cerebellum",
     "type": "mindmap",
-    "title": "Climbing fibers (Inferior olive)",
-    "text": "Cerebellum > Dysfunction (Clinical Signs) > Other Clinical Manifestations > Climbing fibers (Inferior olive)"
+    "title": "Timing of sequential movements",
+    "text": "Cerebellum > Physiological Divisions > Cerebrocerebellum (Neocerebellum) > Timing of sequential movements"
   },
   {
     "id": "cns-cerebellum-mm-38",
     "topicSlug": "cns-cerebellum",
     "topicTitle": "Cerebellum",
     "type": "mindmap",
-    "title": "Mossy fibers (Cortex & Proprioception)",
-    "text": "Cerebellum > Dysfunction (Clinical Signs) > Other Clinical Manifestations > Mossy fibers (Cortex & Proprioception)"
+    "title": "Lesion: Dysmetria & Intention tremor",
+    "text": "Cerebellum > Physiological Divisions > Cerebrocerebellum (Neocerebellum) > Lesion: Dysmetria & Intention tremor"
   },
   {
     "id": "cns-cerebellum-mm-39",
     "topicSlug": "cns-cerebellum",
     "topicTitle": "Cerebellum",
     "type": "mindmap",
-    "title": "Purkinje cell axons (Inhibitory)",
-    "text": "Cerebellum > Dysfunction (Clinical Signs) > Other Clinical Manifestations > Purkinje cell axons (Inhibitory)"
+    "title": "Neural Circuitry",
+    "text": "Cerebellum > Neural Circuitry"
   },
   {
     "id": "cns-cerebellum-mm-40",
     "topicSlug": "cns-cerebellum",
     "topicTitle": "Cerebellum",
     "type": "mindmap",
-    "title": "Deep nuclei (Excitatory to nervous system)",
-    "text": "Cerebellum > Dysfunction (Clinical Signs) > Other Clinical Manifestations > Deep nuclei (Excitatory to nervous system)"
+    "title": "Afferent (Inputs)",
+    "text": "Cerebellum > Neural Circuitry > Afferent (Inputs)"
   },
   {
     "id": "cns-cerebellum-mm-41",
     "topicSlug": "cns-cerebellum",
     "topicTitle": "Cerebellum",
     "type": "mindmap",
-    "title": "Ataxia (lack of coordination)",
-    "text": "Cerebellum > Dysfunction (Clinical Signs) > Other Clinical Manifestations > Ataxia (lack of coordination)"
+    "title": "Climbing fibers (Inferior olive)",
+    "text": "Cerebellum > Neural Circuitry > Afferent (Inputs) > Climbing fibers (Inferior olive)"
   },
   {
     "id": "cns-cerebellum-mm-42",
     "topicSlug": "cns-cerebellum",
     "topicTitle": "Cerebellum",
     "type": "mindmap",
-    "title": "Dysmetria (overshooting/undershooting)",
-    "text": "Cerebellum > Dysfunction (Clinical Signs) > Other Clinical Manifestations > Dysmetria (overshooting/undershooting)"
+    "title": "Mossy fibers (Cortex & Proprioception)",
+    "text": "Cerebellum > Neural Circuitry > Afferent (Inputs) > Mossy fibers (Cortex & Proprioception)"
   },
   {
     "id": "cns-cerebellum-mm-43",
     "topicSlug": "cns-cerebellum",
     "topicTitle": "Cerebellum",
     "type": "mindmap",
-    "title": "Dysdiadochokinesia (rapid alternating failure)",
-    "text": "Cerebellum > Dysfunction (Clinical Signs) > Other Clinical Manifestations > Dysdiadochokinesia (rapid alternating failure)"
+    "title": "Efferent (Outputs)",
+    "text": "Cerebellum > Neural Circuitry > Efferent (Outputs)"
   },
   {
     "id": "cns-cerebellum-mm-44",
     "topicSlug": "cns-cerebellum",
     "topicTitle": "Cerebellum",
     "type": "mindmap",
-    "title": "Asynergia & Decomposition",
-    "text": "Cerebellum > Dysfunction (Clinical Signs) > Other Clinical Manifestations > Asynergia & Decomposition"
+    "title": "Purkinje cell axons (Inhibitory)",
+    "text": "Cerebellum > Neural Circuitry > Efferent (Outputs) > Purkinje cell axons (Inhibitory)"
   },
   {
     "id": "cns-cerebellum-mm-45",
     "topicSlug": "cns-cerebellum",
     "topicTitle": "Cerebellum",
     "type": "mindmap",
-    "title": "Intention tremors",
-    "text": "Cerebellum > Dysfunction (Clinical Signs) > Other Clinical Manifestations > Intention tremors"
+    "title": "Deep nuclei (Excitatory to nervous system)",
+    "text": "Cerebellum > Neural Circuitry > Efferent (Outputs) > Deep nuclei (Excitatory to nervous system)"
   },
   {
     "id": "cns-cerebellum-mm-46",
     "topicSlug": "cns-cerebellum",
     "topicTitle": "Cerebellum",
     "type": "mindmap",
-    "title": "Hypotonia (low muscle tone)",
-    "text": "Cerebellum > Dysfunction (Clinical Signs) > Other Clinical Manifestations > Hypotonia (low muscle tone)"
+    "title": "Dysfunction (Clinical Signs)",
+    "text": "Cerebellum > Dysfunction (Clinical Signs)"
   },
   {
     "id": "cns-cerebellum-mm-47",
     "topicSlug": "cns-cerebellum",
     "topicTitle": "Cerebellum",
     "type": "mindmap",
-    "title": "Rebound phenomenon",
-    "text": "Cerebellum > Dysfunction (Clinical Signs) > Other Clinical Manifestations > Rebound phenomenon"
+    "title": "Movement Disorders",
+    "text": "Cerebellum > Dysfunction (Clinical Signs) > Movement Disorders"
   },
   {
     "id": "cns-cerebellum-mm-48",
+    "topicSlug": "cns-cerebellum",
+    "topicTitle": "Cerebellum",
+    "type": "mindmap",
+    "title": "Ataxia (lack of coordination)",
+    "text": "Cerebellum > Dysfunction (Clinical Signs) > Movement Disorders > Ataxia (lack of coordination)"
+  },
+  {
+    "id": "cns-cerebellum-mm-49",
+    "topicSlug": "cns-cerebellum",
+    "topicTitle": "Cerebellum",
+    "type": "mindmap",
+    "title": "Dysmetria (overshooting/undershooting)",
+    "text": "Cerebellum > Dysfunction (Clinical Signs) > Movement Disorders > Dysmetria (overshooting/undershooting)"
+  },
+  {
+    "id": "cns-cerebellum-mm-50",
+    "topicSlug": "cns-cerebellum",
+    "topicTitle": "Cerebellum",
+    "type": "mindmap",
+    "title": "Dysdiadochokinesia (rapid alternating failure)",
+    "text": "Cerebellum > Dysfunction (Clinical Signs) > Movement Disorders > Dysdiadochokinesia (rapid alternating failure)"
+  },
+  {
+    "id": "cns-cerebellum-mm-51",
+    "topicSlug": "cns-cerebellum",
+    "topicTitle": "Cerebellum",
+    "type": "mindmap",
+    "title": "Asynergia & Decomposition",
+    "text": "Cerebellum > Dysfunction (Clinical Signs) > Movement Disorders > Asynergia & Decomposition"
+  },
+  {
+    "id": "cns-cerebellum-mm-52",
+    "topicSlug": "cns-cerebellum",
+    "topicTitle": "Cerebellum",
+    "type": "mindmap",
+    "title": "Intention tremors",
+    "text": "Cerebellum > Dysfunction (Clinical Signs) > Movement Disorders > Intention tremors"
+  },
+  {
+    "id": "cns-cerebellum-mm-53",
+    "topicSlug": "cns-cerebellum",
+    "topicTitle": "Cerebellum",
+    "type": "mindmap",
+    "title": "Hypotonia (low muscle tone)",
+    "text": "Cerebellum > Dysfunction (Clinical Signs) > Movement Disorders > Hypotonia (low muscle tone)"
+  },
+  {
+    "id": "cns-cerebellum-mm-54",
+    "topicSlug": "cns-cerebellum",
+    "topicTitle": "Cerebellum",
+    "type": "mindmap",
+    "title": "Rebound phenomenon",
+    "text": "Cerebellum > Dysfunction (Clinical Signs) > Movement Disorders > Rebound phenomenon"
+  },
+  {
+    "id": "cns-cerebellum-mm-55",
+    "topicSlug": "cns-cerebellum",
+    "topicTitle": "Cerebellum",
+    "type": "mindmap",
+    "title": "Other Clinical Manifestations",
+    "text": "Cerebellum > Dysfunction (Clinical Signs) > Other Clinical Manifestations"
+  },
+  {
+    "id": "cns-cerebellum-mm-56",
     "topicSlug": "cns-cerebellum",
     "topicTitle": "Cerebellum",
     "type": "mindmap",
@@ -912,7 +976,7 @@
     "text": "Cerebellum > Dysfunction (Clinical Signs) > Other Clinical Manifestations > Scanning/Slurred speech"
   },
   {
-    "id": "cns-cerebellum-mm-49",
+    "id": "cns-cerebellum-mm-57",
     "topicSlug": "cns-cerebellum",
     "topicTitle": "Cerebellum",
     "type": "mindmap",
@@ -920,7 +984,7 @@
     "text": "Cerebellum > Dysfunction (Clinical Signs) > Other Clinical Manifestations > Drunken/Staggering gait"
   },
   {
-    "id": "cns-cerebellum-mm-50",
+    "id": "cns-cerebellum-mm-58",
     "topicSlug": "cns-cerebellum",
     "topicTitle": "Cerebellum",
     "type": "mindmap",
@@ -928,76 +992,12 @@
     "text": "Cerebellum > Dysfunction (Clinical Signs) > Other Clinical Manifestations > Nystagmus (dancing eyes)"
   },
   {
-    "id": "cns-cerebellum-mm-51",
+    "id": "cns-cerebellum-mm-59",
     "topicSlug": "cns-cerebellum",
     "topicTitle": "Cerebellum",
     "type": "mindmap",
     "title": "Dysgraphia",
     "text": "Cerebellum > Dysfunction (Clinical Signs) > Other Clinical Manifestations > Dysgraphia"
-  },
-  {
-    "id": "cns-cerebellum-mm-52",
-    "topicSlug": "cns-cerebellum",
-    "topicTitle": "Cerebellum",
-    "type": "mindmap",
-    "title": "Purkinje cells",
-    "text": "Cerebellum > Dysfunction (Clinical Signs) > Other Clinical Manifestations > Dysgraphia > Purkinje cells"
-  },
-  {
-    "id": "cns-cerebellum-mm-53",
-    "topicSlug": "cns-cerebellum",
-    "topicTitle": "Cerebellum",
-    "type": "mindmap",
-    "title": "Granule cells",
-    "text": "Cerebellum > Dysfunction (Clinical Signs) > Other Clinical Manifestations > Dysgraphia > Granule cells"
-  },
-  {
-    "id": "cns-cerebellum-mm-54",
-    "topicSlug": "cns-cerebellum",
-    "topicTitle": "Cerebellum",
-    "type": "mindmap",
-    "title": "Stellate and Basket cells",
-    "text": "Cerebellum > Dysfunction (Clinical Signs) > Other Clinical Manifestations > Dysgraphia > Stellate and Basket cells"
-  },
-  {
-    "id": "cns-cerebellum-mm-55",
-    "topicSlug": "cns-cerebellum",
-    "topicTitle": "Cerebellum",
-    "type": "mindmap",
-    "title": "Golgi cells",
-    "text": "Cerebellum > Dysfunction (Clinical Signs) > Other Clinical Manifestations > Dysgraphia > Golgi cells"
-  },
-  {
-    "id": "cns-cerebellum-mm-56",
-    "topicSlug": "cns-cerebellum",
-    "topicTitle": "Cerebellum",
-    "type": "mindmap",
-    "title": "Dentate",
-    "text": "Cerebellum > Dysfunction (Clinical Signs) > Other Clinical Manifestations > Dysgraphia > Dentate"
-  },
-  {
-    "id": "cns-cerebellum-mm-57",
-    "topicSlug": "cns-cerebellum",
-    "topicTitle": "Cerebellum",
-    "type": "mindmap",
-    "title": "Emboliform",
-    "text": "Cerebellum > Dysfunction (Clinical Signs) > Other Clinical Manifestations > Dysgraphia > Emboliform"
-  },
-  {
-    "id": "cns-cerebellum-mm-58",
-    "topicSlug": "cns-cerebellum",
-    "topicTitle": "Cerebellum",
-    "type": "mindmap",
-    "title": "Globose",
-    "text": "Cerebellum > Dysfunction (Clinical Signs) > Other Clinical Manifestations > Dysgraphia > Globose"
-  },
-  {
-    "id": "cns-cerebellum-mm-59",
-    "topicSlug": "cns-cerebellum",
-    "topicTitle": "Cerebellum",
-    "type": "mindmap",
-    "title": "Fastigious",
-    "text": "Cerebellum > Dysfunction (Clinical Signs) > Other Clinical Manifestations > Dysgraphia > Fastigious"
   },
   {
     "id": "neurobiology-memory-fc-1",
@@ -1540,11 +1540,187 @@
     "topicSlug": "neurobiology-memory",
     "topicTitle": "Learning & Memory",
     "type": "mindmap",
+    "title": "Temporal Lobes",
+    "text": "Learning and Memory > Neuroanatomy > Temporal Lobes"
+  },
+  {
+    "id": "neurobiology-memory-mm-63",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "mindmap",
+    "title": "Hippocampus",
+    "text": "Learning and Memory > Neuroanatomy > Temporal Lobes > Hippocampus"
+  },
+  {
+    "id": "neurobiology-memory-mm-64",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "mindmap",
+    "title": "Gyrus Dentatus",
+    "text": "Learning and Memory > Neuroanatomy > Temporal Lobes > Gyrus Dentatus"
+  },
+  {
+    "id": "neurobiology-memory-mm-65",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "mindmap",
+    "title": "Parahippocampal Gyrus",
+    "text": "Learning and Memory > Neuroanatomy > Temporal Lobes > Parahippocampal Gyrus"
+  },
+  {
+    "id": "neurobiology-memory-mm-66",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "mindmap",
+    "title": "Diencephalon",
+    "text": "Learning and Memory > Neuroanatomy > Diencephalon"
+  },
+  {
+    "id": "neurobiology-memory-mm-67",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "mindmap",
+    "title": "Mammillary Bodies",
+    "text": "Learning and Memory > Neuroanatomy > Diencephalon > Mammillary Bodies"
+  },
+  {
+    "id": "neurobiology-memory-mm-68",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "mindmap",
+    "title": "Medial Dorsal Nuclei of Thalamus",
+    "text": "Learning and Memory > Neuroanatomy > Diencephalon > Medial Dorsal Nuclei of Thalamus"
+  },
+  {
+    "id": "neurobiology-memory-mm-69",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "mindmap",
+    "title": "Other Areas",
+    "text": "Learning and Memory > Neuroanatomy > Other Areas"
+  },
+  {
+    "id": "neurobiology-memory-mm-70",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "mindmap",
+    "title": "Prefrontal Cortex",
+    "text": "Learning and Memory > Neuroanatomy > Other Areas > Prefrontal Cortex"
+  },
+  {
+    "id": "neurobiology-memory-mm-71",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "mindmap",
+    "title": "Basal Forebrain",
+    "text": "Learning and Memory > Neuroanatomy > Other Areas > Basal Forebrain"
+  },
+  {
+    "id": "neurobiology-memory-mm-72",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "mindmap",
+    "title": "Nucleus Basalis of Meynert",
+    "text": "Learning and Memory > Neuroanatomy > Other Areas > Nucleus Basalis of Meynert"
+  },
+  {
+    "id": "neurobiology-memory-mm-73",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "mindmap",
+    "title": "Striatum and Cerebellum",
+    "text": "Learning and Memory > Neuroanatomy > Other Areas > Striatum and Cerebellum"
+  },
+  {
+    "id": "neurobiology-memory-mm-74",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "mindmap",
+    "title": "Sensory (Visual/Auditory)",
+    "text": "Learning and Memory > Neuroanatomy > Other Areas > Sensory (Visual/Auditory)"
+  },
+  {
+    "id": "neurobiology-memory-mm-75",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "mindmap",
     "title": "Classification of Memory",
     "text": "Learning and Memory > Classification of Memory"
   },
   {
-    "id": "neurobiology-memory-mm-63",
+    "id": "neurobiology-memory-mm-76",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "mindmap",
+    "title": "By Duration",
+    "text": "Learning and Memory > Classification of Memory > By Duration"
+  },
+  {
+    "id": "neurobiology-memory-mm-77",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "mindmap",
+    "title": "Immediate (Short-term)",
+    "text": "Learning and Memory > Classification of Memory > By Duration > Immediate (Short-term)"
+  },
+  {
+    "id": "neurobiology-memory-mm-78",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "mindmap",
+    "title": "Recent (Secondary)",
+    "text": "Learning and Memory > Classification of Memory > By Duration > Recent (Secondary)"
+  },
+  {
+    "id": "neurobiology-memory-mm-79",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "mindmap",
+    "title": "Remote (Long-term)",
+    "text": "Learning and Memory > Classification of Memory > By Duration > Remote (Long-term)"
+  },
+  {
+    "id": "neurobiology-memory-mm-80",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "mindmap",
+    "title": "By Type",
+    "text": "Learning and Memory > Classification of Memory > By Type"
+  },
+  {
+    "id": "neurobiology-memory-mm-81",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "mindmap",
+    "title": "Explicit (Declarative)",
+    "text": "Learning and Memory > Classification of Memory > By Type > Explicit (Declarative)"
+  },
+  {
+    "id": "neurobiology-memory-mm-82",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "mindmap",
+    "title": "Episodic (Events)",
+    "text": "Learning and Memory > Classification of Memory > By Type > Explicit (Declarative) > Episodic (Events)"
+  },
+  {
+    "id": "neurobiology-memory-mm-83",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "mindmap",
+    "title": "Semantic (Facts)",
+    "text": "Learning and Memory > Classification of Memory > By Type > Explicit (Declarative) > Semantic (Facts)"
+  },
+  {
+    "id": "neurobiology-memory-mm-84",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "mindmap",
+    "title": "Implicit (Procedural/Skills)",
+    "text": "Learning and Memory > Classification of Memory > By Type > Implicit (Procedural/Skills)"
+  },
+  {
+    "id": "neurobiology-memory-mm-85",
     "topicSlug": "neurobiology-memory",
     "topicTitle": "Learning & Memory",
     "type": "mindmap",
@@ -1552,7 +1728,39 @@
     "text": "Learning and Memory > Memory Processes"
   },
   {
-    "id": "neurobiology-memory-mm-64",
+    "id": "neurobiology-memory-mm-86",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "mindmap",
+    "title": "Registration (Acquisition)",
+    "text": "Learning and Memory > Memory Processes > Registration (Acquisition)"
+  },
+  {
+    "id": "neurobiology-memory-mm-87",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "mindmap",
+    "title": "Retention (Storage/Consolidation)",
+    "text": "Learning and Memory > Memory Processes > Retention (Storage/Consolidation)"
+  },
+  {
+    "id": "neurobiology-memory-mm-88",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "mindmap",
+    "title": "Stabilization",
+    "text": "Learning and Memory > Memory Processes > Stabilization"
+  },
+  {
+    "id": "neurobiology-memory-mm-89",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "mindmap",
+    "title": "Retrieval (Recall)",
+    "text": "Learning and Memory > Memory Processes > Retrieval (Recall)"
+  },
+  {
+    "id": "neurobiology-memory-mm-90",
     "topicSlug": "neurobiology-memory",
     "topicTitle": "Learning & Memory",
     "type": "mindmap",
@@ -1560,7 +1768,39 @@
     "text": "Learning and Memory > Biochemical Basis"
   },
   {
-    "id": "neurobiology-memory-mm-65",
+    "id": "neurobiology-memory-mm-91",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "mindmap",
+    "title": "mRNA Formation",
+    "text": "Learning and Memory > Biochemical Basis > mRNA Formation"
+  },
+  {
+    "id": "neurobiology-memory-mm-92",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "mindmap",
+    "title": "Protein Synthesis",
+    "text": "Learning and Memory > Biochemical Basis > Protein Synthesis"
+  },
+  {
+    "id": "neurobiology-memory-mm-93",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "mindmap",
+    "title": "Cholinergic System (Acetylcholine)",
+    "text": "Learning and Memory > Biochemical Basis > Cholinergic System (Acetylcholine)"
+  },
+  {
+    "id": "neurobiology-memory-mm-94",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "mindmap",
+    "title": "Synaptic Structural Changes",
+    "text": "Learning and Memory > Biochemical Basis > Synaptic Structural Changes"
+  },
+  {
+    "id": "neurobiology-memory-mm-95",
     "topicSlug": "neurobiology-memory",
     "topicTitle": "Learning & Memory",
     "type": "mindmap",
@@ -1568,111 +1808,7 @@
     "text": "Learning and Memory > Clinical Disorders"
   },
   {
-    "id": "neurobiology-memory-mm-66",
-    "topicSlug": "neurobiology-memory",
-    "topicTitle": "Learning & Memory",
-    "type": "mindmap",
-    "title": "Temporal Lobes",
-    "text": "Learning and Memory > Clinical Disorders > Temporal Lobes"
-  },
-  {
-    "id": "neurobiology-memory-mm-67",
-    "topicSlug": "neurobiology-memory",
-    "topicTitle": "Learning & Memory",
-    "type": "mindmap",
-    "title": "Diencephalon",
-    "text": "Learning and Memory > Clinical Disorders > Diencephalon"
-  },
-  {
-    "id": "neurobiology-memory-mm-68",
-    "topicSlug": "neurobiology-memory",
-    "topicTitle": "Learning & Memory",
-    "type": "mindmap",
-    "title": "Other Areas",
-    "text": "Learning and Memory > Clinical Disorders > Other Areas"
-  },
-  {
-    "id": "neurobiology-memory-mm-69",
-    "topicSlug": "neurobiology-memory",
-    "topicTitle": "Learning & Memory",
-    "type": "mindmap",
-    "title": "By Duration",
-    "text": "Learning and Memory > Clinical Disorders > By Duration"
-  },
-  {
-    "id": "neurobiology-memory-mm-70",
-    "topicSlug": "neurobiology-memory",
-    "topicTitle": "Learning & Memory",
-    "type": "mindmap",
-    "title": "By Type",
-    "text": "Learning and Memory > Clinical Disorders > By Type"
-  },
-  {
-    "id": "neurobiology-memory-mm-71",
-    "topicSlug": "neurobiology-memory",
-    "topicTitle": "Learning & Memory",
-    "type": "mindmap",
-    "title": "Registration (Acquisition)",
-    "text": "Learning and Memory > Clinical Disorders > Registration (Acquisition)"
-  },
-  {
-    "id": "neurobiology-memory-mm-72",
-    "topicSlug": "neurobiology-memory",
-    "topicTitle": "Learning & Memory",
-    "type": "mindmap",
-    "title": "Retention (Storage/Consolidation)",
-    "text": "Learning and Memory > Clinical Disorders > Retention (Storage/Consolidation)"
-  },
-  {
-    "id": "neurobiology-memory-mm-73",
-    "topicSlug": "neurobiology-memory",
-    "topicTitle": "Learning & Memory",
-    "type": "mindmap",
-    "title": "Stabilization",
-    "text": "Learning and Memory > Clinical Disorders > Stabilization"
-  },
-  {
-    "id": "neurobiology-memory-mm-74",
-    "topicSlug": "neurobiology-memory",
-    "topicTitle": "Learning & Memory",
-    "type": "mindmap",
-    "title": "Retrieval (Recall)",
-    "text": "Learning and Memory > Clinical Disorders > Retrieval (Recall)"
-  },
-  {
-    "id": "neurobiology-memory-mm-75",
-    "topicSlug": "neurobiology-memory",
-    "topicTitle": "Learning & Memory",
-    "type": "mindmap",
-    "title": "mRNA Formation",
-    "text": "Learning and Memory > Clinical Disorders > mRNA Formation"
-  },
-  {
-    "id": "neurobiology-memory-mm-76",
-    "topicSlug": "neurobiology-memory",
-    "topicTitle": "Learning & Memory",
-    "type": "mindmap",
-    "title": "Protein Synthesis",
-    "text": "Learning and Memory > Clinical Disorders > Protein Synthesis"
-  },
-  {
-    "id": "neurobiology-memory-mm-77",
-    "topicSlug": "neurobiology-memory",
-    "topicTitle": "Learning & Memory",
-    "type": "mindmap",
-    "title": "Cholinergic System (Acetylcholine)",
-    "text": "Learning and Memory > Clinical Disorders > Cholinergic System (Acetylcholine)"
-  },
-  {
-    "id": "neurobiology-memory-mm-78",
-    "topicSlug": "neurobiology-memory",
-    "topicTitle": "Learning & Memory",
-    "type": "mindmap",
-    "title": "Synaptic Structural Changes",
-    "text": "Learning and Memory > Clinical Disorders > Synaptic Structural Changes"
-  },
-  {
-    "id": "neurobiology-memory-mm-79",
+    "id": "neurobiology-memory-mm-96",
     "topicSlug": "neurobiology-memory",
     "topicTitle": "Learning & Memory",
     "type": "mindmap",
@@ -1680,148 +1816,12 @@
     "text": "Learning and Memory > Clinical Disorders > Amnesia"
   },
   {
-    "id": "neurobiology-memory-mm-80",
-    "topicSlug": "neurobiology-memory",
-    "topicTitle": "Learning & Memory",
-    "type": "mindmap",
-    "title": "Alzheimer's Disease",
-    "text": "Learning and Memory > Clinical Disorders > Alzheimer's Disease"
-  },
-  {
-    "id": "neurobiology-memory-mm-81",
-    "topicSlug": "neurobiology-memory",
-    "topicTitle": "Learning & Memory",
-    "type": "mindmap",
-    "title": "Dementia Causes",
-    "text": "Learning and Memory > Clinical Disorders > Dementia Causes"
-  },
-  {
-    "id": "neurobiology-memory-mm-82",
-    "topicSlug": "neurobiology-memory",
-    "topicTitle": "Learning & Memory",
-    "type": "mindmap",
-    "title": "Hippocampus",
-    "text": "Learning and Memory > Clinical Disorders > Dementia Causes > Hippocampus"
-  },
-  {
-    "id": "neurobiology-memory-mm-83",
-    "topicSlug": "neurobiology-memory",
-    "topicTitle": "Learning & Memory",
-    "type": "mindmap",
-    "title": "Gyrus Dentatus",
-    "text": "Learning and Memory > Clinical Disorders > Dementia Causes > Gyrus Dentatus"
-  },
-  {
-    "id": "neurobiology-memory-mm-84",
-    "topicSlug": "neurobiology-memory",
-    "topicTitle": "Learning & Memory",
-    "type": "mindmap",
-    "title": "Parahippocampal Gyrus",
-    "text": "Learning and Memory > Clinical Disorders > Dementia Causes > Parahippocampal Gyrus"
-  },
-  {
-    "id": "neurobiology-memory-mm-85",
-    "topicSlug": "neurobiology-memory",
-    "topicTitle": "Learning & Memory",
-    "type": "mindmap",
-    "title": "Mammillary Bodies",
-    "text": "Learning and Memory > Clinical Disorders > Dementia Causes > Mammillary Bodies"
-  },
-  {
-    "id": "neurobiology-memory-mm-86",
-    "topicSlug": "neurobiology-memory",
-    "topicTitle": "Learning & Memory",
-    "type": "mindmap",
-    "title": "Medial Dorsal Nuclei of Thalamus",
-    "text": "Learning and Memory > Clinical Disorders > Dementia Causes > Medial Dorsal Nuclei of Thalamus"
-  },
-  {
-    "id": "neurobiology-memory-mm-87",
-    "topicSlug": "neurobiology-memory",
-    "topicTitle": "Learning & Memory",
-    "type": "mindmap",
-    "title": "Prefrontal Cortex",
-    "text": "Learning and Memory > Clinical Disorders > Dementia Causes > Prefrontal Cortex"
-  },
-  {
-    "id": "neurobiology-memory-mm-88",
-    "topicSlug": "neurobiology-memory",
-    "topicTitle": "Learning & Memory",
-    "type": "mindmap",
-    "title": "Basal Forebrain",
-    "text": "Learning and Memory > Clinical Disorders > Dementia Causes > Basal Forebrain"
-  },
-  {
-    "id": "neurobiology-memory-mm-89",
-    "topicSlug": "neurobiology-memory",
-    "topicTitle": "Learning & Memory",
-    "type": "mindmap",
-    "title": "Nucleus Basalis of Meynert",
-    "text": "Learning and Memory > Clinical Disorders > Dementia Causes > Nucleus Basalis of Meynert"
-  },
-  {
-    "id": "neurobiology-memory-mm-90",
-    "topicSlug": "neurobiology-memory",
-    "topicTitle": "Learning & Memory",
-    "type": "mindmap",
-    "title": "Striatum and Cerebellum",
-    "text": "Learning and Memory > Clinical Disorders > Dementia Causes > Striatum and Cerebellum"
-  },
-  {
-    "id": "neurobiology-memory-mm-91",
-    "topicSlug": "neurobiology-memory",
-    "topicTitle": "Learning & Memory",
-    "type": "mindmap",
-    "title": "Sensory (Visual/Auditory)",
-    "text": "Learning and Memory > Clinical Disorders > Dementia Causes > Sensory (Visual/Auditory)"
-  },
-  {
-    "id": "neurobiology-memory-mm-92",
-    "topicSlug": "neurobiology-memory",
-    "topicTitle": "Learning & Memory",
-    "type": "mindmap",
-    "title": "Immediate (Short-term)",
-    "text": "Learning and Memory > Clinical Disorders > Dementia Causes > Immediate (Short-term)"
-  },
-  {
-    "id": "neurobiology-memory-mm-93",
-    "topicSlug": "neurobiology-memory",
-    "topicTitle": "Learning & Memory",
-    "type": "mindmap",
-    "title": "Recent (Secondary)",
-    "text": "Learning and Memory > Clinical Disorders > Dementia Causes > Recent (Secondary)"
-  },
-  {
-    "id": "neurobiology-memory-mm-94",
-    "topicSlug": "neurobiology-memory",
-    "topicTitle": "Learning & Memory",
-    "type": "mindmap",
-    "title": "Remote (Long-term)",
-    "text": "Learning and Memory > Clinical Disorders > Dementia Causes > Remote (Long-term)"
-  },
-  {
-    "id": "neurobiology-memory-mm-95",
-    "topicSlug": "neurobiology-memory",
-    "topicTitle": "Learning & Memory",
-    "type": "mindmap",
-    "title": "Explicit (Declarative)",
-    "text": "Learning and Memory > Clinical Disorders > Dementia Causes > Explicit (Declarative)"
-  },
-  {
-    "id": "neurobiology-memory-mm-96",
-    "topicSlug": "neurobiology-memory",
-    "topicTitle": "Learning & Memory",
-    "type": "mindmap",
-    "title": "Implicit (Procedural/Skills)",
-    "text": "Learning and Memory > Clinical Disorders > Dementia Causes > Implicit (Procedural/Skills)"
-  },
-  {
     "id": "neurobiology-memory-mm-97",
     "topicSlug": "neurobiology-memory",
     "topicTitle": "Learning & Memory",
     "type": "mindmap",
     "title": "Retrograde (Past events)",
-    "text": "Learning and Memory > Clinical Disorders > Dementia Causes > Retrograde (Past events)"
+    "text": "Learning and Memory > Clinical Disorders > Amnesia > Retrograde (Past events)"
   },
   {
     "id": "neurobiology-memory-mm-98",
@@ -1829,7 +1829,7 @@
     "topicTitle": "Learning & Memory",
     "type": "mindmap",
     "title": "Anterograde (New events)",
-    "text": "Learning and Memory > Clinical Disorders > Dementia Causes > Anterograde (New events)"
+    "text": "Learning and Memory > Clinical Disorders > Amnesia > Anterograde (New events)"
   },
   {
     "id": "neurobiology-memory-mm-99",
@@ -1837,42 +1837,58 @@
     "topicTitle": "Learning & Memory",
     "type": "mindmap",
     "title": "Confabulation",
-    "text": "Learning and Memory > Clinical Disorders > Dementia Causes > Confabulation"
+    "text": "Learning and Memory > Clinical Disorders > Amnesia > Confabulation"
   },
   {
     "id": "neurobiology-memory-mm-100",
     "topicSlug": "neurobiology-memory",
     "topicTitle": "Learning & Memory",
     "type": "mindmap",
-    "title": "Cholinergic Deficiency",
-    "text": "Learning and Memory > Clinical Disorders > Dementia Causes > Cholinergic Deficiency"
+    "title": "Alzheimer's Disease",
+    "text": "Learning and Memory > Clinical Disorders > Alzheimer's Disease"
   },
   {
     "id": "neurobiology-memory-mm-101",
     "topicSlug": "neurobiology-memory",
     "topicTitle": "Learning & Memory",
     "type": "mindmap",
-    "title": "Amyloid Precursor Protein",
-    "text": "Learning and Memory > Clinical Disorders > Dementia Causes > Amyloid Precursor Protein"
+    "title": "Cholinergic Deficiency",
+    "text": "Learning and Memory > Clinical Disorders > Alzheimer's Disease > Cholinergic Deficiency"
   },
   {
     "id": "neurobiology-memory-mm-102",
     "topicSlug": "neurobiology-memory",
     "topicTitle": "Learning & Memory",
     "type": "mindmap",
-    "title": "Hippocampal Degeneration",
-    "text": "Learning and Memory > Clinical Disorders > Dementia Causes > Hippocampal Degeneration"
+    "title": "Amyloid Precursor Protein",
+    "text": "Learning and Memory > Clinical Disorders > Alzheimer's Disease > Amyloid Precursor Protein"
   },
   {
     "id": "neurobiology-memory-mm-103",
     "topicSlug": "neurobiology-memory",
     "topicTitle": "Learning & Memory",
     "type": "mindmap",
-    "title": "Korsakoff’s Syndrome",
-    "text": "Learning and Memory > Clinical Disorders > Dementia Causes > Korsakoff’s Syndrome"
+    "title": "Hippocampal Degeneration",
+    "text": "Learning and Memory > Clinical Disorders > Alzheimer's Disease > Hippocampal Degeneration"
   },
   {
     "id": "neurobiology-memory-mm-104",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "mindmap",
+    "title": "Dementia Causes",
+    "text": "Learning and Memory > Clinical Disorders > Dementia Causes"
+  },
+  {
+    "id": "neurobiology-memory-mm-105",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "mindmap",
+    "title": "Korsakoff's Syndrome",
+    "text": "Learning and Memory > Clinical Disorders > Dementia Causes > Korsakoff's Syndrome"
+  },
+  {
+    "id": "neurobiology-memory-mm-106",
     "topicSlug": "neurobiology-memory",
     "topicTitle": "Learning & Memory",
     "type": "mindmap",
@@ -1880,7 +1896,7 @@
     "text": "Learning and Memory > Clinical Disorders > Dementia Causes > Vitamin Deficiencies (B1, B12)"
   },
   {
-    "id": "neurobiology-memory-mm-105",
+    "id": "neurobiology-memory-mm-107",
     "topicSlug": "neurobiology-memory",
     "topicTitle": "Learning & Memory",
     "type": "mindmap",
@@ -1888,27 +1904,11 @@
     "text": "Learning and Memory > Clinical Disorders > Dementia Causes > Brain Infarction"
   },
   {
-    "id": "neurobiology-memory-mm-106",
-    "topicSlug": "neurobiology-memory",
-    "topicTitle": "Learning & Memory",
-    "type": "mindmap",
-    "title": "Parkinson’s Disease",
-    "text": "Learning and Memory > Clinical Disorders > Dementia Causes > Parkinson’s Disease"
-  },
-  {
-    "id": "neurobiology-memory-mm-107",
-    "topicSlug": "neurobiology-memory",
-    "topicTitle": "Learning & Memory",
-    "type": "mindmap",
-    "title": "Episodic (Events)",
-    "text": "Learning and Memory > Clinical Disorders > Dementia Causes > Parkinson’s Disease > Episodic (Events)"
-  },
-  {
     "id": "neurobiology-memory-mm-108",
     "topicSlug": "neurobiology-memory",
     "topicTitle": "Learning & Memory",
     "type": "mindmap",
-    "title": "Semantic (Facts)",
-    "text": "Learning and Memory > Clinical Disorders > Dementia Causes > Parkinson’s Disease > Semantic (Facts)"
+    "title": "Parkinson's Disease",
+    "text": "Learning and Memory > Clinical Disorders > Dementia Causes > Parkinson's Disease"
   }
 ]

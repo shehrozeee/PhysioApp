@@ -27,7 +27,7 @@
 //   - See manifest_v3_hints.md for extension setup guidance
 // ============================================================
 
-const PHYSIOAPP_EXTRACTOR_VERSION = "1.7.0";
+const PHYSIOAPP_EXTRACTOR_VERSION = "1.8.0";
 
 // ─────────────────────────────────────────────────────────────────
 // VARIABLE STABILITY GUIDE (READ BEFORE BUILDING THE EXTENSION)
@@ -287,13 +287,18 @@ async function openAndExtractMindMap(mindMapArtifactId) {
       document.querySelector("button[mattooltip*='Expand all']") ||
       document.querySelector("button[aria-label*='ollapse all']");
     if (expandBtn) {
-      // Click it multiple times to ensure full expansion
-      expandBtn.click();
-      _extLog.push("MindMap: clicked expand/collapse button (attempt " + (attempt+1) + ")");
-      await new Promise(r => setTimeout(r, 2000));
-      // Click again if it toggled to "expand" (might need a second click)
-      expandBtn.click();
-      await new Promise(r => setTimeout(r, 2000));
+      // Check if we need to expand (tooltip says "Expand") or already expanded (tooltip says "Collapse")
+      const tooltip = expandBtn.getAttribute("mattooltip") || "";
+      const iconText = expandBtn.textContent.trim();
+      _extLog.push("MindMap: found button, tooltip='" + tooltip + "' icon='" + iconText + "'");
+
+      if (tooltip.toLowerCase().includes("expand") || iconText === "expand_all") {
+        expandBtn.click();
+        _extLog.push("MindMap: clicked to EXPAND (attempt " + (attempt+1) + ")");
+      } else {
+        _extLog.push("MindMap: already expanded (tooltip says Collapse), skipping click");
+      }
+      await new Promise(r => setTimeout(r, 3000));
       expanded = true;
       break;
     }
@@ -326,12 +331,17 @@ function extractMindMapFromDom() {
     return { level, name };
   });
 
+  // Log first 15 nodes to debug tree structure
+  _extLog.push("MindMap DOM order (first 15):");
+  nodes.slice(0, 15).forEach((n, i) => _extLog.push("  [" + i + "] L" + n.level + " " + n.name));
+
   const root = { title: nodes[0]?.name || "Root", children: [] };
-  const stack = [{ node: root, level: 1 }];
+  const stack = [{ node: root, level: nodes[0]?.level || 1 }];
 
   for (let i = 1; i < nodes.length; i++) {
     const { level, name } = nodes[i];
     const newNode = { title: name };
+    // Pop stack until we find the parent (a node with level < current level)
     while (stack.length > 1 && stack[stack.length - 1].level >= level) stack.pop();
     const parent = stack[stack.length - 1].node;
     if (!parent.children) parent.children = [];
@@ -382,7 +392,7 @@ function downloadZip(zipBytes, filename) {
 
 // ── MAIN ORCHESTRATOR ─────────────────────────────────────────────
 async function runPhysioAppExtraction(options = {}) {
-  const { skipMindMap = false, mindMapArtifactId = null, zipFilename = "physioapp_v170.zip" } = options;
+  const { skipMindMap = false, mindMapArtifactId = null, zipFilename = "physioapp_v180.zip" } = options;
 
   const log = [];
   function addLog(msg) { log.push(new Date().toISOString().substring(11,19) + " " + msg); }

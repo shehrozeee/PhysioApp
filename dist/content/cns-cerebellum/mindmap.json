@@ -1,189 +1,125 @@
 {
-  "_meta": {
-    "source": "NotebookLM",
-    "extractedAt": "2026-03-29T10:33:55.586Z"
-  },
   "title": "Cerebellum",
   "children": [
     {
-      "title": "Architecture"
+      "title": "Architecture",
+      "children": [
+        {
+          "title": "Macro Architecture",
+          "children": [
+            { "title": "Hindbrain's largest part" },
+            { "title": "Attached to brainstem via 3 peduncles" },
+            { "title": "Posterior cranial fossa location" },
+            { "title": "Two hemispheres joined by vermis" }
+          ]
+        },
+        {
+          "title": "Anatomical Lobes",
+          "children": [
+            { "title": "Anterior Lobe" },
+            { "title": "Posterior Lobe" },
+            { "title": "Flocculonodular Lobe" }
+          ]
+        },
+        {
+          "title": "Micro Composition",
+          "children": [
+            { "title": "White matter (arbor vitae)" },
+            { "title": "Gray matter (Cerebellar cortex)" },
+            {
+              "title": "Cortex Cells",
+              "children": [
+                { "title": "Purkinje cells" },
+                { "title": "Granule cells" },
+                { "title": "Stellate and Basket cells" },
+                { "title": "Golgi cells" }
+              ]
+            },
+            {
+              "title": "Intracerebellar Nuclei",
+              "children": [
+                { "title": "Dentate" },
+                { "title": "Emboliform" },
+                { "title": "Globose" },
+                { "title": "Fastigious" }
+              ]
+            }
+          ]
+        }
+      ]
     },
     {
-      "title": "Physiological Divisions"
+      "title": "Physiological Divisions",
+      "children": [
+        {
+          "title": "Vestibulocerebellum (Archicerebellum)",
+          "children": [
+            { "title": "Equilibrium & posture" },
+            { "title": "Vestibulo-ocular reflex (VOR)" },
+            { "title": "Lesion: Trunk ataxia & Nystagmus" }
+          ]
+        },
+        {
+          "title": "Spinocerebellum (Paleocerebellum)",
+          "children": [
+            { "title": "Comparator function" },
+            { "title": "Muscle tone regulation" },
+            { "title": "Coordination of agonist/antagonist" },
+            { "title": "Lesion: Hypotonia" }
+          ]
+        },
+        {
+          "title": "Cerebrocerebellum (Neocerebellum)",
+          "children": [
+            { "title": "Planning & programming" },
+            { "title": "Braking effect" },
+            { "title": "Timing of sequential movements" },
+            { "title": "Lesion: Dysmetria & Intention tremor" }
+          ]
+        }
+      ]
     },
     {
-      "title": "Neural Circuitry"
+      "title": "Neural Circuitry",
+      "children": [
+        {
+          "title": "Afferent (Inputs)",
+          "children": [
+            { "title": "Climbing fibers (Inferior olive)" },
+            { "title": "Mossy fibers (Cortex & Proprioception)" }
+          ]
+        },
+        {
+          "title": "Efferent (Outputs)",
+          "children": [
+            { "title": "Purkinje cell axons (Inhibitory)" },
+            { "title": "Deep nuclei (Excitatory to nervous system)" }
+          ]
+        }
+      ]
     },
     {
       "title": "Dysfunction (Clinical Signs)",
       "children": [
         {
-          "title": "Macro Architecture"
-        },
-        {
-          "title": "Anatomical Lobes"
-        },
-        {
-          "title": "Micro Composition"
-        },
-        {
-          "title": "Vestibulocerebellum (Archicerebellum)"
-        },
-        {
-          "title": "Spinocerebellum (Paleocerebellum)"
-        },
-        {
-          "title": "Cerebrocerebellum (Neocerebellum)"
-        },
-        {
-          "title": "Afferent (Inputs)"
-        },
-        {
-          "title": "Efferent (Outputs)"
-        },
-        {
-          "title": "Movement Disorders"
+          "title": "Movement Disorders",
+          "children": [
+            { "title": "Ataxia (lack of coordination)" },
+            { "title": "Dysmetria (overshooting/undershooting)" },
+            { "title": "Dysdiadochokinesia (rapid alternating failure)" },
+            { "title": "Asynergia & Decomposition" },
+            { "title": "Intention tremors" },
+            { "title": "Hypotonia (low muscle tone)" },
+            { "title": "Rebound phenomenon" }
+          ]
         },
         {
           "title": "Other Clinical Manifestations",
           "children": [
-            {
-              "title": "Hindbrain's largest part"
-            },
-            {
-              "title": "Attached to brainstem via 3 peduncles"
-            },
-            {
-              "title": "Posterior cranial fossa location"
-            },
-            {
-              "title": "Two hemispheres joined by vermis"
-            },
-            {
-              "title": "Anterior Lobe"
-            },
-            {
-              "title": "Posterior Lobe"
-            },
-            {
-              "title": "Flocculonodular Lobe"
-            },
-            {
-              "title": "White matter (arbor vitae)"
-            },
-            {
-              "title": "Gray matter (Cerebellar cortex)"
-            },
-            {
-              "title": "Cortex Cells"
-            },
-            {
-              "title": "Intracerebellar Nuclei"
-            },
-            {
-              "title": "Equilibrium & posture"
-            },
-            {
-              "title": "Vestibulo-ocular reflex (VOR)"
-            },
-            {
-              "title": "Lesion: Trunk ataxia & Nystagmus"
-            },
-            {
-              "title": "Comparator function"
-            },
-            {
-              "title": "Muscle tone regulation"
-            },
-            {
-              "title": "Coordination of agonist/antagonist"
-            },
-            {
-              "title": "Lesion: Hypotonia"
-            },
-            {
-              "title": "Planning & programming"
-            },
-            {
-              "title": "Braking effect"
-            },
-            {
-              "title": "Timing of sequential movements"
-            },
-            {
-              "title": "Lesion: Dysmetria & Intention tremor"
-            },
-            {
-              "title": "Climbing fibers (Inferior olive)"
-            },
-            {
-              "title": "Mossy fibers (Cortex & Proprioception)"
-            },
-            {
-              "title": "Purkinje cell axons (Inhibitory)"
-            },
-            {
-              "title": "Deep nuclei (Excitatory to nervous system)"
-            },
-            {
-              "title": "Ataxia (lack of coordination)"
-            },
-            {
-              "title": "Dysmetria (overshooting/undershooting)"
-            },
-            {
-              "title": "Dysdiadochokinesia (rapid alternating failure)"
-            },
-            {
-              "title": "Asynergia & Decomposition"
-            },
-            {
-              "title": "Intention tremors"
-            },
-            {
-              "title": "Hypotonia (low muscle tone)"
-            },
-            {
-              "title": "Rebound phenomenon"
-            },
-            {
-              "title": "Scanning/Slurred speech"
-            },
-            {
-              "title": "Drunken/Staggering gait"
-            },
-            {
-              "title": "Nystagmus (dancing eyes)"
-            },
-            {
-              "title": "Dysgraphia",
-              "children": [
-                {
-                  "title": "Purkinje cells"
-                },
-                {
-                  "title": "Granule cells"
-                },
-                {
-                  "title": "Stellate and Basket cells"
-                },
-                {
-                  "title": "Golgi cells"
-                },
-                {
-                  "title": "Dentate"
-                },
-                {
-                  "title": "Emboliform"
-                },
-                {
-                  "title": "Globose"
-                },
-                {
-                  "title": "Fastigious"
-                }
-              ]
-            }
+            { "title": "Scanning/Slurred speech" },
+            { "title": "Drunken/Staggering gait" },
+            { "title": "Nystagmus (dancing eyes)" },
+            { "title": "Dysgraphia" }
           ]
         }
       ]
