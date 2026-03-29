@@ -518,5 +518,917 @@
     "type": "flashcard",
     "title": "Which cerebellar dysfunction is characterized by a tendency to fall to the affected side?",
     "text": "Which cerebellar dysfunction is characterized by a tendency to fall to the affected side? Asthenia or feebleness."
+  },
+  {
+    "id": "neurobiology-memory-fc-1",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "flashcard",
+    "title": "Which specific brain region is of primary importance in the registration of memory?",
+    "text": "Which specific brain region is of primary importance in the registration of memory? Temporal lobes."
+  },
+  {
+    "id": "neurobiology-memory-fc-2",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "flashcard",
+    "title": "What is the clinical result of bilateral removal of the medial aspects of the temporal lobes?",
+    "text": "What is the clinical result of bilateral removal of the medial aspects of the temporal lobes? Inability to record new experiences."
+  },
+  {
+    "id": "neurobiology-memory-fc-3",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "flashcard",
+    "title": "Lesions in the hippocampal formations, mammillary bodies, and medial dorsal nuclei of the thalamus produce loss of _____ memory.",
+    "text": "Lesions in the hippocampal formations, mammillary bodies, and medial dorsal nuclei of the thalamus produce loss of _____ memory. Recent."
+  },
+  {
+    "id": "neurobiology-memory-fc-4",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "flashcard",
+    "title": "Which structures comprise the hippocampal formations in the temporal lobe?",
+    "text": "Which structures comprise the hippocampal formations in the temporal lobe? Gyrus dentatus, hippocampal gyrus, and parahippocampal gyrus."
+  },
+  {
+    "id": "neurobiology-memory-fc-5",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "flashcard",
+    "title": "Korsakoff’s syndrome is clinically characterized by defects in _____ memory.",
+    "text": "Korsakoff’s syndrome is clinically characterized by defects in _____ memory. Recent."
+  },
+  {
+    "id": "neurobiology-memory-fc-6",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "flashcard",
+    "title": "What nutritional deficiency is the underlying cause of Korsakoff’s syndrome?",
+    "text": "What nutritional deficiency is the underlying cause of Korsakoff’s syndrome? Thiamine ($B_{1}$)."
+  },
+  {
+    "id": "neurobiology-memory-fc-7",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "flashcard",
+    "title": "Korsakoff’s syndrome is frequently associated with which encephalopathy in chronic alcoholics?",
+    "text": "Korsakoff’s syndrome is frequently associated with which encephalopathy in chronic alcoholics? Wernicke’s encephalopathy."
+  },
+  {
+    "id": "neurobiology-memory-fc-8",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "flashcard",
+    "title": "Damage to which two areas of the brain causes Korsakoff’s syndrome?",
+    "text": "Damage to which two areas of the brain causes Korsakoff’s syndrome? Mammillary bodies and adjacent reticular formation."
+  },
+  {
+    "id": "neurobiology-memory-fc-9",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "flashcard",
+    "title": "Which three brain structures are collectively responsible for registering new memories?",
+    "text": "Which three brain structures are collectively responsible for registering new memories? Hippocampus, mammillary bodies, and adjacent reticular formation."
+  },
+  {
+    "id": "neurobiology-memory-fc-10",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "flashcard",
+    "title": "Long-term storage of memory involves which specific parts of the brain?",
+    "text": "Long-term storage of memory involves which specific parts of the brain? Both cerebral hemispheres."
+  },
+  {
+    "id": "neurobiology-memory-fc-11",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "flashcard",
+    "title": "The mechanism of short-lasting memory is believed to be persistent _____ neuronal activity.",
+    "text": "The mechanism of short-lasting memory is believed to be persistent _____ neuronal activity. To and from."
+  },
+  {
+    "id": "neurobiology-memory-fc-12",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "flashcard",
+    "title": "Identify three methods or conditions that can eliminate short-lasting memory.",
+    "text": "Identify three methods or conditions that can eliminate short-lasting memory. Electroconvulsive shock, anesthesia, and brain concussion."
+  },
+  {
+    "id": "neurobiology-memory-fc-13",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "flashcard",
+    "title": "In memory formation, stable and long-lasting memory produced by structural changes at synapses is called _____.",
+    "text": "In memory formation, stable and long-lasting memory produced by structural changes at synapses is called _____. Encoding or consolidation."
+  },
+  {
+    "id": "neurobiology-memory-fc-14",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "flashcard",
+    "title": "What is the first biochemical change observed in neurons during the learning process?",
+    "text": "What is the first biochemical change observed in neurons during the learning process? Increased formation of mRNA."
+  },
+  {
+    "id": "neurobiology-memory-fc-15",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "flashcard",
+    "title": "Following the increase in mRNA, what biochemical synthesis increases in neurons during learning?",
+    "text": "Following the increase in mRNA, what biochemical synthesis increases in neurons during learning? Protein synthesis."
+  },
+  {
+    "id": "neurobiology-memory-fc-16",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "flashcard",
+    "title": "How do drugs like puromycin and cycloheximide interfere with memory formation in animals?",
+    "text": "How do drugs like puromycin and cycloheximide interfere with memory formation in animals? By inhibiting protein synthesis."
+  },
+  {
+    "id": "neurobiology-memory-fc-17",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "flashcard",
+    "title": "Which anatomical structure connects the hippocampus to the mammillary bodies in the memory encoding pathway?",
+    "text": "Which anatomical structure connects the hippocampus to the mammillary bodies in the memory encoding pathway? Fornix."
+  },
+  {
+    "id": "neurobiology-memory-fc-18",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "flashcard",
+    "title": "Which tract facilitates the connection between the mammillary bodies and the anterior thalamus?",
+    "text": "Which tract facilitates the connection between the mammillary bodies and the anterior thalamus? Mamillothalamic tract."
+  },
+  {
+    "id": "neurobiology-memory-fc-19",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "flashcard",
+    "title": "In the memory encoding pathway, the nucleus basalis of Meynert sends cholinergic projections to which three areas?",
+    "text": "In the memory encoding pathway, the nucleus basalis of Meynert sends cholinergic projections to which three areas? Neocortex, amygdala, and hippocampus."
+  },
+  {
+    "id": "neurobiology-memory-fc-20",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "flashcard",
+    "title": "Besides the limbic system, which other brain structures are involved in certain types of memory?",
+    "text": "Besides the limbic system, which other brain structures are involved in certain types of memory? Striatum, cerebellum, and inferior olive."
+  },
+  {
+    "id": "neurobiology-memory-fc-21",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "flashcard",
+    "title": "What is the typical duration of visual sensory memory?",
+    "text": "What is the typical duration of visual sensory memory? 0.25 seconds."
+  },
+  {
+    "id": "neurobiology-memory-fc-22",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "flashcard",
+    "title": "Where is auditory sensory memory located in the brain?",
+    "text": "Where is auditory sensory memory located in the brain? Auditory cortex."
+  },
+  {
+    "id": "neurobiology-memory-fc-23",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "flashcard",
+    "title": "What is the duration of immediate (short-term) memory?",
+    "text": "What is the duration of immediate (short-term) memory? Approximately 30 seconds."
+  },
+  {
+    "id": "neurobiology-memory-fc-24",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "flashcard",
+    "title": "What is the limited capacity of immediate memory in terms of items or units?",
+    "text": "What is the limited capacity of immediate memory in terms of items or units? 5 to 10 items."
+  },
+  {
+    "id": "neurobiology-memory-fc-25",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "flashcard",
+    "title": "Maintaining immediate memory requires the cognitive functions of _____ and _____.",
+    "text": "Maintaining immediate memory requires the cognitive functions of _____ and _____. Attention; vigilance."
+  },
+  {
+    "id": "neurobiology-memory-fc-26",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "flashcard",
+    "title": "Which two regions of the brain house immediate memory?",
+    "text": "Which two regions of the brain house immediate memory? Perisylvian cortex and frontal lobe."
+  },
+  {
+    "id": "neurobiology-memory-fc-27",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "flashcard",
+    "title": "Recent memory is also referred to as _____ memory.",
+    "text": "Recent memory is also referred to as _____ memory. Secondary."
+  },
+  {
+    "id": "neurobiology-memory-fc-28",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "flashcard",
+    "title": "What is the duration range for recent memory?",
+    "text": "What is the duration range for recent memory? Minutes to weeks."
+  },
+  {
+    "id": "neurobiology-memory-fc-29",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "flashcard",
+    "title": "In which brain region does recent memory primarily reside?",
+    "text": "In which brain region does recent memory primarily reside? Association cortex."
+  },
+  {
+    "id": "neurobiology-memory-fc-30",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "flashcard",
+    "title": "Which memory type stores information lasting from weeks to a lifetime?",
+    "text": "Which memory type stores information lasting from weeks to a lifetime? Remote or long-term memory."
+  },
+  {
+    "id": "neurobiology-memory-fc-31",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "flashcard",
+    "title": "Explicit memory is also known as _____ or _____ memory.",
+    "text": "Explicit memory is also known as _____ or _____ memory. Declarative; recognition."
+  },
+  {
+    "id": "neurobiology-memory-fc-32",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "flashcard",
+    "title": "Which type of memory refers to facts about the world and past events that require conscious retrieval?",
+    "text": "Which type of memory refers to facts about the world and past events that require conscious retrieval? Explicit memory."
+  },
+  {
+    "id": "neurobiology-memory-fc-33",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "flashcard",
+    "title": "Information about events occurring in a specific place and time is called _____ memory.",
+    "text": "Information about events occurring in a specific place and time is called _____ memory. Episodic."
+  },
+  {
+    "id": "neurobiology-memory-fc-34",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "flashcard",
+    "title": "Unchanging facts, rules, and principles, such as the number of days in a week, are stored in _____ memory.",
+    "text": "Unchanging facts, rules, and principles, such as the number of days in a week, are stored in _____ memory. Semantic."
+  },
+  {
+    "id": "neurobiology-memory-fc-35",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "flashcard",
+    "title": "Implicit memory is also called _____ memory.",
+    "text": "Implicit memory is also called _____ memory. Procedural."
+  },
+  {
+    "id": "neurobiology-memory-fc-36",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "flashcard",
+    "title": "A key characteristic of procedural memory is that abilities, once developed, become _____.",
+    "text": "A key characteristic of procedural memory is that abilities, once developed, become _____. Automatic."
+  },
+  {
+    "id": "neurobiology-memory-fc-37",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "flashcard",
+    "title": "Term: Registration",
+    "text": "Term: Registration Definition: The acquisition or encoding of memory."
+  },
+  {
+    "id": "neurobiology-memory-fc-38",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "flashcard",
+    "title": "Term: Retention",
+    "text": "Term: Retention Definition: The storage or consolidation of memory."
+  },
+  {
+    "id": "neurobiology-memory-fc-39",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "flashcard",
+    "title": "In the steps of memory function, which two processes are considered conscious?",
+    "text": "In the steps of memory function, which two processes are considered conscious? Registration and retrieval."
+  },
+  {
+    "id": "neurobiology-memory-fc-40",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "flashcard",
+    "title": "A pure amnestic state is always associated with bilateral damage to the _____.",
+    "text": "A pure amnestic state is always associated with bilateral damage to the _____. Limbic network."
+  },
+  {
+    "id": "neurobiology-memory-fc-41",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "flashcard",
+    "title": "What is the specific brain complex usually damaged in a pure amnestic state?",
+    "text": "What is the specific brain complex usually damaged in a pure amnestic state? Hippocamp-entorhinal complex or the thalamus."
+  },
+  {
+    "id": "neurobiology-memory-fc-42",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "flashcard",
+    "title": "In which type of amnesia is there an inability to recall events that occurred before the onset of the state?",
+    "text": "In which type of amnesia is there an inability to recall events that occurred before the onset of the state? Retrograde amnesia."
+  },
+  {
+    "id": "neurobiology-memory-fc-43",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "flashcard",
+    "title": "Ribot's principle suggests that in retrograde amnesia, _____ events are forgotten more than remote events.",
+    "text": "Ribot's principle suggests that in retrograde amnesia, _____ events are forgotten more than remote events. Recent."
+  },
+  {
+    "id": "neurobiology-memory-fc-44",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "flashcard",
+    "title": "Anterograde amnesia is defined as the inability to _____.",
+    "text": "Anterograde amnesia is defined as the inability to _____. Store, retain, and recall new knowledge."
+  },
+  {
+    "id": "neurobiology-memory-fc-45",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "flashcard",
+    "title": "What is the term for filling memory gaps with inaccurate and fabricated information?",
+    "text": "What is the term for filling memory gaps with inaccurate and fabricated information? Confabulation."
+  },
+  {
+    "id": "neurobiology-memory-fc-46",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "flashcard",
+    "title": "What is 'benign forgetfulness of the elderly'?",
+    "text": "What is 'benign forgetfulness of the elderly'? Some loss of memory that occurs naturally with aging."
+  },
+  {
+    "id": "neurobiology-memory-fc-47",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "flashcard",
+    "title": "Which neurotransmitter system plays a central role in the biochemistry of memory and Alzheimer’s disease?",
+    "text": "Which neurotransmitter system plays a central role in the biochemistry of memory and Alzheimer’s disease? Cholinergic system."
+  },
+  {
+    "id": "neurobiology-memory-fc-48",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "flashcard",
+    "title": "Alzheimer’s disease is characterized by a deficiency in which enzyme and receptor type?",
+    "text": "Alzheimer’s disease is characterized by a deficiency in which enzyme and receptor type? Choline acetyl transferase and nicotinic cholinergic receptors."
+  },
+  {
+    "id": "neurobiology-memory-fc-49",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "flashcard",
+    "title": "Alzheimer's disease symptoms appear to be caused by the loss of cholinergic projections from the _____ to the neocortex.",
+    "text": "Alzheimer's disease symptoms appear to be caused by the loss of cholinergic projections from the _____ to the neocortex. Nucleus basalis of Meynert."
+  },
+  {
+    "id": "neurobiology-memory-fc-50",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "flashcard",
+    "title": "How do anticholinergic agents like atropine and scopolamine affect memory?",
+    "text": "How do anticholinergic agents like atropine and scopolamine affect memory? They interfere with memory."
+  },
+  {
+    "id": "neurobiology-memory-fc-51",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "flashcard",
+    "title": "Definition: Dementia",
+    "text": "Definition: Dementia A deterioration in cognitive abilities that impairs activities of daily life."
+  },
+  {
+    "id": "neurobiology-memory-fc-52",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "flashcard",
+    "title": "Which cognitive ability is the most common and important one lost in dementia?",
+    "text": "Which cognitive ability is the most common and important one lost in dementia? Memory."
+  },
+  {
+    "id": "neurobiology-memory-fc-53",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "flashcard",
+    "title": "Which heavy metal is associated with causing dialysis dementia?",
+    "text": "Which heavy metal is associated with causing dialysis dementia? Aluminum."
+  },
+  {
+    "id": "neurobiology-memory-fc-54",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "flashcard",
+    "title": "Identify three vitamin deficiencies that can cause dementia.",
+    "text": "Identify three vitamin deficiencies that can cause dementia. Thiamine ($B_{1}$), $B_{12}$, and nicotinic acid."
+  },
+  {
+    "id": "neurobiology-memory-fc-55",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "flashcard",
+    "title": "What is the basic pathological feature of Alzheimer’s disease involving specific brain regions?",
+    "text": "What is the basic pathological feature of Alzheimer’s disease involving specific brain regions? Degeneration of the hippocampus and the entorhinal cortex."
+  },
+  {
+    "id": "neurobiology-memory-fc-56",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "flashcard",
+    "title": "The pathology of Alzheimer's is assumed to be caused by the abnormal hydrolysis of _____.",
+    "text": "The pathology of Alzheimer's is assumed to be caused by the abnormal hydrolysis of _____. Amyloid precursor protein."
+  },
+  {
+    "id": "neurobiology-memory-fc-57",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "flashcard",
+    "title": "What two types of damage destroy synapses and neurons in Alzheimer’s disease, interfering with acetylcholine?",
+    "text": "What two types of damage destroy synapses and neurons in Alzheimer’s disease, interfering with acetylcholine? Inflammatory and oxidative damage."
+  },
+  {
+    "id": "neurobiology-memory-fc-58",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "flashcard",
+    "title": "The anterior thalamus connects to which cortex in the memory encoding pathway?",
+    "text": "The anterior thalamus connects to which cortex in the memory encoding pathway? Prefrontal cortex."
+  },
+  {
+    "id": "neurobiology-memory-fc-59",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "flashcard",
+    "title": "Where are auditory memories located in the brain?",
+    "text": "Where are auditory memories located in the brain? Auditory cortex."
+  },
+  {
+    "id": "neurobiology-memory-fc-60",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "flashcard",
+    "title": "Which memory type lasts 1 to 2 seconds?",
+    "text": "Which memory type lasts 1 to 2 seconds? Auditory sensory memory."
+  },
+  {
+    "id": "neurobiology-memory-fc-61",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "flashcard",
+    "title": "Immediate memory is also known as _____ memory.",
+    "text": "Immediate memory is also known as _____ memory. Primary."
+  },
+  {
+    "id": "neurobiology-memory-fc-62",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "flashcard",
+    "title": "Which memory process involves decoding the steps of registration and retention?",
+    "text": "Which memory process involves decoding the steps of registration and retention? Retrieval."
+  },
+  {
+    "id": "neurobiology-memory-fc-63",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "flashcard",
+    "title": "What effect does brain concussion have on short-lasting memory?",
+    "text": "What effect does brain concussion have on short-lasting memory? It may eliminate it."
+  },
+  {
+    "id": "neurobiology-memory-fc-64",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "flashcard",
+    "title": "Why do patients with Alzheimer's disease benefit from drugs that increase acetylcholine levels?",
+    "text": "Why do patients with Alzheimer's disease benefit from drugs that increase acetylcholine levels? Because the disease involves a deficiency in cholinergic projections."
+  },
+  {
+    "id": "neurobiology-memory-fc-65",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "flashcard",
+    "title": "Dementia caused by head injuries or renal failure is considered a _____ cognitive deterioration.",
+    "text": "Dementia caused by head injuries or renal failure is considered a _____ cognitive deterioration. Secondary."
+  },
+  {
+    "id": "neurobiology-memory-mm-0",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "mindmap",
+    "title": "Learning and Memory",
+    "text": "Learning and Memory"
+  },
+  {
+    "id": "neurobiology-memory-mm-1",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "mindmap",
+    "title": "Neuroanatomy",
+    "text": "Learning and Memory > Neuroanatomy"
+  },
+  {
+    "id": "neurobiology-memory-mm-2",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "mindmap",
+    "title": "Temporal Lobes",
+    "text": "Learning and Memory > Neuroanatomy > Temporal Lobes"
+  },
+  {
+    "id": "neurobiology-memory-mm-3",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "mindmap",
+    "title": "Hippocampus",
+    "text": "Learning and Memory > Neuroanatomy > Temporal Lobes > Hippocampus"
+  },
+  {
+    "id": "neurobiology-memory-mm-4",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "mindmap",
+    "title": "Gyrus Dentatus",
+    "text": "Learning and Memory > Neuroanatomy > Temporal Lobes > Gyrus Dentatus"
+  },
+  {
+    "id": "neurobiology-memory-mm-5",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "mindmap",
+    "title": "Parahippocampal Gyrus",
+    "text": "Learning and Memory > Neuroanatomy > Temporal Lobes > Parahippocampal Gyrus"
+  },
+  {
+    "id": "neurobiology-memory-mm-6",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "mindmap",
+    "title": "Diencephalon",
+    "text": "Learning and Memory > Neuroanatomy > Diencephalon"
+  },
+  {
+    "id": "neurobiology-memory-mm-7",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "mindmap",
+    "title": "Mammillary Bodies",
+    "text": "Learning and Memory > Neuroanatomy > Diencephalon > Mammillary Bodies"
+  },
+  {
+    "id": "neurobiology-memory-mm-8",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "mindmap",
+    "title": "Medial Dorsal Nuclei of Thalamus",
+    "text": "Learning and Memory > Neuroanatomy > Diencephalon > Medial Dorsal Nuclei of Thalamus"
+  },
+  {
+    "id": "neurobiology-memory-mm-9",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "mindmap",
+    "title": "Other Areas",
+    "text": "Learning and Memory > Neuroanatomy > Other Areas"
+  },
+  {
+    "id": "neurobiology-memory-mm-10",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "mindmap",
+    "title": "Prefrontal Cortex",
+    "text": "Learning and Memory > Neuroanatomy > Other Areas > Prefrontal Cortex"
+  },
+  {
+    "id": "neurobiology-memory-mm-11",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "mindmap",
+    "title": "Basal Forebrain",
+    "text": "Learning and Memory > Neuroanatomy > Other Areas > Basal Forebrain"
+  },
+  {
+    "id": "neurobiology-memory-mm-12",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "mindmap",
+    "title": "Nucleus Basalis of Meynert",
+    "text": "Learning and Memory > Neuroanatomy > Other Areas > Nucleus Basalis of Meynert"
+  },
+  {
+    "id": "neurobiology-memory-mm-13",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "mindmap",
+    "title": "Striatum and Cerebellum",
+    "text": "Learning and Memory > Neuroanatomy > Other Areas > Striatum and Cerebellum"
+  },
+  {
+    "id": "neurobiology-memory-mm-14",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "mindmap",
+    "title": "Classification of Memory",
+    "text": "Learning and Memory > Classification of Memory"
+  },
+  {
+    "id": "neurobiology-memory-mm-15",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "mindmap",
+    "title": "By Duration",
+    "text": "Learning and Memory > Classification of Memory > By Duration"
+  },
+  {
+    "id": "neurobiology-memory-mm-16",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "mindmap",
+    "title": "Sensory (Visual/Auditory)",
+    "text": "Learning and Memory > Classification of Memory > By Duration > Sensory (Visual/Auditory)"
+  },
+  {
+    "id": "neurobiology-memory-mm-17",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "mindmap",
+    "title": "Immediate (Short-term)",
+    "text": "Learning and Memory > Classification of Memory > By Duration > Immediate (Short-term)"
+  },
+  {
+    "id": "neurobiology-memory-mm-18",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "mindmap",
+    "title": "Recent (Secondary)",
+    "text": "Learning and Memory > Classification of Memory > By Duration > Recent (Secondary)"
+  },
+  {
+    "id": "neurobiology-memory-mm-19",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "mindmap",
+    "title": "Remote (Long-term)",
+    "text": "Learning and Memory > Classification of Memory > By Duration > Remote (Long-term)"
+  },
+  {
+    "id": "neurobiology-memory-mm-20",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "mindmap",
+    "title": "By Type",
+    "text": "Learning and Memory > Classification of Memory > By Type"
+  },
+  {
+    "id": "neurobiology-memory-mm-21",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "mindmap",
+    "title": "Explicit (Declarative)",
+    "text": "Learning and Memory > Classification of Memory > By Type > Explicit (Declarative)"
+  },
+  {
+    "id": "neurobiology-memory-mm-22",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "mindmap",
+    "title": "Episodic (Events)",
+    "text": "Learning and Memory > Classification of Memory > By Type > Explicit (Declarative) > Episodic (Events)"
+  },
+  {
+    "id": "neurobiology-memory-mm-23",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "mindmap",
+    "title": "Semantic (Facts)",
+    "text": "Learning and Memory > Classification of Memory > By Type > Explicit (Declarative) > Semantic (Facts)"
+  },
+  {
+    "id": "neurobiology-memory-mm-24",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "mindmap",
+    "title": "Implicit (Procedural/Skills)",
+    "text": "Learning and Memory > Classification of Memory > By Type > Implicit (Procedural/Skills)"
+  },
+  {
+    "id": "neurobiology-memory-mm-25",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "mindmap",
+    "title": "Memory Processes",
+    "text": "Learning and Memory > Memory Processes"
+  },
+  {
+    "id": "neurobiology-memory-mm-26",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "mindmap",
+    "title": "Registration (Acquisition)",
+    "text": "Learning and Memory > Memory Processes > Registration (Acquisition)"
+  },
+  {
+    "id": "neurobiology-memory-mm-27",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "mindmap",
+    "title": "Retention (Storage/Consolidation)",
+    "text": "Learning and Memory > Memory Processes > Retention (Storage/Consolidation)"
+  },
+  {
+    "id": "neurobiology-memory-mm-28",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "mindmap",
+    "title": "Stabilization",
+    "text": "Learning and Memory > Memory Processes > Stabilization"
+  },
+  {
+    "id": "neurobiology-memory-mm-29",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "mindmap",
+    "title": "Retrieval (Recall)",
+    "text": "Learning and Memory > Memory Processes > Retrieval (Recall)"
+  },
+  {
+    "id": "neurobiology-memory-mm-30",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "mindmap",
+    "title": "Biochemical Basis",
+    "text": "Learning and Memory > Biochemical Basis"
+  },
+  {
+    "id": "neurobiology-memory-mm-31",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "mindmap",
+    "title": "mRNA Formation",
+    "text": "Learning and Memory > Biochemical Basis > mRNA Formation"
+  },
+  {
+    "id": "neurobiology-memory-mm-32",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "mindmap",
+    "title": "Protein Synthesis",
+    "text": "Learning and Memory > Biochemical Basis > Protein Synthesis"
+  },
+  {
+    "id": "neurobiology-memory-mm-33",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "mindmap",
+    "title": "Cholinergic System (Acetylcholine)",
+    "text": "Learning and Memory > Biochemical Basis > Cholinergic System (Acetylcholine)"
+  },
+  {
+    "id": "neurobiology-memory-mm-34",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "mindmap",
+    "title": "Synaptic Structural Changes",
+    "text": "Learning and Memory > Biochemical Basis > Synaptic Structural Changes"
+  },
+  {
+    "id": "neurobiology-memory-mm-35",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "mindmap",
+    "title": "Clinical Disorders",
+    "text": "Learning and Memory > Clinical Disorders"
+  },
+  {
+    "id": "neurobiology-memory-mm-36",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "mindmap",
+    "title": "Amnesia",
+    "text": "Learning and Memory > Clinical Disorders > Amnesia"
+  },
+  {
+    "id": "neurobiology-memory-mm-37",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "mindmap",
+    "title": "Retrograde (Past events)",
+    "text": "Learning and Memory > Clinical Disorders > Amnesia > Retrograde (Past events)"
+  },
+  {
+    "id": "neurobiology-memory-mm-38",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "mindmap",
+    "title": "Anterograde (New events)",
+    "text": "Learning and Memory > Clinical Disorders > Amnesia > Anterograde (New events)"
+  },
+  {
+    "id": "neurobiology-memory-mm-39",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "mindmap",
+    "title": "Confabulation",
+    "text": "Learning and Memory > Clinical Disorders > Amnesia > Confabulation"
+  },
+  {
+    "id": "neurobiology-memory-mm-40",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "mindmap",
+    "title": "Alzheimer's Disease",
+    "text": "Learning and Memory > Clinical Disorders > Alzheimer's Disease"
+  },
+  {
+    "id": "neurobiology-memory-mm-41",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "mindmap",
+    "title": "Cholinergic Deficiency",
+    "text": "Learning and Memory > Clinical Disorders > Alzheimer's Disease > Cholinergic Deficiency"
+  },
+  {
+    "id": "neurobiology-memory-mm-42",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "mindmap",
+    "title": "Amyloid Precursor Protein",
+    "text": "Learning and Memory > Clinical Disorders > Alzheimer's Disease > Amyloid Precursor Protein"
+  },
+  {
+    "id": "neurobiology-memory-mm-43",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "mindmap",
+    "title": "Hippocampal Degeneration",
+    "text": "Learning and Memory > Clinical Disorders > Alzheimer's Disease > Hippocampal Degeneration"
+  },
+  {
+    "id": "neurobiology-memory-mm-44",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "mindmap",
+    "title": "Dementia Causes",
+    "text": "Learning and Memory > Clinical Disorders > Dementia Causes"
+  },
+  {
+    "id": "neurobiology-memory-mm-45",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "mindmap",
+    "title": "Korsakoff's Syndrome",
+    "text": "Learning and Memory > Clinical Disorders > Dementia Causes > Korsakoff's Syndrome"
+  },
+  {
+    "id": "neurobiology-memory-mm-46",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "mindmap",
+    "title": "Vitamin Deficiencies (B1, B12)",
+    "text": "Learning and Memory > Clinical Disorders > Dementia Causes > Vitamin Deficiencies (B1, B12)"
+  },
+  {
+    "id": "neurobiology-memory-mm-47",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "mindmap",
+    "title": "Brain Infarction",
+    "text": "Learning and Memory > Clinical Disorders > Dementia Causes > Brain Infarction"
+  },
+  {
+    "id": "neurobiology-memory-mm-48",
+    "topicSlug": "neurobiology-memory",
+    "topicTitle": "Learning & Memory",
+    "type": "mindmap",
+    "title": "Parkinson's Disease",
+    "text": "Learning and Memory > Clinical Disorders > Dementia Causes > Parkinson's Disease"
   }
 ]

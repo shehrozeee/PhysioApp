@@ -8,6 +8,16 @@
       "content": {
         "flashcards": { "count": 65 }
       }
+    },
+    {
+      "slug": "neurobiology-memory",
+      "title": "Learning & Memory",
+      "chapter": "CNS",
+      "description": "Neurobiology, classification, and clinical disorders of human memory",
+      "content": {
+        "flashcards": { "count": 65 },
+        "mindmap": true
+      }
     }
   ]
 }

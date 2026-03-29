@@ -1,0 +1,160 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which type of amnesia is characterized by an inability to recall past events that occurred before the onset of the condition?",
+      "options": [
+        "Anterograde amnesia",
+        "Retrograde amnesia",
+        "Benign forgetfulness",
+        "Confabulation"
+      ],
+      "correct": 1,
+      "hint": "Focus on the prefix that denotes moving backward or looking at the past.",
+      "rationale": "This type of memory loss specifically affects the recall of events that happened prior to the brain trauma or disease onset."
+    },
+    {
+      "id": 2,
+      "question": "Wernicke's encephalopathy and Korsakoff's syndrome in chronic alcoholics are primarily associated with a deficiency in which nutrient?",
+      "options": [
+        "Vitamin $B_{1}$ (thiamine)",
+        "Vitamin $B_{12}$ (cobalamin)",
+        "Nicotinic acid (niacin)",
+        "Aluminum"
+      ],
+      "correct": 0,
+      "hint": "This essential nutrient is also known as thiamine.",
+      "rationale": "Thiamine deficiency is the direct cause of the damage to the mammillary bodies and reticular formation seen in these clinical conditions."
+    },
+    {
+      "id": 3,
+      "question": "Which specific brain area provides cholinergic projections to the neocortex, amygdala, and hippocampus, and is notably deficient in Alzheimer's disease?",
+      "options": [
+        "Inferior olive",
+        "Nucleus basalis of Meynert",
+        "Striatum",
+        "Mammillary bodies"
+      ],
+      "correct": 1,
+      "hint": "Think of a structure located in the basal forebrain that is critical for the brain's acetylcholine levels.",
+      "rationale": "This nucleus in the basal forebrain is the primary source of acetylcholine for the neocortex and is a key site of degeneration in Alzheimer's."
+    },
+    {
+      "id": 4,
+      "question": "Which form of memory includes the learning of automatic skills like riding a bicycle or driving a car?",
+      "options": [
+        "Semantic memory",
+        "Episodic memory",
+        "Implicit (procedural) memory",
+        "Sensory memory"
+      ],
+      "correct": 2,
+      "hint": "Consider the type of memory that does not require conscious implementation once a skill is developed.",
+      "rationale": "Procedural memory involves skills and abilities that become automatic and do not require conscious retrieval once they are developed."
+    },
+    {
+      "id": 5,
+      "question": "According to the source, what is the specific duration of auditory sensory memory?",
+      "options": [
+        "0.25 seconds",
+        "1 to 2 seconds",
+        "30 seconds",
+        "5 to 10 minutes"
+      ],
+      "correct": 1,
+      "hint": "Recall the difference between the visual and auditory durations mentioned in the classification of sensory memory.",
+      "rationale": "The text explicitly states that auditory sensory memory lasts for this short duration before it is lost or processed further."
+    },
+    {
+      "id": 6,
+      "question": "In the biochemical process of learning, which event occurs immediately after the increased formation of mRNA?",
+      "options": [
+        "A greater synthesis of protein",
+        "Loss of cholinergic projections",
+        "Persistent to-and-from neuronal activity",
+        "Hydrolysis of amyloid precursor protein"
+      ],
+      "correct": 0,
+      "hint": "Consider the central dogma of biology where mRNA serves as the template for a specific macromolecule.",
+      "rationale": "The source identifies the sequence of biochemical changes as an increase in mRNA formation followed by enhanced protein synthesis in neurons."
+    },
+    {
+      "id": 7,
+      "question": "What is the correct neurological pathway sequence for encoding memory as described in the material?",
+      "options": [
+        "Hippocampus $\\rightarrow$ mammillary bodies $\\rightarrow$ anterior thalamus $\\rightarrow$ prefrontal cortex $\\rightarrow$ basal forebrain",
+        "Prefrontal cortex $\\rightarrow$ anterior thalamus $\\rightarrow$ mammillary bodies $\\rightarrow$ hippocampus $\\rightarrow$ fornix",
+        "Basal forebrain $\\rightarrow$ striatum $\\rightarrow$ cerebellum $\\rightarrow$ nucleus basalis $\\rightarrow$ hippocampus",
+        "Hippocampus $\\rightarrow$ entorhinal cortex $\\rightarrow$ inferior olive $\\rightarrow$ visual cortex $\\rightarrow$ amygdala"
+      ],
+      "correct": 0,
+      "hint": "The pathway begins in the temporal lobe and progresses through the fornix toward the thalamus.",
+      "rationale": "This sequence follows the specified flow from the hippocampus through the fornix and mamillothalamic tract toward the cortex and basal forebrain."
+    },
+    {
+      "id": 8,
+      "question": "Damage to which structures is specifically identified as the cause of the memory defects seen in Korsakoff's syndrome?",
+      "options": [
+        "Hippocampus and entorhinal cortex",
+        "Mammillary bodies and adjacent reticular formation",
+        "Perisylvian cortex and frontal lobe",
+        "Visual and auditory cortex"
+      ],
+      "correct": 1,
+      "hint": "These structures are part of the limbic system and receive information from the hippocampus via the fornix.",
+      "rationale": "The source explicitly states that damage to these specific areas is the cause of the memory loss in Korsakoff's patients."
+    },
+    {
+      "id": 9,
+      "question": "In the context of the four steps of memory function, how is 'Registration' defined?",
+      "options": [
+        "The storage or consolidation of memory",
+        "The acquisition or encoding of memory",
+        "The recall or decoding of memory steps",
+        "The process where memory becomes stabilized"
+      ],
+      "correct": 1,
+      "hint": "Think of the very first step when you are exposed to new information for the first time.",
+      "rationale": "Registration is the initial phase where memory is first acquired or encoded into the brain."
+    },
+    {
+      "id": 10,
+      "question": "Why do drugs like puromycin and cycloheximide interfere with memory formation in animal studies?",
+      "options": [
+        "They inhibit protein synthesis",
+        "They block nicotinic cholinergic receptors",
+        "They increase the acetylcholine content",
+        "They cause anesthesia and brain concussion"
+      ],
+      "correct": 0,
+      "hint": "These drugs are well-known in biology for stopping the translation of genetic code into structural components.",
+      "rationale": "Because the consolidation of memory requires the synthesis of new proteins in neurons, inhibiting this process prevents memory formation."
+    },
+    {
+      "id": 11,
+      "question": "The basic pathology of Alzheimer’s disease is assumed to be caused by the abnormal hydrolysis of which protein?",
+      "options": [
+        "Choline acetyl transferase",
+        "Amyloid precursor protein",
+        "Thiamine",
+        "Messenger RNA"
+      ],
+      "correct": 1,
+      "hint": "This protein is a normal structural component that becomes harmful when it is broken down incorrectly.",
+      "rationale": "The source states that abnormal hydrolysis of amyloid precursor protein leads to the degeneration of the hippocampus and entorhinal cortex."
+    },
+    {
+      "id": 12,
+      "question": "Which characteristic is a defining feature of 'Immediate memory' as described in the text?",
+      "options": [
+        "It resides in the association cortex and lasts for weeks.",
+        "It requires attention and vigilance to maintain and is easily lost by distraction.",
+        "It is localized exclusively in the visual and auditory cortex.",
+        "It stores personal experiences for a lifetime."
+      ],
+      "correct": 1,
+      "hint": "Think about why it is difficult to remember a phone number if someone starts talking to you while you are trying to dial it.",
+      "rationale": "Immediate memory (short-term) is highly dependent on focus and is easily disrupted if attention is diverted."
+    }
+  ]
+}

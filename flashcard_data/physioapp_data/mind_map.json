@@ -1,0 +1,177 @@
+{
+  "title": "Learning and Memory",
+  "children": [
+    {
+      "title": "Neuroanatomy",
+      "children": [
+        {
+          "title": "Temporal Lobes",
+          "children": [
+            {
+              "title": "Hippocampus"
+            },
+            {
+              "title": "Gyrus Dentatus"
+            },
+            {
+              "title": "Parahippocampal Gyrus"
+            }
+          ]
+        },
+        {
+          "title": "Diencephalon",
+          "children": [
+            {
+              "title": "Mammillary Bodies"
+            },
+            {
+              "title": "Medial Dorsal Nuclei of Thalamus"
+            }
+          ]
+        },
+        {
+          "title": "Other Areas",
+          "children": [
+            {
+              "title": "Prefrontal Cortex"
+            },
+            {
+              "title": "Basal Forebrain"
+            },
+            {
+              "title": "Nucleus Basalis of Meynert"
+            },
+            {
+              "title": "Striatum and Cerebellum"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Classification of Memory",
+      "children": [
+        {
+          "title": "By Duration",
+          "children": [
+            {
+              "title": "Sensory (Visual/Auditory)"
+            },
+            {
+              "title": "Immediate (Short-term)"
+            },
+            {
+              "title": "Recent (Secondary)"
+            },
+            {
+              "title": "Remote (Long-term)"
+            }
+          ]
+        },
+        {
+          "title": "By Type",
+          "children": [
+            {
+              "title": "Explicit (Declarative)",
+              "children": [
+                {
+                  "title": "Episodic (Events)"
+                },
+                {
+                  "title": "Semantic (Facts)"
+                }
+              ]
+            },
+            {
+              "title": "Implicit (Procedural/Skills)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Memory Processes",
+      "children": [
+        {
+          "title": "Registration (Acquisition)"
+        },
+        {
+          "title": "Retention (Storage/Consolidation)"
+        },
+        {
+          "title": "Stabilization"
+        },
+        {
+          "title": "Retrieval (Recall)"
+        }
+      ]
+    },
+    {
+      "title": "Biochemical Basis",
+      "children": [
+        {
+          "title": "mRNA Formation"
+        },
+        {
+          "title": "Protein Synthesis"
+        },
+        {
+          "title": "Cholinergic System (Acetylcholine)"
+        },
+        {
+          "title": "Synaptic Structural Changes"
+        }
+      ]
+    },
+    {
+      "title": "Clinical Disorders",
+      "children": [
+        {
+          "title": "Amnesia",
+          "children": [
+            {
+              "title": "Retrograde (Past events)"
+            },
+            {
+              "title": "Anterograde (New events)"
+            },
+            {
+              "title": "Confabulation"
+            }
+          ]
+        },
+        {
+          "title": "Alzheimer's Disease",
+          "children": [
+            {
+              "title": "Cholinergic Deficiency"
+            },
+            {
+              "title": "Amyloid Precursor Protein"
+            },
+            {
+              "title": "Hippocampal Degeneration"
+            }
+          ]
+        },
+        {
+          "title": "Dementia Causes",
+          "children": [
+            {
+              "title": "Korsakoff's Syndrome"
+            },
+            {
+              "title": "Vitamin Deficiencies (B1, B12)"
+            },
+            {
+              "title": "Brain Infarction"
+            },
+            {
+              "title": "Parkinson's Disease"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

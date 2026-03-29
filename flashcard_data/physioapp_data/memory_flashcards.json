@@ -1,0 +1,329 @@
+{
+  "cards": [
+    {
+      "id": 1,
+      "question": "Which specific brain region is of primary importance in the registration of memory?",
+      "answer": "Temporal lobes."
+    },
+    {
+      "id": 2,
+      "question": "What is the clinical result of bilateral removal of the medial aspects of the temporal lobes?",
+      "answer": "Inability to record new experiences."
+    },
+    {
+      "id": 3,
+      "question": "Lesions in the hippocampal formations, mammillary bodies, and medial dorsal nuclei of the thalamus produce loss of _____ memory.",
+      "answer": "Recent."
+    },
+    {
+      "id": 4,
+      "question": "Which structures comprise the hippocampal formations in the temporal lobe?",
+      "answer": "Gyrus dentatus, hippocampal gyrus, and parahippocampal gyrus."
+    },
+    {
+      "id": 5,
+      "question": "Korsakoff’s syndrome is clinically characterized by defects in _____ memory.",
+      "answer": "Recent."
+    },
+    {
+      "id": 6,
+      "question": "What nutritional deficiency is the underlying cause of Korsakoff’s syndrome?",
+      "answer": "Thiamine ($B_{1}$)."
+    },
+    {
+      "id": 7,
+      "question": "Korsakoff’s syndrome is frequently associated with which encephalopathy in chronic alcoholics?",
+      "answer": "Wernicke’s encephalopathy."
+    },
+    {
+      "id": 8,
+      "question": "Damage to which two areas of the brain causes Korsakoff’s syndrome?",
+      "answer": "Mammillary bodies and adjacent reticular formation."
+    },
+    {
+      "id": 9,
+      "question": "Which three brain structures are collectively responsible for registering new memories?",
+      "answer": "Hippocampus, mammillary bodies, and adjacent reticular formation."
+    },
+    {
+      "id": 10,
+      "question": "Long-term storage of memory involves which specific parts of the brain?",
+      "answer": "Both cerebral hemispheres."
+    },
+    {
+      "id": 11,
+      "question": "The mechanism of short-lasting memory is believed to be persistent _____ neuronal activity.",
+      "answer": "To and from."
+    },
+    {
+      "id": 12,
+      "question": "Identify three methods or conditions that can eliminate short-lasting memory.",
+      "answer": "Electroconvulsive shock, anesthesia, and brain concussion."
+    },
+    {
+      "id": 13,
+      "question": "In memory formation, stable and long-lasting memory produced by structural changes at synapses is called _____.",
+      "answer": "Encoding or consolidation."
+    },
+    {
+      "id": 14,
+      "question": "What is the first biochemical change observed in neurons during the learning process?",
+      "answer": "Increased formation of mRNA."
+    },
+    {
+      "id": 15,
+      "question": "Following the increase in mRNA, what biochemical synthesis increases in neurons during learning?",
+      "answer": "Protein synthesis."
+    },
+    {
+      "id": 16,
+      "question": "How do drugs like puromycin and cycloheximide interfere with memory formation in animals?",
+      "answer": "By inhibiting protein synthesis."
+    },
+    {
+      "id": 17,
+      "question": "Which anatomical structure connects the hippocampus to the mammillary bodies in the memory encoding pathway?",
+      "answer": "Fornix."
+    },
+    {
+      "id": 18,
+      "question": "Which tract facilitates the connection between the mammillary bodies and the anterior thalamus?",
+      "answer": "Mamillothalamic tract."
+    },
+    {
+      "id": 19,
+      "question": "In the memory encoding pathway, the nucleus basalis of Meynert sends cholinergic projections to which three areas?",
+      "answer": "Neocortex, amygdala, and hippocampus."
+    },
+    {
+      "id": 20,
+      "question": "Besides the limbic system, which other brain structures are involved in certain types of memory?",
+      "answer": "Striatum, cerebellum, and inferior olive."
+    },
+    {
+      "id": 21,
+      "question": "What is the typical duration of visual sensory memory?",
+      "answer": "0.25 seconds."
+    },
+    {
+      "id": 22,
+      "question": "Where is auditory sensory memory located in the brain?",
+      "answer": "Auditory cortex."
+    },
+    {
+      "id": 23,
+      "question": "What is the duration of immediate (short-term) memory?",
+      "answer": "Approximately 30 seconds."
+    },
+    {
+      "id": 24,
+      "question": "What is the limited capacity of immediate memory in terms of items or units?",
+      "answer": "5 to 10 items."
+    },
+    {
+      "id": 25,
+      "question": "Maintaining immediate memory requires the cognitive functions of _____ and _____.",
+      "answer": "Attention; vigilance."
+    },
+    {
+      "id": 26,
+      "question": "Which two regions of the brain house immediate memory?",
+      "answer": "Perisylvian cortex and frontal lobe."
+    },
+    {
+      "id": 27,
+      "question": "Recent memory is also referred to as _____ memory.",
+      "answer": "Secondary."
+    },
+    {
+      "id": 28,
+      "question": "What is the duration range for recent memory?",
+      "answer": "Minutes to weeks."
+    },
+    {
+      "id": 29,
+      "question": "In which brain region does recent memory primarily reside?",
+      "answer": "Association cortex."
+    },
+    {
+      "id": 30,
+      "question": "Which memory type stores information lasting from weeks to a lifetime?",
+      "answer": "Remote or long-term memory."
+    },
+    {
+      "id": 31,
+      "question": "Explicit memory is also known as _____ or _____ memory.",
+      "answer": "Declarative; recognition."
+    },
+    {
+      "id": 32,
+      "question": "Which type of memory refers to facts about the world and past events that require conscious retrieval?",
+      "answer": "Explicit memory."
+    },
+    {
+      "id": 33,
+      "question": "Information about events occurring in a specific place and time is called _____ memory.",
+      "answer": "Episodic."
+    },
+    {
+      "id": 34,
+      "question": "Unchanging facts, rules, and principles, such as the number of days in a week, are stored in _____ memory.",
+      "answer": "Semantic."
+    },
+    {
+      "id": 35,
+      "question": "Implicit memory is also called _____ memory.",
+      "answer": "Procedural."
+    },
+    {
+      "id": 36,
+      "question": "A key characteristic of procedural memory is that abilities, once developed, become _____.",
+      "answer": "Automatic."
+    },
+    {
+      "id": 37,
+      "question": "Term: Registration",
+      "answer": "Definition: The acquisition or encoding of memory."
+    },
+    {
+      "id": 38,
+      "question": "Term: Retention",
+      "answer": "Definition: The storage or consolidation of memory."
+    },
+    {
+      "id": 39,
+      "question": "In the steps of memory function, which two processes are considered conscious?",
+      "answer": "Registration and retrieval."
+    },
+    {
+      "id": 40,
+      "question": "A pure amnestic state is always associated with bilateral damage to the _____.",
+      "answer": "Limbic network."
+    },
+    {
+      "id": 41,
+      "question": "What is the specific brain complex usually damaged in a pure amnestic state?",
+      "answer": "Hippocamp-entorhinal complex or the thalamus."
+    },
+    {
+      "id": 42,
+      "question": "In which type of amnesia is there an inability to recall events that occurred before the onset of the state?",
+      "answer": "Retrograde amnesia."
+    },
+    {
+      "id": 43,
+      "question": "Ribot's principle suggests that in retrograde amnesia, _____ events are forgotten more than remote events.",
+      "answer": "Recent."
+    },
+    {
+      "id": 44,
+      "question": "Anterograde amnesia is defined as the inability to _____.",
+      "answer": "Store, retain, and recall new knowledge."
+    },
+    {
+      "id": 45,
+      "question": "What is the term for filling memory gaps with inaccurate and fabricated information?",
+      "answer": "Confabulation."
+    },
+    {
+      "id": 46,
+      "question": "What is 'benign forgetfulness of the elderly'?",
+      "answer": "Some loss of memory that occurs naturally with aging."
+    },
+    {
+      "id": 47,
+      "question": "Which neurotransmitter system plays a central role in the biochemistry of memory and Alzheimer’s disease?",
+      "answer": "Cholinergic system."
+    },
+    {
+      "id": 48,
+      "question": "Alzheimer’s disease is characterized by a deficiency in which enzyme and receptor type?",
+      "answer": "Choline acetyl transferase and nicotinic cholinergic receptors."
+    },
+    {
+      "id": 49,
+      "question": "Alzheimer's disease symptoms appear to be caused by the loss of cholinergic projections from the _____ to the neocortex.",
+      "answer": "Nucleus basalis of Meynert."
+    },
+    {
+      "id": 50,
+      "question": "How do anticholinergic agents like atropine and scopolamine affect memory?",
+      "answer": "They interfere with memory."
+    },
+    {
+      "id": 51,
+      "question": "Definition: Dementia",
+      "answer": "A deterioration in cognitive abilities that impairs activities of daily life."
+    },
+    {
+      "id": 52,
+      "question": "Which cognitive ability is the most common and important one lost in dementia?",
+      "answer": "Memory."
+    },
+    {
+      "id": 53,
+      "question": "Which heavy metal is associated with causing dialysis dementia?",
+      "answer": "Aluminum."
+    },
+    {
+      "id": 54,
+      "question": "Identify three vitamin deficiencies that can cause dementia.",
+      "answer": "Thiamine ($B_{1}$), $B_{12}$, and nicotinic acid."
+    },
+    {
+      "id": 55,
+      "question": "What is the basic pathological feature of Alzheimer’s disease involving specific brain regions?",
+      "answer": "Degeneration of the hippocampus and the entorhinal cortex."
+    },
+    {
+      "id": 56,
+      "question": "The pathology of Alzheimer's is assumed to be caused by the abnormal hydrolysis of _____.",
+      "answer": "Amyloid precursor protein."
+    },
+    {
+      "id": 57,
+      "question": "What two types of damage destroy synapses and neurons in Alzheimer’s disease, interfering with acetylcholine?",
+      "answer": "Inflammatory and oxidative damage."
+    },
+    {
+      "id": 58,
+      "question": "The anterior thalamus connects to which cortex in the memory encoding pathway?",
+      "answer": "Prefrontal cortex."
+    },
+    {
+      "id": 59,
+      "question": "Where are auditory memories located in the brain?",
+      "answer": "Auditory cortex."
+    },
+    {
+      "id": 60,
+      "question": "Which memory type lasts 1 to 2 seconds?",
+      "answer": "Auditory sensory memory."
+    },
+    {
+      "id": 61,
+      "question": "Immediate memory is also known as _____ memory.",
+      "answer": "Primary."
+    },
+    {
+      "id": 62,
+      "question": "Which memory process involves decoding the steps of registration and retention?",
+      "answer": "Retrieval."
+    },
+    {
+      "id": 63,
+      "question": "What effect does brain concussion have on short-lasting memory?",
+      "answer": "It may eliminate it."
+    },
+    {
+      "id": 64,
+      "question": "Why do patients with Alzheimer's disease benefit from drugs that increase acetylcholine levels?",
+      "answer": "Because the disease involves a deficiency in cholinergic projections."
+    },
+    {
+      "id": 65,
+      "question": "Dementia caused by head injuries or renal failure is considered a _____ cognitive deterioration.",
+      "answer": "Secondary."
+    }
+  ]
+}

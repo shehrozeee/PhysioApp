@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { width: 340px; font-family: 'Segoe UI', system-ui, sans-serif; background: #fff; color: #1b1b1c; }
+    .header { padding: 16px 20px; border-bottom: 1px solid #e5e7eb; display: flex; align-items: center; gap: 10px; }
+    .header-icon { width: 32px; height: 32px; background: #4f46e5; border-radius: 8px; display: flex; align-items: center; justify-content: center; }
+    .header-icon svg { width: 18px; height: 18px; }
+    .header h1 { font-size: 15px; font-weight: 600; }
+    .content { padding: 20px; }
+    .status { padding: 12px 16px; border-radius: 10px; background: #f3f4f6; font-size: 13px; color: #6b7280; margin-bottom: 16px; line-height: 1.5; }
+    .status.success { background: #f0fdf4; color: #166534; }
+    .status.error { background: #fef2f2; color: #991b1b; }
+    .status.detecting { background: #eef2ff; color: #3730a3; }
+    .btn { display: flex; align-items: center; justify-content: center; gap: 8px; width: 100%; padding: 12px 16px; border: none; border-radius: 10px; font-size: 14px; font-weight: 600; cursor: pointer; margin-bottom: 8px; min-height: 44px; transition: opacity 0.15s; }
+    .btn:hover { opacity: 0.9; }
+    .btn-quiz { background: #4f46e5; color: white; }
+    .btn-flashcards { background: #f59e0b; color: white; }
+    .btn-mindmap { background: #8b5cf6; color: white; }
+    .btn-try { background: #f3f4f6; color: #6b7280; border: 1px solid #e5e7eb; }
+    .note { font-size: 11px; color: #9ca3af; text-align: center; padding: 12px 20px; border-top: 1px solid #f3f4f6; line-height: 1.5; }
+    label { font-size: 12px; font-weight: 600; color: #6b7280; margin-bottom: 6px; display: block; }
+    .slug-input { width: 100%; padding: 10px 14px; border: 1px solid #e5e7eb; border-radius: 8px; font-size: 13px; margin-bottom: 16px; outline: none; }
+    .slug-input:focus { border-color: #4f46e5; }
+    #details { font-size: 11px; color: #9ca3af; margin-top: 8px; }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <div class="header-icon">
+      <svg viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2.5"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+    </div>
+    <h1>PhysioApp Exporter</h1>
+  </div>
+  <div class="content">
+    <div id="status" class="status detecting">Scanning page...</div>
+    <div id="slug-section" style="display:none">
+      <label>Topic slug</label>
+      <input type="text" id="slug" class="slug-input" placeholder="cns-cerebellum" />
+    </div>
+    <div id="buttons"></div>
+    <div id="details"></div>
+  </div>
+  <div class="note">
+    Open a quiz, flashcard, or mind map in NotebookLM, then export.
+    <br>Data is read from NotebookLM's data-app-data attribute.
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>

@@ -1,0 +1,134 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "In which specific anatomical location is the cerebellum situated within the skull?",
+      "options": [
+        "Posterior cranial fossa",
+        "Middle cranial fossa",
+        "Anterior cranial fossa",
+        "Hypophyseal fossa"
+      ],
+      "correct": 0,
+      "hint": "Consider the relationship between the cerebellum and its classification as part of the hindbrain.",
+      "rationale": "The cerebellum is the largest part of the hindbrain and is housed in the posterior-most depression of the cranial base."
+    },
+    {
+      "id": 2,
+      "question": "Which structure connects the two cerebellar hemispheres along the midline?",
+      "options": [
+        "Vermis",
+        "Flocculus",
+        "Nodulus",
+        "Corpus callosum"
+      ],
+      "correct": 0,
+      "hint": "Its name is derived from the Latin word for 'worm'.",
+      "rationale": "The vermis is the narrow, worm-like central part of the cerebellum that joins the two lateral hemispheres."
+    },
+    {
+      "id": 3,
+      "question": "Which of the following is considered the ONLY inhibitory output from the cerebellar cortex?",
+      "options": [
+        "Axons of Purkinje cells",
+        "Mossy fibers",
+        "Granule cells",
+        "Deep cerebellar nuclei"
+      ],
+      "correct": 0,
+      "hint": "Focus on the specific cell type that projects away from the cortical layers to the underlying nuclei.",
+      "rationale": "Purkinje cells provide the sole output from the cerebellar cortex, and their neurotransmission is inhibitory to the deep nuclei."
+    },
+    {
+      "id": 4,
+      "question": "Climbing fibers, which provide powerful excitatory input to Purkinje cells, originate from which specific brainstem structure?",
+      "options": [
+        "Inferior olivary nuclei",
+        "Pontine nuclei",
+        "Red nucleus",
+        "Vestibular nuclei"
+      ],
+      "correct": 0,
+      "hint": "This nucleus is located in the medulla and is part of the olivo-cerebellar pathway.",
+      "rationale": "The climbing fibers are specifically derived from the inferior olivary nuclei and form direct excitatory synapses with Purkinje dendrites."
+    },
+    {
+      "id": 5,
+      "question": "What is the primary physiological role of the Spinocerebellum (Paleocerebellum)?",
+      "options": [
+        "Acting as a comparator to correct discrepancies in movement",
+        "Programming and planning sequential complex movements",
+        "Maintenance of visual fixation via the VOR",
+        "Initiation of voluntary motor commands"
+      ],
+      "correct": 0,
+      "hint": "This zone receives significant feedback from peripheral proprioceptors to monitor ongoing activity.",
+      "rationale": "The spinocerebellum compares intended motor plans with actual performance feedback to ensure movement accuracy."
+    },
+    {
+      "id": 6,
+      "question": "A patient exhibiting 'dysdiadochokinesia' would struggle most with which of the following tasks?",
+      "options": [
+        "Rapidly flipping their hands back and forth on their thighs",
+        "Estimating the distance required to reach for a cup",
+        "Maintaining balance while standing with eyes closed",
+        "Stopping a limb movement once it has begun"
+      ],
+      "correct": 0,
+      "hint": "The term relates specifically to the speed and rhythm of repetitive, opposing actions.",
+      "rationale": "Dysdiadochokinesia is the clinical term for the inability to perform rapid, alternating movements."
+    },
+    {
+      "id": 7,
+      "question": "Hypotonia in cerebellar disease is primarily caused by a lack of facilitatory effects on which motor neurons?",
+      "options": [
+        "$\\gamma$ motor neurons",
+        "$\\alpha$ motor neurons",
+        "Betz cells",
+        "Purkinje cells"
+      ],
+      "correct": 0,
+      "hint": "Think about the efferent system responsible for the sensitivity of muscle spindles.",
+      "rationale": "The cerebellum normally facilitates $\\gamma$ efferent discharge; loss of this facilitation leads to decreased muscle tone."
+    },
+    {
+      "id": 8,
+      "question": "Which clinical sign is described as a 'jerky movement of eyes' featuring both a slow and a fast component?",
+      "options": [
+        "Nystagmus",
+        "Dysmetria",
+        "Asynergia",
+        "Asthenia"
+      ],
+      "correct": 0,
+      "hint": "This condition is often a manifestation of a lesion in the flocculonodular lobe.",
+      "rationale": "Nystagmus represents an intention tremor of the eyes, often resulting from a failure of the vestibulo-ocular reflex."
+    },
+    {
+      "id": 9,
+      "question": "The 'rebound phenomenon' in cerebellar patients is a direct result of which failure?",
+      "options": [
+        "Inability to stop a movement due to incoordination",
+        "Loss of the ability to initiate sequential planning",
+        "Complete paralysis of the antagonistic muscles",
+        "Overshooting a target during a voluntary reaching task"
+      ],
+      "correct": 0,
+      "hint": "This is related to the 'braking effect' normally exerted by the neocerebellum.",
+      "rationale": "The rebound phenomenon occurs when a patient cannot dampen or 'brake' a movement once resistance is removed."
+    },
+    {
+      "id": 10,
+      "question": "Which of the following describes the 'Core Takeaway' regarding the fundamental purpose of the cerebellum in motor control?",
+      "options": [
+        "The cerebellum does not initiate movement; it perfects it.",
+        "The cerebellum is the primary site for conscious motor intent.",
+        "The cerebellum acts as a relay station for all sensory data to the cortex.",
+        "The cerebellum is responsible for the execution of basic reflexes only."
+      ],
+      "correct": 0,
+      "hint": "Think about the distinction between starting a task and refining its execution.",
+      "rationale": "The cerebellum acts as a processing and regulatory center that refines movements initiated by the cerebral cortex."
+    }
+  ]
+}

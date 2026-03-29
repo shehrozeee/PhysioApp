@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "PhysioApp Exporter",
+  "version": "1.0.0",
+  "description": "Export flashcards, quizzes, and mind maps from NotebookLM for PhysioApp",
+  "permissions": ["activeTab"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "48": "icon-48.png"
+    }
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://notebooklm.google.com/*"],
+      "js": ["content.js"],
+      "all_frames": true
+    }
+  ],
+  "icons": {
+    "48": "icon-48.png",
+    "128": "icon-128.png"
+  }
+}
